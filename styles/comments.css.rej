@@ -1,0 +1,16 @@
+--- styles/comments.css	2012-03-15 10:19:29.000000000 -0700
++++ styles/comments.css	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ /**
+- * comments.css
++ * styles/comments.css
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Stylesheet for comment pages. 
+  *
+- * $Id$
+  */
+ 
+ #headerTitle {

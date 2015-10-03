@@ -1,0 +1,88 @@
+/**
+ * rightSidebar.css
+ *
+ * Copyright (c) 2003-2010 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Site-wide shared elements for pages including a right-hand sidebar.
+ *
+ * $Id$
+ */
+
+/**
+ * Common HTML elements
+ */
+
+
+#headerTitle {
+	text-align: center;
+	width: 100%;
+}
+
+#body {
+	vertical-align: top;
+	height: 100%;
+	width: 1000px;
+	overflow: hidden;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+/*
+#rightSidebar {
+	float: right;
+margin-top: 0.5em;
+	width: 145px;
+	padding: 0.5em 0.5em 0.5em 0em;
+	font-size: 0.7em;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	min-width: 145px;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-width:0px;
+	border-color:#ABA;
+}
+
+* html #rightSidebar { margin-right: 0%; }
+
+#main {
+	
+	float: center;
+	width: 645px;
+	display: block;
+	overflow: hidden;
+	margin-left: 0px;
+padding: 0.5em 1em 1em 1em;
+
+}*/
+#rightSidebar {
+	float: right;
+margin-top: 0.5em;
+	width: 145px;
+	padding: 0.5em 0.5em 0.5em 0em;
+	font-size: 0.7em;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	min-width: 145px;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-width:0px;
+	border-color:#ABA;
+}
+#main {
+	
+	float: center;
+	width: 645px;
+	background: #ffffff;
+	margin-top: 0px;
+padding: 0.5em 1em 1em 1em;
+
+}
+
+// Set main on non-IE browsers to have a 10% margin
+*html #main {
+	margin-left: 2px;
+} 

@@ -1,0 +1,11 @@
+--- ojs-2.3.7/pages/user/index.php	2012-03-15 10:19:29.000000000 -0700
++++ ojs-2.4.1/pages/user/index.php	2012-10-02 17:07:08.000000000 -0700
+@@ -46,6 +46,8 @@
+ 	// Misc.
+ 	//
+ 	case 'index':
++	case 'gifts':
++	case 'redeemGift':
+ 	case 'subscriptions':
+ 	case 'setLocale':
+ 	case 'become':

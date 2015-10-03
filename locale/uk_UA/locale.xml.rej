@@ -1,0 +1,265 @@
+--- locale/uk_UA/locale.xml	2012-03-15 10:19:29.000000000 -0700
++++ locale/uk_UA/locale.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -755,134 +744,134 @@
+ <li>Використовуйте у термінах символ <strong>*</strong> як метасимвол, що позначає будь-яку послідовність символів; наприклад, за запитом <em>соці*</em> будуть знайдені документи, що містять слова "соціальний", "соціалістичний", "соціологічний" тощо</li>
+ </ul>]]></message>
+ 
+-	<!-- Interstitial page for PDFs -->
+-	<message key="article.pdf.title">Portable Document Format (PDF)</message>
+-	<message key="article.pdf.download">Завантажити цей PDF-файл</message>
+-	<message key="article.pdf.pluginMissing"><![CDATA[<p>Якщо у Вашому браузері встановлений модуль читання PDF-файлів (наприклад, остання версія <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Acrobat Reader</a>), то обраний Вами файл PDF завантажиться у це вікно.</p> <p>Крім того, Ви можете завантажити PDF-файл безпосередньо на свій комп'ютер, де його можна буде відкрити за допомогою програми читання PDF-файлів. Щоб завантажити PDF-файл, натисніть посилання "Завантажити" нижче.</p> <p>Якщо Ви хочете отримати більше інформації про те, як працювати з PDF-файлами, роздруковувати та зберігати їх, рекомендуємо корисну статтю Highwire Press <a href="http://highwire.stanford.edu/help/pdf-faq.dtl">Frequently Asked Questions about PDFs</a>.</p>]]></message>
+-
+-	
+-	<!-- Interstitial page for non-PDF non-HTML galleys -->
+-	<message key="article.nonpdf.title">Завантаження статті</message>
+-	<message key="article.nonpdf.note"><![CDATA[Обраний Вами файл почне завантажуватись автоматично. Зауважте, що для перегляду цього файлу може знадобитись спеціалізоване програмне забезпечення.<br /><br />Якщо файл не завантажився автоматично, <a href="{$url}">натисніть сюди</a>.]]></message>
+-	
+-	<!-- Site index -->
+-	<message key="site.journalsHosted">Журнали, розміщені на цьому сайті</message>
+-	<message key="site.journalView">Перегляд журналу</message>
+-	<message key="site.journalRegister">Реєстрація</message>
+-	<message key="site.journalCurrent">Поточний випуск</message>
+-
+-	<!-- Current index -->
+-	<message key="current.current">Поточний випуск</message>
+-	<message key="current.noCurrentIssue">Немає поточного випуску</message>
+-	<message key="current.noCurrentIssueDesc">Цей журнал поки не опублікував жодного випуску.</message>
+-
+-	<!-- Archive index -->
+-	<message key="archive.archives">Архіви</message>
+-	<message key="archive.browse">Перегляд старих випусків</message>
+-	<message key="archive.issueUnavailable">Випуск недоступний</message>
+-	
+-	<!-- About The Journal -->
+-	<message key="about.statistics">Статистика</message>
+-	<message key="about.journalContact">Контактна інформація</message>
+-	<message key="about.aboutTheJournal">Про журнал</message>
+-	<message key="about.history">Історія журналу</message>
+-	<message key="about.editorialTeam">Редакційний штат</message>
+-	<message key="about.editorialTeam.biography">Біографія</message>
+-	<message key="about.editorialPolicies">Редакційна політика</message>
+-	<message key="about.focusAndScope">Галузь та проблематика</message>
+-	<message key="about.sectionPolicies">Політика розділів</message>
+-	<message key="about.submissions">Подання</message>
+-	<message key="about.sponsors">Спонсори</message>
+-	<message key="about.contributors">Джерела підтримки</message>
+-	<message key="about.onlineSubmissions">Надсилання статей</message>
+-	<message key="about.onlineSubmissions.haveAccount">Вже маєте Ім'я користувача/Пароль для видання {$journalTitle}?</message>
+-	<message key="about.onlineSubmissions.login">Увійдіть на сайт</message>
+-	<message key="about.onlineSubmissions.needAccount">Потрібні Ім'я користувача/Пароль?</message>
+-	<message key="about.onlineSubmissions.registration">Зареєструйтеся</message>
+-	<message key="about.onlineSubmissions.registrationRequired">Для того, щоб мати можливість подавати статті до журналу та перевіряти поточний статус своїх подань необхідно увійти на сайт як зареєстрований користувач.</message>
+-	<message key="about.authorGuidelines">Керівництва для авторів</message>
+-	<message key="about.submissionPreparationChecklist">Вимоги до подання</message>
+-	<message key="about.submissionPreparationChecklist.description">Під час подання рукопису до журналу автори повинні підтвердити його відповідність всім встановленим вимогам, вказаним нижче. В разі виявлення невідповідності поданої роботи пунктам цих вимог редакція повертатиме авторам матеріали на доопрацювання.</message>
+-	<message key="about.copyrightNotice">Положення про авторські права</message>
+-	<message key="about.privacyStatement">Положення про конфіденційність</message>
+-	<message key="about.authorFees">Платежі авторів</message>
+-	<message key="about.authorFeesMessage">Цей журнал бере з авторів плату за наступні послуги.</message>
+-	<message key="about.peerReviewProcess">Процес рецензування</message>
+-	<message key="about.publicationFrequency">Періодичність публікації</message>
+-	<message key="about.openAccessPolicy">Політика відкритого доступу</message>
+-	<message key="about.delayedOpenAccess">Відкритий доступ з затримкою</message>
+-	<message key="about.delayedOpenAccessDescription1">Зміст цього журналу буде доступний у форматі відкритого доступу через</message>
+-	<message key="about.delayedOpenAccessDescription2">місяців після дати публікації випуску.</message>
+-	<message key="about.authorSelfArchive">Депонування робіт у відкритих архівах</message>
+-	<message key="about.archiving">Архівування</message>
+-	<message key="about.subscriptions">Передплати</message>
+-	<message key="about.subscriptions.individual">Індивідуальні передплати</message>
+-	<message key="about.subscriptions.institutional">Передплати установ</message>
+-	<message key="about.subscriptionsContact">Контактна інформація для передплатників</message>
+-	<message key="about.subscriptionTypes.name">Назва</message>
+-	<message key="about.subscriptionTypes.format">Формат</message>
+-	<message key="about.subscriptionTypes.duration">Тривалість</message>
+-	<message key="about.subscriptionTypes.cost">Вартість</message>
+-	<message key="about.availableSubscriptionTypes">Типи передплати</message>
+-	<message key="about.memberships">Членство</message>
+-	<message key="about.journalSponsorship">Фінансування журналу</message>
+-	<message key="about.aboutThisPublishingSystem">Про цю видавничу систему</message>
+-	<message key="about.aboutThisPublishingSystem.altText">Редакційний та видавничий процес OJS</message>
+-	<message key="about.aboutOJSJournal"><![CDATA[Цей журнал використовує Open Journal Systems {$ojsVersion} - програмний пакет з відкритим вихідним кодом, який обслуговує процеси менеджменту та публікації журналу. Пакет розробляється, підтримується та вільно розповсюджується <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> на умовах ліцензії GNU General Public License.]]></message>
+-	<message key="about.aboutOJSSite"><![CDATA[Цей сайт використовує Open Journal Systems {$ojsVersion} - програмний пакет з відкритим вихідним кодом, який обслуговує процеси менеджменту та публікації журналів. Пакет розробляється, підтримується та вільно розповсюджується <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> на умовах ліцензії GNU General Public License.]]></message>
+-	
+-	<!-- Announcement -->
+-
+-	<!-- Help -->
+-	<message key="help.ojsHelp">Допомога Open Journal Systems</message>
+-	<message key="help.ojsHelpAbbrev">Допомога OJS</message>	
+-	<message key="help.searchReturnResults">Повернутися до результатів пошуку</message>
+-
+-	<!-- Donations -->
+-	<message key="donations.thankYou">Дякуємо</message>
+-	<message key="donations.thankYouMessage">Дякуємо за Ваш внесок. Ви зробили дуже корисну справу для нас.</message>
+-	
+-	<!-- Payments -->
+-	<message key="payment.loginRequired">Щоб зробити платіж Ви повинні увійти у систему як зареєстрований користувач.</message>
+-	<message key="payment.loginRequired.forArticle">Для доступу до цього матеріалу Ви повинні мати передплату на журнал або купити окрему статтю. Увійдіть до системи як зареєстрований користувач, щоб перевірити Ваші права доступу або купити статтю.</message>
+-	<message key="payment.loginRequired.forDonation">Щоб зробити пожертву Ви повинні увійти у систему як зареєстрований користувач.</message>
+-	
+-	<message key="payment.paid">Сплачено</message>
+-	<message key="payment.payNow">Сплатити зараз</message>
+-	<message key="payment.waive">Запит на виключення</message>
+-	<message key="payment.alreadyPaid">Вже сплачено</message>
+-	<message key="payment.alreadyPaidMessage">Якщо Ви вже надіслали свій платіж журналу, оберіть цей пункт та завершіть процес подання. Подання не буде розглядатись поки не надійде платіж. Для отримання інструкцій щодо здійснення платежів натисніть кнопку "Сплатити зараз".</message>
+-	<message key="payment.paymentReceived">Платіж отриманий</message>
+-	<message key="payment.paymentSent">Платіж вже відправлений</message>
+-	<message key="payment.authorFees">Платежі авторів</message>
+-	<message key="payment.type.submission">Плата за подання статті</message>
+-	<message key="payment.type.publication">Плата за публікацію статті</message>
+-	<message key="payment.type.fastTrack">Плата за прискорене рецензування</message>
+-	<message key="payment.type.membership">Плата за індивідуальне членство</message>
+-	<message key="payment.type.purchaseArticle">Купівля статті</message>
+-	<message key="payment.type.subscription">Плата за передплату</message>
+-	<message key="payment.type.donation">Пожертви</message>
+-	
+-	<message key="payment.donation.makeDonation">Зробити пожертву</message>
+-	
+-	<message key="payment.submission.paySubmission">Сплатити за подання</message>
+-	<message key="payment.fastTrack.payFastTrack">Сплатити за прискорене рецензування</message>
+-	<message key="payment.fastTrack.inFastTrack">поза чергою</message>
+-	<message key="payment.publication.payPublication">Сплатити за публікацію</message>
+-	<message key="payment.publication.publicationPaid">За публікацію статті сплачено</message>
+-	
+-	<message key="payment.membership.buyMembership">Купити індивідуальне членство</message>
+-	<message key="payment.membership.renewMembership">Поновити індивідуальне членство</message>	
+-	<message key="payment.membership.ends">Завершується</message>
+-
+-	<message key="payment.subscription.purchase">Купити передплату</message>
+-	<message key="payment.subscription.renew">Поновити передплату</message>
+-	<message key="payment.subscription.expires">Завершується</message>	
+-
+-	<!-- Installer -->
+-	<message key="installer.ojsInstallation">Встановлення OJS</message>
+-	<message key="installer.ojsUpgrade">Оновлення OJS</message>
+-	<message key="installer.installationInstructions"><![CDATA[<h4>Версія OJS {$version}</h4>
++       <!-- Interstitial page for PDFs -->
++       <message key="article.pdf.title">Portable Document Format (PDF)</message>
++       <message key="article.pdf.download">Завантажити цей PDF-файл</message>
++       <message key="article.pdf.pluginMissing"><![CDATA[<p>Якщо у Вашому браузері встановлений модуль читання PDF-файлів (наприклад, остання версія <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Acrobat Reader</a>), то обраний Вами файл PDF завантажиться у це вікно.</p> <p>Крім того, Ви можете завантажити PDF-файл безпосередньо на свій комп'ютер, де його можна буде відкрити за допомогою програми читання PDF-файлів. Щоб завантажити PDF-файл, натисніть посилання "Завантажити" нижче.</p> <p>Якщо Ви хочете отримати більше інформації про те, як працювати з PDF-файлами, роздруковувати та зберігати їх, рекомендуємо корисну статтю Highwire Press <a href="http://highwire.stanford.edu/help/pdf-faq.dtl">Frequently Asked Questions about PDFs</a>.</p>]]></message>
++
++       
++       <!-- Interstitial page for non-PDF non-HTML galleys -->
++       <message key="article.nonpdf.title">Завантаження статті</message>
++       <message key="article.nonpdf.note"><![CDATA[Обраний Вами файл почне завантажуватись автоматично. Зауважте, що для перегляду цього файлу може знадобитись спеціалізоване програмне забезпечення.<br /><br />Якщо файл не завантажився автоматично, <a href="{$url}">натисніть сюди</a>.]]></message>
++       
++       <!-- Site index -->
++       <message key="site.journalsHosted">Журнали, розміщені на цьому сайті</message>
++       <message key="site.journalView">Перегляд журналу</message>
++       <message key="site.journalRegister">Реєстрація</message>
++       <message key="site.journalCurrent">Поточний випуск</message>
++
++       <!-- Current index -->
++       <message key="current.current">Поточний випуск</message>
++       <message key="current.noCurrentIssue">Немає поточного випуску</message>
++       <message key="current.noCurrentIssueDesc">Цей журнал поки не опублікував жодного випуску.</message>
++
++       <!-- Archive index -->
++       <message key="archive.archives">Архіви</message>
++       <message key="archive.browse">Перегляд старих випусків</message>
++       <message key="archive.issueUnavailable">Випуск недоступний</message>
++       
++       <!-- About The Journal -->
++       <message key="about.statistics">Статистика</message>
++       <message key="about.journalContact">Контактна інформація</message>
++       <message key="about.aboutTheJournal">Про журнал</message>
++       <message key="about.history">Історія журналу</message>
++       <message key="about.editorialTeam">Редакційний штат</message>
++       <message key="about.editorialTeam.biography">Біографія</message>
++       <message key="about.editorialPolicies">Редакційна політика</message>
++       <message key="about.focusAndScope">Галузь та проблематика</message>
++       <message key="about.sectionPolicies">Політика розділів</message>
++       <message key="about.submissions">Подання</message>
++       <message key="about.sponsors">Спонсори</message>
++       <message key="about.contributors">Джерела підтримки</message>
++       <message key="about.onlineSubmissions">Надсилання статей</message>
++       <message key="about.onlineSubmissions.haveAccount">Вже маєте Ім'я користувача/Пароль для видання {$journalTitle}?</message>
++       <message key="about.onlineSubmissions.login">Увійдіть на сайт</message>
++       <message key="about.onlineSubmissions.needAccount">Потрібні Ім'я користувача/Пароль?</message>
++       <message key="about.onlineSubmissions.registration">Зареєструйтеся</message>
++       <message key="about.onlineSubmissions.registrationRequired">Для того, щоб мати можливість подавати статті до журналу та перевіряти поточний статус своїх подань необхідно увійти на сайт як зареєстрований користувач.</message>
++       <message key="about.authorGuidelines">Керівництва для авторів</message>
++       <message key="about.submissionPreparationChecklist">Вимоги до подання</message>
++       <message key="about.submissionPreparationChecklist.description">Під час подання рукопису до журналу автори повинні підтвердити його відповідність всім встановленим вимогам, вказаним нижче. В разі виявлення невідповідності поданої роботи пунктам цих вимог редакція повертатиме авторам матеріали на доопрацювання.</message>
++       <message key="about.copyrightNotice">Положення про авторські права</message>
++       <message key="about.privacyStatement">Положення про конфіденційність</message>
++       <message key="about.authorFees">Платежі авторів</message>
++       <message key="about.authorFeesMessage">Цей журнал бере з авторів плату за наступні послуги.</message>
++       <message key="about.peerReviewProcess">Процес рецензування</message>
++       <message key="about.publicationFrequency">Періодичність публікації</message>
++       <message key="about.openAccessPolicy">Політика відкритого доступу</message>
++       <message key="about.delayedOpenAccess">Відкритий доступ з затримкою</message>
++       <message key="about.delayedOpenAccessDescription1">Зміст цього журналу буде доступний у форматі відкритого доступу через</message>
++       <message key="about.delayedOpenAccessDescription2">місяців після дати публікації випуску.</message>
++       <message key="about.authorSelfArchive">Депонування робіт у відкритих архівах</message>
++       <message key="about.archiving">Архівування</message>
++       <message key="about.subscriptions">Передплати</message>
++       <message key="about.subscriptions.individual">Індивідуальні передплати</message>
++       <message key="about.subscriptions.institutional">Передплати установ</message>
++       <message key="about.subscriptionsContact">Контактна інформація для передплатників</message>
++       <message key="about.subscriptionTypes.name">Назва</message>
++       <message key="about.subscriptionTypes.format">Формат</message>
++       <message key="about.subscriptionTypes.duration">Тривалість</message>
++       <message key="about.subscriptionTypes.cost">Вартість</message>
++       <message key="about.availableSubscriptionTypes">Типи передплати</message>
++       <message key="about.memberships">Членство</message>
++       <message key="about.journalSponsorship">Фінансування журналу</message>
++       <message key="about.aboutThisPublishingSystem">Про цю видавничу систему</message>
++       <message key="about.aboutThisPublishingSystem.altText">Редакційний та видавничий процес OJS</message>
++       <message key="about.aboutOJSJournal"><![CDATA[Цей журнал використовує Open Journal Systems {$ojsVersion} - програмний пакет з відкритим вихідним кодом, який обслуговує процеси менеджменту та публікації журналу. Пакет розробляється, підтримується та вільно розповсюджується <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> на умовах ліцензії GNU General Public License.]]></message>
++       <message key="about.aboutOJSSite"><![CDATA[Цей сайт використовує Open Journal Systems {$ojsVersion} - програмний пакет з відкритим вихідним кодом, який обслуговує процеси менеджменту та публікації журналів. Пакет розробляється, підтримується та вільно розповсюджується <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> на умовах ліцензії GNU General Public License.]]></message>
++       
++       <!-- Announcement -->
++
++       <!-- Help -->
++       <message key="help.ojsHelp">Допомога Open Journal Systems</message>
++       <message key="help.ojsHelpAbbrev">Допомога OJS</message>        
++       <message key="help.searchReturnResults">Повернутися до результатів пошуку</message>
++
++       <!-- Donations -->
++       <message key="donations.thankYou">Дякуємо</message>
++       <message key="donations.thankYouMessage">Дякуємо за Ваш внесок. Ви зробили дуже корисну справу для нас.</message>
++       
++       <!-- Payments -->
++       <message key="payment.loginRequired">Щоб зробити платіж Ви повинні увійти у систему як зареєстрований користувач.</message>
++       <message key="payment.loginRequired.forArticle">Для доступу до цього матеріалу Ви повинні мати передплату на журнал або купити окрему статтю. Увійдіть до системи як зареєстрований користувач, щоб перевірити Ваші права доступу або купити статтю.</message>
++       <message key="payment.loginRequired.forDonation">Щоб зробити пожертву Ви повинні увійти у систему як зареєстрований користувач.</message>
++       
++       <message key="payment.paid">Сплачено</message>
++       <message key="payment.payNow">Сплатити зараз</message>
++       <message key="payment.waive">Запит на виключення</message>
++       <message key="payment.alreadyPaid">Вже сплачено</message>
++       <message key="payment.alreadyPaidMessage">Якщо Ви вже надіслали свій платіж журналу, оберіть цей пункт та завершіть процес подання. Подання не буде розглядатись поки не надійде платіж. Для отримання інструкцій щодо здійснення платежів натисніть кнопку "Сплатити зараз".</message>
++       <message key="payment.paymentReceived">Платіж отриманий</message>
++       <message key="payment.paymentSent">Платіж вже відправлений</message>
++       <message key="payment.authorFees">Платежі авторів</message>
++       <message key="payment.type.submission">Плата за подання статті</message>
++       <message key="payment.type.publication">Плата за публікацію статті</message>
++       <message key="payment.type.fastTrack">Плата за прискорене рецензування</message>
++       <message key="payment.type.membership">Плата за індивідуальне членство</message>
++       <message key="payment.type.purchaseArticle">Купівля статті</message>
++       <message key="payment.type.subscription">Плата за передплату</message>
++       <message key="payment.type.donation">Пожертви</message>
++       
++       <message key="payment.donation.makeDonation">Зробити пожертву</message>
++       
++       <message key="payment.submission.paySubmission">Сплатити за подання</message>
++       <message key="payment.fastTrack.payFastTrack">Сплатити за прискорене рецензування</message>
++       <message key="payment.fastTrack.inFastTrack">поза чергою</message>
++       <message key="payment.publication.payPublication">Сплатити за публікацію</message>
++       <message key="payment.publication.publicationPaid">За публікацію статті сплачено</message>
++       
++       <message key="payment.membership.buyMembership">Купити індивідуальне членство</message>
++       <message key="payment.membership.renewMembership">Поновити індивідуальне членство</message>     
++       <message key="payment.membership.ends">Завершується</message>
++
++       <message key="payment.subscription.purchase">Купити передплату</message>
++       <message key="payment.subscription.renew">Поновити передплату</message>
++       <message key="payment.subscription.expires">Завершується</message>      
++
++       <!-- Installer -->
++       <message key="installer.ojsInstallation">Встановлення OJS</message>
++       <message key="installer.ojsUpgrade">Оновлення OJS</message>
++       <message key="installer.installationInstructions"><![CDATA[<h4>Версія OJS {$version}</h4>
+ 
+ <p>Дякуємо, що завантажили <strong>Open Journal Systems</strong> виробництва Public Knowledge Project. Перед тим, як продовжити, будь ласка, прочитайте файл <a href="{$baseUrl}/docs/README">README</a>, включений до цього дистрибутиву. Для того, щоб дізнатися більше про Public Knowledge Project та розроблені ним програмні пакети, будь ласка, завітайте на <a href="http://pkp.sfu.ca/" target="_blank">веб-сайт PKP</a>. Якщо Ви маєте звіти про помилки або запити до служби підтримки Open Journal Systems, дивіться <a href="http://pkp.sfu.ca/support/forum" target="_blank">форум підтримки</a> або завітайте до онлайнової служби PKP <a href="http://pkp.sfu.ca/bugzilla/" target="_blank">система звітування про помилки</a>. Хоча форум підтримки є пріоритетним методом контактів з розробниками, Ви можете також написати розробникам листа на адресу <a href="mailto:pkp.contact@gmail.com">pkp.contact@gmail.com</a>.</p>
+ 

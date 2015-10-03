@@ -1,0 +1,51 @@
+--- styles/common.css	2012-03-15 10:19:29.000000000 -0700
++++ styles/common.css	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ /**
+- * common.css
++ * styles/common.css
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Site-wide shared stylesheet.
+  *
+- * $Id$
+  */
+ 
+ /*
+@@ -14,6 +13,7 @@
+  * FIXME: (Re)move once OJS styles are consolidated with new styles and themes
+  */
+ @import url("../lib/pkp/styles/themes/default/pnotify.css");
++@import url("../lib/pkp/styles/themes/default/notificationIcons.css");
+ 
+ .ui-pnotify-title {
+ 	font-size: 0.8em;
+@@ -319,11 +319,23 @@
+  * Table styles
+  */
+ 
+-table.listing tr.highlight {
+-	background: yellow;
++.highlightReviewerNotNotified, .highlightCopyediting {
++	background: #EDEBC4;
++}
++.highlightNoDecision, .highlightLayoutEditing {
++	background: #D8E9BD;
++}
++.highlightRevisedCopyUploaded, .higlightProofreading {
++	background: #C6EBE4;
++}
++.highlightReviewerConfirmationOverdue {
++	background: #9DD1E6;
++}
++.highlightReviewerCompletionOverdue {
++	background: #74C5D8;
+ }
+ 
+-table.listing tr.fastTracked {
++.fastTracked {
+ 	background-color: #ABA;
+ }
+ 

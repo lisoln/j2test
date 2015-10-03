@@ -1,0 +1,16 @@
+--- templates/rt/sent.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/rt/sent.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * bio.tpl
++ * templates/rt/sent.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * RT Email Sent page.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var=pageTitle value="email.email"}

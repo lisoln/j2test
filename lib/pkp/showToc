@@ -1,0 +1,801 @@
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+string(47) "/var/www/journal/lib/pkp/classes/db/DAO.inc.php"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<!--<script type="text/javascript" src="scrolltopcontrol.js">
+
+/***********************************************
+* Scroll To Top Control script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Project Page at http://www.dynamicdrive.com for full source code
+***********************************************/
+
+</script>-->
+
+
+
+<head>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Vol 43, No 5 (2014)</title>
+	<meta name="description" content="Scientific peer-reviewed journal that contains researches in using information technologies in education process." />
+	<meta name="keywords" content="information and communication technologies; ICT information technologies; communication technologies; information technologies and learning tools" />
+	<meta name="generator" content="Open Journal Systems 2.4.1.0" />
+	
+	<link rel="icon" href="http://journal.iitta.gov.ua/public/journals/1/journalFavicon_en_US.gif" type="image/gif" />	<link rel="stylesheet" href="http://journal.iitta.gov.ua/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="http://journal.iitta.gov.ua/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="http://journal.iitta.gov.ua/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="http://journal.iitta.gov.ua/styles/compiled.css" type="text/css" />
+
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		<!--
+		// Provide a local fallback if the CDN cannot be reached
+		if (typeof google == 'undefined') {
+			document.write(unescape("%3Cscript src='http://journal.iitta.gov.ua/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+			document.write(unescape("%3Cscript src='http://journal.iitta.gov.ua/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+		} else {
+			google.load("jquery", "1.4.4");
+			google.load("jqueryui", "1.8.6");
+		}
+		// -->
+	</script>
+	
+	
+	
+	<link rel="stylesheet" href="http://journal.iitta.gov.ua/styles/sidebar.css" type="text/css" />	<link rel="stylesheet" href="http://journal.iitta.gov.ua/styles/leftSidebar.css" type="text/css" />	<link rel="stylesheet" href="http://journal.iitta.gov.ua/styles/rightSidebar.css" type="text/css" />	<link rel="stylesheet" href="http://journal.iitta.gov.ua/styles/bothSidebars.css" type="text/css" />
+			<link rel="stylesheet" href="http://journal.iitta.gov.ua/plugins/generic/externalFeed/externalFeed.css" type="text/css" />
+	
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/functions/general.js"></script>
+
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/classes/Handler.js"></script>
+
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="http://journal.iitta.gov.ua/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+
+	<script type="text/javascript">
+		<!--
+		// initialise plugins
+		
+		$(function(){
+			
+			$(".tagit").live('click', function() {
+				$(this).find('input').focus();
+			});
+		});
+		// -->
+		
+	</script>
+
+		
+
+</head>
+<body>
+<div id="container">
+
+<div id="header">
+
+<div id="headerTitle">
+<h1>
+	<img src="http://journal.iitta.gov.ua/public/journals/1/pageHeaderTitleImage_en_US.png" width="921" height="118" alt="Information Technologies and Learning Tools" />
+</h1>
+</div>
+
+</div>
+
+<div id="body">
+			
+	<div id="sidebar">
+					<div id="leftSidebar">
+				<div class="block" id="sidebarUser">
+			<span class="blockTitle">User</span>
+		
+						<form method="post" action="http://journal.iitta.gov.ua/index.php/itlt/login/signIn">
+				<table>
+					<tr>
+						<td><label for="sidebar-username">Username</label></td>
+						<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td><label for="sidebar-password">Password</label></td>
+						<td><input type="password" id="sidebar-password" name="password" value="" size="12" maxlength="32" class="textField" /></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Remember me</label></td>
+					</tr>
+					<tr>
+						<td colspan="2"><input type="submit" value="Login" class="button" /></td>
+					</tr>
+				</table>
+			</form>
+			</div><div class="block" id="sidebarLanguageToggle">
+	<span class="blockTitle">Language</span>
+	<form action="#">
+		<select size="1" name="locale" onchange="location.href=('http://journal.iitta.gov.ua/index.php/itlt/user/setLocale/NEW_LOCALE?source=%2Findex.php%2Fitlt%2Fissue%2Fcurrent%2FshowToc'.replace('NEW_LOCALE', this.options[this.selectedIndex].value))" class="selectMenu"><option label="English" value="en_US" selected="selected">English</option>
+<option label="Russian" value="ru_RU">Russian</option>
+<option label="Ukrainian" value="uk_UA">Ukrainian</option>
+</select>
+	</form>
+</div>
+ <div class="block" id="notification">
+	<span class="blockTitle">Notifications</span>
+	<ul>
+					<li><a href="http://journal.iitta.gov.ua/index.php/itlt/notification">View</a></li>
+			<li><a href="http://journal.iitta.gov.ua/index.php/itlt/notification/subscribeMailList">Subscribe</a></li>
+			</ul>
+</div>
+<div class="block" id="sidebarInformation">
+	<span class="blockTitle">Information</span>
+	<ul>
+		<li><a href="http://journal.iitta.gov.ua/index.php/itlt/information/readers">For Readers</a></li>		<li><a href="http://journal.iitta.gov.ua/index.php/itlt/information/authors">For Authors</a></li>		<li><a href="http://journal.iitta.gov.ua/index.php/itlt/information/librarians">For Librarians</a></li>		<li><a href="http://journal.iitta.gov.ua/index.php/itlt/pages/view/reviewer">For Reviewers</a></li>
+<br \>
+		<!--<li><a href="http://journal.iitta.gov.ua/index.php/itlt/pages/view/reviewer_index">Reviewer Index</a></li>-->
+		<!--<li><a href="http://journal.iitta.gov.ua/index.php/itlt/pages/view/usefulliks">Useful Links</a></li>-->
+		<li><a href="http://journal.iitta.gov.ua/index.php/itlt/pages/view/ethics">Editorial Ethics Guidelines</a></li>
+		
+		
+</ul>
+</div>
+<div class="block" id="custom">
+	<div id="clustrmaps-widget">&nbsp;</div>
+<script type="text/javascript">// <![CDATA[
+var _clustrmaps = {'url' : 'http://journal.iitta.gov.ua/', 'user' : 1087447, 'server' : '2', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2013-05-18', 'lang' : 'ru', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www2.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();
+// ]]></script>
+<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;lt;a href="http://www2.clustrmaps.com/user/04d1097d7"&amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;lt;img src="http://www2.clustrmaps.com/stats/maps-no_clusters/journal.iitta.gov.ua--thumb.jpg" alt="Locations of visitors to this page" /&amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript>
+</div>	<div class="block" id="sidebarDevelopedBy">
+	<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
+</div>
+			</div>
+							<div id="rightSidebar">
+				<div class="block" id="custom">
+	
+</div>	<div class="block" id="custom">
+	<div><span id="sidebarNavigation" class="block"><span class="blockTitle">Search / ?????</span></span></div>
+<form action="http://journal.iitta.gov.ua/index.php/itlt/search/results" method="post">
+<table>
+<tbody>
+<tr>
+<td><input id="query" class="textField" type="text" name="query" value="" size="20" maxlength="255" />&nbsp; <!--<input class="button" type="submit" value="Search" />--> <input id="ImageButton1" style="width: 16px;" type="image" name="ImageButton1" src="/public/images/Search.png" /></td>
+</tr>
+<tr>
+<td><br /><a href="/index.php/itlt/search">Advanced / ???????????</a></td>
+</tr>
+<tr>
+<td><a href="/index.php/itlt/search/authors">by Authors / ?? ??????</a></td>
+</tr>
+</tbody>
+</table>
+</form>
+</div>	<div class="block" id="custom">
+	<table border="0" align="center">
+<tbody>
+<tr>
+<td><a href="https://www.facebook.com/journal.iitta"><img src="/public/images/icons/fb.png" alt="" /></a></td>
+<td><a href="http://scholar.google.com/citations?user=0iqI-UsAAAAJ&amp;hl"><img src="/public/images/icons/gs.png" alt="" /></a></td>
+<td><a href="https://plus.google.com/117178492604352621923/posts"><img src="/public/images/icons/gl.png" alt="" /></a></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!-- AddThis Button BEGIN -->
+<div><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-51367f81242ca320"><img style="border: 0;" src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" alt="Bookmark and Share" width="125" height="16" /></a></div>
+<script type="text/javascript">// <![CDATA[
+var addthis_config = {"data_track_addressbar":true};
+// ]]></script>
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51367f81242ca320"></script>
+<!-- AddThis Button END -->
+</div>	<div class="block" id="custom">
+	<div align="center"><!-- hit.ua --> <a href="http://hit.ua/?x=99537" target="_blank">
+<script type="text/javascript" language="javascript">// <![CDATA[
+Cd=document;Cr="&"+Math.random();Cp="&s=1";
+Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+Cp+="&t="+(new Date()).getTimezoneOffset();
+if(self!=top)Cp+="&f=1";
+// ]]></script>
+<script type="text/javascript" language="javascript1.1">// <![CDATA[
+if(navigator.javaEnabled())Cp+="&j=1";
+// ]]></script>
+<script type="text/javascript" language="javascript1.2">// <![CDATA[
+if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+// ]]></script>
+<script type="text/javascript" language="javascript">// <![CDATA[
+Cd.write("<img src='http://c.hit.ua/hit?i=99537&g=0&x=5"+Cp+Cr+
+"&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+"' border='0' width='88' height='31' "+
+"alt='hit.ua: ??????????? ? ?????????? ?? ???????' title='hit.ua: ??????????? ? ?????????? ?? ???????'/>");
+// ]]></script>
+</a><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;img src='http://hit.ua/site_view/99537&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;g=0&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;x=5' border='0' width='88' height='31' alt='hit.ua: ??????????? ? ?????????? ?? ???????' title='hit.ua: ??????????? ? ?????????? ?? ???????'/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- / hit.ua --></div>
+<!-- I.UA counter -->
+<div align="center"><a title="Rated by I.UA" onclick="this.href='http://i.ua/r.php?155687';" href="http://www.i.ua/" target="_blank">
+<script type="text/javascript" language="javascript">// <![CDATA[
+iS='<img src="http://r.i.ua/s?u155687&p117&n'+Math.random();
+iD=document;if(!iD.cookie)iD.cookie="b=b; path=/";if(iD.cookie)iS+='&c1';
+iS+='&d'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)
++"&w"+screen.width+'&h'+screen.height;
+iT=iD.referrer.slice(7);iH=window.location.href.slice(7);
+((iI=iT.indexOf('/'))!=-1)?(iT=iT.substring(0,iI)):(iI=iT.length);
+if(iT!=iH.substring(0,iI))iS+='&f'+escape(iD.referrer.slice(7));
+iS+='&r'+escape(iH);
+iD.write(iS+'" border="0" width="88" height="31" />');
+// ]]></script>
+</a></div>
+<!-- End of I.UA counter -->
+</div>	<div class="block" id="custom">
+	<div align="center"><a href="http://info.flagcounter.com/iLWX" rel="nofollow"><img src="http://s11.flagcounter.com/count/iLWX/bg_f7f7f7/txt_01445F/border_a9b4ca/columns_1/maxflags_5/viewers_1/labels_1/pageviews_1/flags_1/" alt="Flag Counter" border="0" /></a></div>
+</div>	
+			</div>
+			</div>
+
+<div id="main">
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="http://journal.iitta.gov.ua/index.php/itlt/index">Home</a></li>
+		<li id="about"><a href="http://journal.iitta.gov.ua/index.php/itlt/about">About</a></li>
+
+					<li id="login"><a href="http://journal.iitta.gov.ua/index.php/itlt/login">Login</a></li>
+							<li id="register"><a href="http://journal.iitta.gov.ua/index.php/itlt/user/register">Register</a></li>
+							<!--			<li id="search"><a href="http://journal.iitta.gov.ua/index.php/itlt/search">Search</a></li>
+		-->
+
+					<li id="current"><a href="http://journal.iitta.gov.ua/index.php/itlt/issue/current">Current</a></li>
+			<li id="archives"><a href="http://journal.iitta.gov.ua/index.php/itlt/issue/archive">Archives</a></li>
+		
+					<li id="announcements"><a href="http://journal.iitta.gov.ua/index.php/itlt/announcement">Announcements</a></li>
+				
+
+									<li id="navItem"><a href="http://journal.iitta.gov.ua/index.php/itlt/about/contact">Contacts</a></li>
+					
+
+	</ul>
+
+</div>
+	
+<div id="breadcrumb">
+	<a href="http://journal.iitta.gov.ua/index.php/itlt/index">Home</a> &gt;
+			<a href="http://journal.iitta.gov.ua/index.php/itlt/issue/current" class="hierarchyLink">Current</a> &gt;
+			<a href="http://journal.iitta.gov.ua/index.php/itlt/issue/current/showToc" class="current">Vol 43, No 5 (2014)</a></div>
+
+<h2>Vol 43, No 5 (2014)</h2>
+
+
+<div id="content">
+
+
+
+
+
+
+	<div id="issueDescription">DEDICATED TO THE 15TH ANNIVERSARY OF THE INSTITUTE OF INFORMATION TECHNOLOGIES AND LEARNING TOOLS OF NAPS OF UKRAINE.<br /><br />The issue was approved by the Scientific Board of the Institute of Information Technologies and Learning Tools of the National Academy of Pedagogical Sciences of Ukraine (Minutes ?10, October 27, 2014)</div>
+		<h3>Table of Contents</h3>
+	 
+<h4 class="tocSectionTitle">Theoretical and methodological backgrounds of innovation educational environment development: world&#039;s trends</h4>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1130" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1130_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1130">ABILITY TO LEARN - A KEY COMPETENCE OF MODERN INFORMATION SOCIETY PUPILS</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1130/844" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Lidiia S. Vashchenko						</td>
+	<td class="tocPages">1-14</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1139" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1139_en_US.jpg"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1139">FORMATION AND ASSESSMENT OF IT-COMPETENCE IN THE UNITED KINGDOM SCHOOLS: EDUCATIONAL REFORM</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1139/850" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Iryna D. Malytska						</td>
+	<td class="tocPages">15-26</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1132" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1132_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1132">ICT COMPETENCE STANDARDS FOR HIGHER EDUCATORS AND QUALITY ASSURANCE IN EDUCATION</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1132/843" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Nataliia V. Morze,							Artur B. Kocharian						</td>
+	<td class="tocPages">27-39</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1124" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1124_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1124">INFORMATION TECHNOLOGY USE AND ACADEMIC ACHIEVEMENTS OF STUDENTS IN PRIMARY SCHOOLS</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1124/838" class="file">PDF</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Khalid Said Rabayah						</td>
+	<td class="tocPages">40-55</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1115" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1115_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1115">ANALYSIS OF FOREIGN EXPERIENCE OF SYSTEMIC DEVELOPMENT OF FUTURE SOCIAL PEDAGOGISTS INFORMATIONAL CULTURE</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1115/851" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Oleksandr A. Ratsul						</td>
+	<td class="tocPages">56-67</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1128" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1128_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1128">DEVELOPMENT OF THEORY AND METHODS OF USE OF INFORMATION AND COMMUNICATION TECHNOLOGIES IN TEACHING MATHEMATICS OF ENGINEERING SPECIALITIES STUDENTS IN THE UNITED STATES</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1128/853" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Nataliia M. Kiianovska,							Natalia V. Rashevska,							Serhii O. Semerikov						</td>
+	<td class="tocPages">68-83</td>
+</tr>
+</table>
+
+<div class="separator"></div>
+<h4 class="tocSectionTitle">Theoretical, methodological and scientific backgrounds of computer-focused educational environment</h4>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1112" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1112_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1112">THE DEVELOPMENT OF IC-COMPETENCE OF FUTURE PRIMARY SCHOOL TEACHERS IN THE CONTEXT OF FORMING SKILLS OF PUPILS COMPUTER ADDICTION PREVENTION</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1112/835" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Viktoriia O. Hrynko						</td>
+	<td class="tocPages">84-93</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1134" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1134_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1134">FEATURES OF USING WEBINARS FOR DEVELOPMENT OF SPIRITUAL AND MORAL VALUES IN INFORMAL ADULTS EDUCATION</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1134/852" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Iryna S. Pichuhina						</td>
+	<td class="tocPages">94-103</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1126" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1126_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1126">ELECTRONIC LINGUOMETHODOLOGYS PHILOSOPHICAL AND METHODOLOGICAL PRINCIPLES IN PRIMARY SCHOOL TEACHERS TRAINING</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1126/839" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Inna A. Khyzhnyak						</td>
+	<td class="tocPages">104-117</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1111" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1111_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1111">ORGANIZATION OF UPPER-FORMERS EDUCATION OF INFORMATICS IN THE PHYSICAL AND MATHEMATICAL PROFILE CLASSES</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1111/834" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Anna L. Fedorchuk						</td>
+	<td class="tocPages">118-127</td>
+</tr>
+</table>
+
+<div class="separator"></div>
+<h4 class="tocSectionTitle">Learning tools in modern pedagogical systems</h4>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1131" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1131_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1131">RELEVANCE OF USE OF MULTIMEDIA IN ORDER TO PREVENT JUNIOR PUPILS AGGRESSIVE BEHAVIOUR</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1131/842" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Natalia V. Oleksiuk						</td>
+	<td class="tocPages">128-139</td>
+</tr>
+</table>
+
+<div class="separator"></div>
+<h4 class="tocSectionTitle">Distance learning in modern pedagogical systems</h4>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1109" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1109_en_US.jpg"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1109">ORGANIZATION OF INTUITIVE ACCESS TO ELECTRONIC EDUCATIONAL AND METHODICAL COMPLEXES OF TEACHER TRAINING BASED ON CLOUD-ORIENTED SYSTEM OF MANAGEMENT OF EDUCATIONAL RESOURCES</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1109/833" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Volodymyr I. Bessarabov						</td>
+	<td class="tocPages">140-149</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1135" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1135_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1135">THE GENERAL MODEL OF DISTANCE EDUCATION RESOURCE CENTER FOR SECONDARY SCHOOLS</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1135/846" class="file">PDF (Russian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Yuriy M. Bogachkov,							Pavlo S. Ukhan						</td>
+	<td class="tocPages">150-163</td>
+</tr>
+</table>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1140" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1140_en_US.jpg"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1140">ELECTRONIC EDUCATIONAL RESOURCES WITHIN INFORMATION SUPPORT OF DISTANCE EDUCATION RESOURCE CENTER</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1140/848" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Olga E. Konevschynska						</td>
+	<td class="tocPages">164-173</td>
+</tr>
+</table>
+
+<div class="separator"></div>
+<h4 class="tocSectionTitle">Problems of creation of single informative educational space</h4>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1096" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1096_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1096">PRINCIPLES OF MODERN UNIVERSITY "ACADEMIC CLOUD" FORMATION BASED ON OPEN SOFTWARE PLATFORM</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1096/832" class="file">PDF (Ukrainian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Olena H. Hlazunova						</td>
+	<td class="tocPages">174-188</td>
+</tr>
+</table>
+
+<div class="separator"></div>
+<h4 class="tocSectionTitle">Development and introduction of educational programming and technical tools</h4>
+		
+<table class="tocArticle" width="100%">
+<tr valign="top">
+		<td rowspan="2">
+		<div class="tocArticleCoverImage">
+		<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1121" class="file">
+		<img src="http://journal.iitta.gov.ua/public/journals/1/cover_article_1121_en_US.png"  alt="Cover Image"/></a></div>
+	</td>
+		
+
+				
+					
+	<td class="tocTitle">
++
+        <a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1121">TEST CONTROL OF CALCULATED TASKS EXECUTION AT THE ALGORITHMIC LEVEL OF EDUCATIONAL ACTIVITY</a></td>
+	<td class="tocGalleys">
+									<a href="http://journal.iitta.gov.ua/index.php/itlt/article/view/1121/837" class="file">PDF (Russian)</a>
+														
+			</td>
+</tr>
+<tr>
+	<td class="tocAuthors">
+									Oleksandr O. Petkov,							Maryna O. Petkova						</td>
+	<td class="tocPages">189-200</td>
+</tr>
+</table>
+
+
+<!--	
+-->
+<br \>
+<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img style="border-width: 0;" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="Creative Commons License" /></a>
+	<br />
+	<p>This work is licensed under a <strong>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</strong>.<br /><br /><span style="text-align: center;">© Institute of Information Technology and Learning Tools, 2006-2014</span></p>
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-6174006");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- /Google Analytics -->
+
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body --><div>
+
+<!--<a href="javascript:scroll(0,0)"><img src="/public/images/up.png" align = "right"></a></div>-->
+
+
+</div><!-- container -->
+</body>
+</html>
+

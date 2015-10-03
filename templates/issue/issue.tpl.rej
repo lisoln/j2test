@@ -1,0 +1,16 @@
+--- templates/issue/issue.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/issue/issue.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * issue.tpl
++ * templates/issue/issue.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Issue
+  *
+- * $Id$
+  *} 
+ {foreach name=sections from=$publishedArticles item=section key=sectionId}
+ {if $section.title}<h4 class="tocSectionTitle">{$section.title|escape}</h4>{/if}

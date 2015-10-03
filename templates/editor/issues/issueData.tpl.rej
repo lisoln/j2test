@@ -1,0 +1,16 @@
+--- templates/editor/issues/issueData.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/editor/issues/issueData.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,10 @@
+ {**
+- * issueData.tpl
++ * templates/editor/issues/issueData.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Form for creation and modification of an issue
+- *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitleTranslated" value=$issue->getIssueIdentification()}

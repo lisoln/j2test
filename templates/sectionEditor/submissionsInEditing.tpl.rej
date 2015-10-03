@@ -1,0 +1,16 @@
+--- templates/sectionEditor/submissionsInEditing.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/sectionEditor/submissionsInEditing.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * submissionsInEditing.tpl
++ * templates/sectionEditor/submissionsInEditing.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Show section editor's submissions in editing.
+  *
+- * $Id$
+  *}
+ <div id="submissions">
+ <table width="100%" class="listing">

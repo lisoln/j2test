@@ -1,0 +1,16 @@
+--- templates/about/statistics.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/about/statistics.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * statistics.tpl
++ * templates/about/statistics.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Subtemplate defining the statistics table.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitle" value="about.statistics"}

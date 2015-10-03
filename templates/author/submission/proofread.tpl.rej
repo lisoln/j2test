@@ -1,0 +1,16 @@
+--- templates/author/submission/proofread.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/author/submission/proofread.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * proofread.tpl
++ * templates/author/submission/proofread.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Subtemplate defining the author's proofreading table.
+  *
+- * $Id$
+  *}
+ {assign var=proofSignoff value=$submission->getSignoff('SIGNOFF_PROOFREADING_PROOFREADER')}
+ {assign var=proofreader value=$submission->getUserBySignoffType('SIGNOFF_PROOFREADING_PROOFREADER')}

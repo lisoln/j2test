@@ -1,0 +1,24 @@
+--- templates/manager/people/enrollment.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/manager/people/enrollment.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,19 +1,18 @@
+ {**
+- * enrollment.tpl
++ * templates/manager/people/enrollment.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * List enrolled users.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitle" value="manager.people.enrollment"}
+ {include file="common/header.tpl"}
+ {/strip}
+ 
+-<form name="disableUser" method="post" action="{url op="disableUser"}">
++<form id="disableUser" method="post" action="{url op="disableUser"}">
+ 	<input type="hidden" name="reason" value=""/>
+ 	<input type="hidden" name="userId" value=""/>
+ </form>

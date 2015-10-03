@@ -1,0 +1,2578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2009 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the uk_UK (Ukrainian) locale.
+  *
+  * $Id $
+  -->
+
+<locale name="uk_UK" full_name="Ukrainian">
+	<!--
+	 * This file is organized into several major sections, separated
+	 * by comments like this one. These sections are called:
+	 *  COMMON - Contains frequently-used words
+	 *  ENTITIES - Contains terms pertaining to the system's major
+	 *             entities, e.g. Article, Journal, Section
+	 *  INTERFACE - Contains phrases organized by the section of the
+	 *              user interface they appear in.
+	 *  LOG - Contains phrases related to log entries
+	 *  MISC - Entries that don't belong elsewhere.
+	 *  DEFAULT - Default settings for configuration items.
+	-->
+
+	<!--
+	 *
+	 * COMMON - This section contains the most frequently-used words
+	 *
+	-->
+
+	<!-- Common Messages -->
+	<message key="common.and">та</message>
+
+	<message key="common.between">між</message>
+	<message key="common.all">Всі</message>
+	<message key="common.on">Вкл.</message>
+	<message key="common.off">Викл.</message>
+	<message key="common.openJournalSystems">Відкриті журнальні системи</message>
+	<message key="common.delete">Стерти</message>
+
+	<message key="common.edit">Правити</message>
+	<message key="common.save">Зберігати</message>
+	<message key="common.export">Експорт</message>
+	<message key="common.import">Імпорт</message>
+	<message key="common.saveAndContinue">Зберігати та продовжити</message>
+	<message key="common.saveAndEmail">Зберігати та відіслати</message>
+
+	<message key="common.continue">Продовжити</message>
+	<message key="common.cancel">Відмінити</message>
+	<message key="common.done">Готово</message>
+	<message key="common.search">Пошук</message>
+	<message key="common.up">Нагору</message>
+	<message key="common.top">Верх</message>
+
+	<message key="common.url">URL</message>
+	<message key="common.description">Опис</message>
+	<message key="common.keywords">Ключ. слова</message>
+	<message key="common.order">Сортування</message>
+	<message key="common.back">У зворотній бік</message>
+	<message key="common.title">Заголовок</message>
+
+	<message key="common.upload">Закачати</message>
+	<message key="common.download">Скачати</message>
+	<message key="common.replaceFile">Замінити файл</message>
+	<message key="common.subject">Тема</message>
+	<message key="common.type">Тип</message>
+	<message key="common.publisher">Видавець</message>
+
+	<message key="common.note">Примітка</message>
+	<message key="common.notes">Примітка</message>
+	<message key="common.date">Дата</message>
+	<message key="common.weeks">тиждень</message>
+	<message key="common.source">Джерело</message>
+	<message key="common.language">Мова </message>
+
+	<message key="common.id">ID</message>
+	<message key="common.status">Статус</message>
+	<message key="common.remove">Видалити</message>
+	<message key="common.file">Файл</message>
+	<message key="common.uploadedFile">Наявні файли</message>
+	<message key="common.fileName">Назва файла</message>
+
+	<message key="common.dateSubmitted">Депонований</message>
+	<message key="common.dateRequested">Затребуваний</message>
+	<message key="common.dateCompleted">Завершений</message>
+	<message key="common.dateUploaded">Загружений</message>
+	<message key="common.dateModified">Змінений</message>
+	<message key="common.other">Інше</message>
+
+	<message key="common.fileSize">Об'єм файла</message>
+	<message key="common.size">Об'м</message>
+	<message key="common.fileType">Тип файла</message>
+	<message key="common.originalFileName">Ориг. назва файла</message>
+	<message key="common.none">Ні</message>
+	<message key="common.required">Обов'язково</message>
+
+	<message key="common.requiredField">* Визначає обов'язкове поле</message>
+	<message key="common.or">або</message>
+	<message key="common.notAvailable">немає інформації</message>
+	<message key="common.notApplicable">Не встановлено</message>
+	<message key="common.notApplicableShort">Немає інформації</message>
+	<message key="common.yes">Так</message>
+
+	<message key="common.no">Ні</message>
+	<message key="common.languages">Мови</message>
+	<message key="common.changesSaved">Ваші зміни зберігаються</message>
+	<message key="common.chooseOne">Вибрати</message>
+	<message key="common.alreadyAssigned">Назначен</message>
+	<message key="common.assign">Назначити</message>
+
+	<message key="common.assigned">Назначен</message>
+	<message key="common.record">Запис</message>
+	<message key="common.width">Ширина</message>
+	<message key="common.height">Висота</message>
+	<message key="common.user">Користувач</message>
+	<message key="common.event">Подія</message>
+
+	<message key="common.action">Дія</message>
+	<message key="common.select">Вибрати</message>
+	<message key="common.selectAll">Вибрати все</message>
+	<message key="common.selectNone">Не вибирати</message>
+	<message key="common.applyAction">Застосувати</message>
+	<message key="common.deleteSelection">Зтерти вибране</message>
+
+	<message key="common.removeSelection">Видалити вибране</message>
+	<message key="common.year">Рік</message>
+	<message key="common.month">Місяць</message>
+	<message key="common.day">День</message>
+	<message key="common.hour">Година</message>
+	<message key="common.minute">Хвилина</message>
+
+	<message key="common.second">Секунд</message>
+	<message key="common.create">Створити</message>
+	<message key="common.modify">Змінити</message>
+	<message key="common.notify">Повідомити</message>
+	<message key="common.noneAssigned">Не визначено</message>
+	<message key="common.cancelled">Відмінено</message>
+
+	<message key="common.inProgress">Їде</message>
+	<message key="common.replaced">Замінений</message>
+	<message key="common.uninitiated">Не почато</message>
+	<message key="common.updated">Оновлений</message>
+	<message key="common.untitled">Неозаглавлений</message>
+	<message key="common.view">Подивитись</message>
+
+	<message key="common.related">Пов'зані</message>
+	<message key="common.active">Активний</message>
+	<message key="common.completed">Завершений</message>
+	<message key="common.mailingAddress">Поштова адреса</message>
+	<message key="common.close">Зачинити</message>
+	<message key="common.closeWindow">Зачинити вікно</message>
+
+	<message key="common.initiate">Розпочати</message>
+	<message key="common.complete">Завершити</message>
+	<message key="common.options">Опції</message>
+
+	<!-- Common Form Messages -->
+	<message key="form.errorsOccurred">Помилки протягом обробки</message>
+	<message key="form.saveToUpload">Натиснути Зберігати для для закачки файла.</message>
+
+	<message key="form.contains">містить</message>
+	<message key="form.is">-</message>
+	<message key="form.required">(* Обов'язково.)</message>
+	<message key="form.submit">Відправити</message>
+	<message key="form.send">Послати</message>
+	<message key="form.resubmit">Відправити ще раз</message>
+
+	
+	<!-- Common Email Messages -->
+	<message key="email.email">Мейл</message>
+	<message key="email.sender">Відправник</message>
+	<message key="email.recipient">Отримувач</message>
+	<message key="email.recipients">Отримувачі</message>
+	<message key="email.from">Від кого</message>
+
+	<message key="email.to">Кому</message>
+	<message key="email.cc">Копія</message>
+	<message key="email.bcc">Невід. копія</message>
+	<message key="email.subject">Про що</message>
+	<message key="email.body">Текст</message>
+	<message key="email.send">Послати</message>
+
+	<message key="email.compose">Послати мейл</message>
+	<message key="email.addToRecipient">Добавити отримувача</message>
+	<message key="email.addCcRecipient">Добавити CC</message>
+	<message key="email.addBccRecipient">Добавити BCC</message>
+	<message key="email.bccSender">Відіслати копію повідомлення собі ({$address})</message>
+	<message key="email.invalid">Мейл адреса {$email} неваліден.</message>
+
+	<message key="email.multipart">Повідомлення із багатьох частин у MIME форматі.</message>
+	<message key="email.attachments">Додатки</message>
+	<message key="email.addAttachment">Добавити додаток</message>
+
+	<!-- Common Localization Terms -->
+	<message key="locale.primary">Основна мова</message>
+	<message key="locale.supported">Мови, які підтримуються</message>
+
+	<!-- Common Error Messages -->
+	<message key="common.error.databaseError">Помилка у БД: {$error}</message>
+	<message key="common.error.databaseErrorUnknown">Ошибка в ДБ связи.</message>
+	<message key="common.error.framesRequired"><![CDATA[Эта страница требует рамок. <a href="{$url}">Натисніть тут</a> for the non-frames version.]]></message>
+		
+	<!-- Navigation -->
+	<message key="navigation.journalHelp">Допомога</message>
+
+	<message key="navigation.home">Початок</message>
+	<message key="navigation.about">Про нас</message>
+	<message key="navigation.userHome">Мої журнали</message>
+	<message key="navigation.login">Вхід</message>
+	<message key="navigation.register">Реєстрація</message>
+
+	<message key="navigation.user">Користувач</message>
+	<message key="navigation.archives">Архіви</message>
+	<message key="navigation.current">Останній випуск</message>
+	<message key="navigation.search">Пошук</message>
+	<message key="navigation.otherJournals">інші журнали</message>
+
+	<message key="navigation.browse">Перегляд</message>
+	<message key="navigation.browseByIssue">По випускам</message>
+	<message key="navigation.browseByAuthor">По авторам</message>
+	<message key="navigation.browseByTitle">По назвам</message>
+
+	<message key="navigation.infoForAuthors">Для авторів</message>
+	<message key="navigation.infoForReaders">Для читачів</message>
+	<message key="navigation.infoForLibrarians">Для бібліотек</message>
+	<message key="navigation.infoForAuthors.long">Інформація для авторів</message>
+	<message key="navigation.infoForReaders.long">Інформація для читачів</message>
+
+	<message key="navigation.infoForLibrarians.long">Інформація для працівників бібліотек</message>
+	<message key="navigation.previousStep">Пред. крок</message>
+	<message key="navigation.nextStep">Слід. крок</message>
+	<message key="navigation.stepNumber">Крок {$step}</message>
+	<message key="navigation.previousPage"><![CDATA[&lt;&lt;]]></message>
+	<message key="navigation.nextPage"><![CDATA[&gt;&gt;]]></message>
+	<message key="navigation.items">{$from} - {$to} із {$total} результатів</message>
+
+	
+	<!-- Article Queues -->
+	<message key="common.queue.long.submissionsUnassigned">Стаття чекає розміщення</message>
+	<message key="common.queue.short.submissionsUnassigned">Нові надходження</message>
+	<message key="common.queue.long.submissionsInEditing">Стаття редагується</message>
+	<message key="common.queue.short.submissionsInEditing">В редакції</message>
+	<message key="common.queue.long.submissionsInReview">Стаття рецензується</message>
+
+	<message key="common.queue.short.submissionsInReview">У рецензента</message>
+	<message key="common.queue.long.submissionsInScheduling">Графік публікацій</message>
+	<message key="common.queue.short.submissionsInScheduling">Опублікувати</message>
+	<message key="common.queue.long.submissionsArchives">Архіви</message>
+	<message key="common.queue.short.submissionsArchives">Архіви</message>
+	<message key="common.queue.long.active">Активні подання</message>
+
+	<message key="common.queue.short.active">Активні</message>
+	<message key="common.queue.long.completed">Архів</message>
+	<message key="common.queue.short.completed">Архів</message>
+	
+	<!--
+	 *
+	 * ENTITIES - This section contains terms pertaining to the system's
+	 *            major entities, e.g. Article, Journal, Section
+	 *
+	-->
+
+	<!-- Common Section Terms -->
+	<message key="section.section">Секції</message>
+
+	<message key="section.sections">Секції журналу</message>
+	<message key="section.title">Назва розділу</message>
+	<message key="section.abbreviation">Скорочення</message>
+	<message key="section.abbreviation.example">(напр. Articles=ART)</message>
+	<message key="section.default.title">Статті</message>
+	<message key="section.default.abbrev">ART</message>
+
+	<message key="section.default.policy"></message>
+
+	<!-- Common Article Terms -->
+	<message key="article.articles">Статті</message>
+	<message key="article.submissionId">ID статті</message>
+	<message key="article.title">Назва</message>
+	<message key="article.authors">Автори</message>
+
+	<message key="article.indexingInformation">Індексування</message>
+	<message key="article.metadata">Метаданні</message>
+	<message key="article.journalSection">Розділ журналу</message>
+	<message key="article.file">Файл</message>
+	<message key="article.suppFile">Додатковий файл</message>
+	<message key="article.suppFiles">Додаткові файлы</message>
+
+	<message key="article.suppFilesAbbrev">Дод. файли</message>
+	<message key="article.discipline">Академічні дисципліни</message>
+	<message key="article.subjectClassification">Класифікація</message>
+	<message key="article.subject">Ключові слова</message>
+	<message key="article.coverage">Предм. область</message>
+	<message key="article.coverageGeo">Географія</message>
+
+	<message key="article.coverageChron">Хронологія</message>
+	<message key="article.coverageSample">Приклади дослідн. підходу</message>
+	<message key="article.type">Методика</message>
+	<message key="article.language">Мова</message>
+	<message key="article.sectionEditor">РР</message>
+	<message key="article.commentsToEditor">Коментарі автора</message>
+
+	<message key="article.submission">Стаття</message>
+	<message key="article.submissions">Статті</message>
+	<message key="article.abstract">Анотація</message>
+	<message key="article.details">Подробиці</message>
+    <message key="article.fontSize">Розмір шрифту</message>
+    <message key="article.fontSize.small.altText">Маленький</message>
+    <message key="article.fontSize.medium.altText">Середній</message>
+    <message key="article.fontSize.large.altText">Великий</message> 
+
+	<!-- Submission Tracking - Common -->
+	<message key="submission.summary">Резюме</message>
+
+	<message key="submission.review">Рецензія</message>
+	<message key="submission.editing">Редакція</message>
+	<message key="submission.history">Історія</message>
+	<message key="submission.page.summary">#{$id} Резюме</message>
+	<message key="submission.page.review">#{$id} Рецензії</message>
+	<message key="submission.page.editing">#{$id} Редакція</message>
+
+	<message key="submission.page.history">#{$id} Історія</message>
+	<message key="submission.submissionReview">Рецензія статті</message>
+	<message key="submission.submissionEditing">Редакція статті</message>
+	<message key="submission.submissionHistory">Історія статті</message>
+	<message key="submission.submissionManuscript">Рукопис статті</message>
+	<message key="submission.metadata">Метадані статті</message>
+
+	<message key="submission.originalFile">Ориг. файл</message>
+	<message key="submission.addSuppFile">Додати файл</message>
+	<message key="submission.submitter">Вислал</message>
+	<message key="submission.changeSection">Змінити на</message>
+	<message key="submission.initiated">В процесі</message>
+	<message key="submission.lastModified">Змінена</message>
+
+	<message key="submission.ask">Запитати</message>
+	<message key="submission.request">Запити</message>
+	<message key="submission.underway">На підході</message>
+	<message key="submission.start">Початок</message>
+	<message key="submission.response">Відповідь</message>
+	<message key="submission.accepted">Прийнята</message>
+
+	<message key="submission.rejected">Відмова</message>
+	<message key="submission.due">Кін. срок</message>
+	<message key="submission.complete">Завершена</message>
+	<message key="submission.acknowledge">Затверждена</message>
+	<message key="submission.done">Готово</message>
+
+	<message key="submission.views">Перегляди</message>
+	<message key="submission.abstractViews">Перегляд анотації</message>
+	<message key="submission.noReviewAssignments">Немає назначених рецензентів</message>
+	<message key="submission.reviewVersion">Версія рецензії</message>
+	<message key="submission.peerReview">Спецрецензія</message>
+	<message key="submission.editorDecision">Рішенння редактора</message>
+
+	<message key="submission.round">Раунд&amp;nbsp;{$round}</message>
+	<message key="submission.editorReview">Відгук редактора</message>
+	<message key="submission.editorAuthorComments">Редактор-Автор</message>
+	<message key="submission.reviewersVersion">Анот. версія рецензії</message>
+	<message key="submission.postReviewVersion">Післяред. версія файла</message>
+	<message key="submission.editorVersion">Ред. версія</message>
+
+	<message key="submission.authorsRevisedVersion">Вмправлена автором версія</message>
+	<message key="submission.authorVersion">Авторська версія</message>
+	<message key="submission.copyediting">Правка</message>
+	<message key="submission.copyedit">Правити</message>
+	<message key="submission.layout">Макет</message>
+	<message key="submission.proofreading">Коректировка</message>
+
+	<message key="submission.files">Файлы</message>
+	<message key="submission.viewMetadata">Метадані</message>
+	<message key="submission.editMetadata">Редакція метаданих</message>
+	<message key="submission.reviewMetadata">Проглянути метадані</message>
+	<message key="submission.backToSubmissionEditing">Назад до редакції статті</message>
+	<message key="submission.titleAndAbstract">Назва та анотація</message>
+
+	<message key="submission.indexing">Індексація</message>
+	<message key="submission.restrictions">Обмеження</message>
+	<message key="submission.supportingAgencies">Дослідження підтримується ким</message>
+	<message key="submission.saveMetadata">Зберігти метадані</message>
+	<message key="submission.schedule">Запланувати</message>
+	
+	<message key="submissions.sec">Сек.</message>
+
+	<message key="submissions.step1">Крок 1</message>
+	<message key="submissions.step3">Крок 3</message>
+	<message key="submissions.completed">Готово</message>
+	<message key="submissions.active">В підготовці</message>
+	<message key="submissions.queuedUnassigned">Очікують редактора</message>
+	<message key="submissions.queuedEditing">В черзі для редактора</message>
+
+	<message key="submissions.queuedReview">Чекає рецензента</message>
+	<message key="submissions.archived">В архіві</message>
+	<message key="submissions.scheduled">Запланована</message>
+	<message key="submissions.published">Опублікована</message>
+	<message key="submissions.declined">Відхилена</message>
+	<message key="submissions.queued">В черзі</message>
+
+	<message key="submissions.initial">Початок</message>
+	<message key="submissions.proofread">Корекція</message>
+	<message key="submissions.initialProof">Перша корекція</message>
+	<message key="submissions.postAuthor">Після автора</message>
+	<message key="submissions.reviewRound">Рецензії</message>
+	<message key="submissions.incomplete">Незавершена</message>
+
+	<message key="submissions.proof">Корекція</message>
+	<message key="submissions.submit">Послати</message>
+	<message key="submissions.editorDecision">Рішення редактора</message>
+	<message key="submissions.editorRuling">Правила редактора</message>
+	<message key="submissions.ruling">Правила</message>
+	<message key="submissions.noSubmissions">Немає статей</message>
+
+	<message key="submission.supplementaryFiles">Додат. файли</message>
+	<message key="submission.dueDate">Термін</message>
+	<message key="submission.recommendation">Рекомендації</message>
+	<message key="submission.galley">Формат верстки</message>
+	<message key="submission.emailLog">Послати логфайл</message>
+	<message key="submission.eventLog">Щоденник дій</message>
+
+	<message key="submission.uploadFileTo">Закачати файл як</message>
+
+	<!-- Submission list search engine -->
+	<message key="submissions.submitted">Поставлена</message>
+	<message key="submissions.copyeditComplete">Відредагована</message>
+	<message key="submissions.layoutComplete">Відформатована</message>
+	<message key="submissions.proofreadingComplete">Відкоректована</message>
+
+	<!-- Submission Notes -->
+	<message key="submission.notes">Примітки до публікації</message>
+	<message key="submission.notes.breadcrumb">Примітки</message>
+	<message key="submission.notes.addNewNote">Добавити примітки</message>
+	<message key="submission.notes.viewNotes">Проглянути примітки</message>
+	<message key="submission.notes.expandNotes">Повний текст</message>
+
+	<message key="submission.notes.clearAllNotes">Видалити примітки</message>
+	<message key="submission.notes.noSubmissionNotes">Немає приміток</message>
+	<message key="submission.notes.confirmDelete">Видалити примітки?</message>
+	<message key="submission.notes.editNote">Редагувати примітки</message>
+	<message key="submission.notes.attachedFile">Додаток</message>
+	<message key="submission.notes.confirmDeleteAll">Видалити примітки?</message>
+
+	<message key="submission.notes.collapseNotes">Заховати примітки</message>
+	<message key="submission.notes.backToSubmissionNotes">Назад до приміток</message>
+	<message key="submission.notes.removeUploadedFile">Видалити завант. файли</message>
+	<message key="submission.notes.deleteNote">Стерти примітку</message>
+	<message key="submission.notes.updateNote">Обновити примітку</message>
+	<message key="submission.notes.createNewNote">Написати примітку</message>
+
+	
+	<!-- Common Journal Terms -->
+	<message key="journal.currentIssue">Поточний випуск</message>
+	<message key="journal.journals">Журнали</message>
+	<message key="journal.path">Шлях</message>
+	<message key="journal.journal">Журнал</message>
+	<message key="journal.issn">ISSN</message>
+
+	<!-- User -->
+
+	<message key="user.userHome">Моя сторінка</message>
+	<message key="user.showAllJournals">Показати мої журнали</message>
+	<message key="user.login">Вхід</message>
+	<message key="user.profile">Профіль</message>
+	<message key="user.register">Реєстрація</message>
+	<message key="user.logIn">Увійти</message>
+	<message key="user.logOut">Вийти</message>
+	<message key="user.username">Им'я</message>
+	<message key="user.password">Пароль</message>
+	<message key="user.name">Прізвище</message>
+	<message key="user.firstName">Им'я</message>
+	<message key="user.middleName">Им'я по батькові</message>
+
+	<message key="user.initials">Ініціали</message>
+	<message key="user.initialsExample">Алексій Алексійович Бородін = АAБ</message>
+	<message key="user.lastName">Прізвище</message>
+	<message key="user.title">Титул</message>
+	<message key="user.affiliation">Установа</message>
+	<message key="user.email">Електронна адреса</message>
+
+	<message key="user.phone">Телефон</message>
+	<message key="user.fax">Факс</message>
+	<message key="user.interests">Спеціаліст з</message>
+	<message key="user.mailingAddress">Поштова адреса</message>
+	<message key="user.biography">Коротко про себе</message>
+	<message key="user.biography.description">(напр. кафедра і посада)</message>
+
+	<message key="user.workingLanguages">Робочі мови</message>
+	<message key="user.dateRegistered">Дата реєстрації</message>
+	<message key="user.dateLastLogin">Останній вхід</message>
+	<message key="user.registerForOtherJournals">Інші журнали</message>
+	<message key="user.roles">Ролі</message>
+	<message key="user.changePassword">Зміна пароля</message>
+
+	<message key="user.editMyProfile">Змінити профіль</message>
+	<message key="user.changeMyPassword">Змінити пароль</message>
+	<message key="user.myJournals">Мої журнали</message>
+	<message key="user.myAccount">Мій профіль</message>
+	
+	<!-- Roles -->
+	<message key="user.role.siteAdmin">Адміністратор</message>
+
+	<message key="user.role.manager">Видавець</message>
+	<message key="user.role.editor">Редактор</message>
+	<message key="user.role.sectionEditor">Редактор розділу</message>
+	<message key="user.role.layoutEditor">Худ. редактор</message>
+	<message key="user.role.reviewer">Рецензент</message>
+	<message key="user.role.copyeditor">Техн. редактор</message>
+
+	<message key="user.role.proofreader">Коректор</message>
+	<message key="user.role.author">Автор</message>
+	<message key="user.role.reader">Читач</message>
+	<message key="user.role.siteAdmins">Адмін</message>
+	<message key="user.role.managers">Видавець</message>
+	<message key="user.role.editors">Редактори</message>
+
+	<message key="user.role.sectionEditors">Редактори розділів</message>
+	<message key="user.role.layoutEditors">Худ. редактори</message>
+	<message key="user.role.reviewers">Рецензенти</message>
+	<message key="user.role.copyeditors">Техн. редактори</message>
+	<message key="user.role.proofreaders">Коректори</message>
+	<message key="user.role.authors">Автори</message>
+
+	<message key="user.role.readers">Читачі </message>
+	
+	<!-- Common Issue Terms -->
+	<message key="issue.issue">Випуск</message>
+	<message key="issue.issues">Випуски</message>
+	<message key="issue.title">Назва</message>
+	<message key="issue.volume">Том</message>
+
+	<message key="issue.number">Номер</message>
+	<message key="issue.vol">Том</message>
+	<message key="issue.no">№</message>
+	<message key="issue.year">Рік</message>
+	<message key="issue.noIssues">Немає випусків</message>
+	<message key="issue.toc">Зміст</message>
+
+	<message key="issue.abstract">Анотація</message>
+
+	<!--
+	 *
+	 * LOG - This section contains entries related to log entries.
+	 *
+	-->
+	<message key="submission.event.logLevel">Рівень</message>
+	<message key="submission.event.logLevel.info">Інфа</message>
+	<message key="submission.event.logLevel.notice">Примітки</message>
+	<message key="submission.event.logLevel.warning">Увага</message>
+
+	<message key="submission.event.logLevel.error">Помилка</message>
+	
+	<message key="submission.event.general.defaultEvent">Дії</message>
+	<message key="submission.event.general.articleSubmitted">Стаття надіслана</message>
+	<message key="submission.event.general.metadataUpdated">Метадані оновлені</message>
+	<message key="submission.event.general.suppFileUpdated">Додатковий файл оновлено</message>
+	<message key="submission.event.general.issueScheduled">Стаття запланована</message>
+
+	<message key="submission.event.general.issueAssigned">Стаття призначена до випуску</message>
+	<message key="submission.event.general.articlePublished">Стаття опублікована</message>
+
+	<message key="submission.event.author.authorRevision">Автор надіслав виправлену версію</message>
+
+	<message key="submission.event.general.authorRevision">Авторська версія оновлена</message>
+	
+	<message key="submission.event.editor.editorAssigned">Редактора визначено</message>
+
+	<message key="submission.event.editor.editorUnassigned">Редактора відізвано</message>
+	<message key="submission.event.editor.editorDecision">Рішення редактора відправлено</message>
+	<message key="submission.event.editor.editorFile">Редакторський файл оновлено</message>
+	<message key="submission.event.editor.submissionArchived">Стаття надіслана в архів</message>
+	<message key="submission.event.editor.submissionRestored">Стаття відновлена із архіву</message>
+	
+	<message key="submission.event.reviewer.reviewerAssigned">Назначено рецензента</message>
+
+	<message key="submission.event.reviewer.reviewerUnassigned">Рецензента відкликано</message>
+	<message key="submission.event.reviewer.reviewInitiated">Дано початок процесу рецензування</message>
+	<message key="submission.event.reviewer.reviewCancelled">Рецензування скасовано</message>
+	<message key="submission.event.reviewer.reviewReinitiated">Повторне призначення рецензента</message>
+	<message key="submission.event.reviewer.reviewAccepted">Рецензент прийняв призначення</message>
+	<message key="submission.event.reviewer.reviewAcceptedByProxy">Рецензент прийняв призначення заочно</message>
+
+	<message key="submission.event.reviewer.reviewDeclined">Рецензент відмовився від призначення</message>
+	<message key="submission.event.reviewer.reviewRevision">Поправки рецензента оновлені</message>
+	<message key="submission.event.reviewer.reviewRecommendation">Рекомендації рецензента</message>
+	<message key="submission.event.reviewer.reviewerRated">Дана оцінка роботі рецензента</message>
+	<message key="submission.event.reviewer.reviewDueDate">Термін надання рецензії змінено</message>
+	<message key="submission.event.reviewer.reviewResubmitted">Рецензія отримана</message>
+
+	<message key="submission.event.reviewer.reviewFile">Рецензія оновлена</message>
+	
+	<message key="submission.event.copyedit.copyeditorAssigned">Призначено стилістичного редактора</message>
+	<message key="submission.event.copyedit.copyeditorUnassigned">Стилістичний редактор відмовився від призначення</message>
+	<message key="submission.event.copyedit.copyeditInitiated">Стилістичний редактор почав роботу</message>
+	<message key="submission.event.copyedit.copyeditRevision">Нові поправки стилістичного редактора</message>
+	<message key="submission.event.copyedit.copyeditInitialCompleted">Початкова стилістична правка завершена</message>
+
+	<message key="submission.event.copyedit.copyeditFinalCompleted">Остаточну стилістичну правку завершено</message>
+	<message key="submission.event.copyedit.copyeditSetFile">Стилістична редакція оновлена</message>
+	
+	<message key="submission.event.proofread.proofreaderAssigned">Призначено коректора</message>
+	<message key="submission.event.proofread.proofreaderUnassigned">Коректор відмовився від призначення</message>
+	<message key="submission.event.proofread.proofreadInitiated">Коректор розпочав роботу</message>
+	<message key="submission.event.proofread.proofreadRevision">Добавлені нові корекції</message>
+
+	<message key="submission.event.proofread.proofreadCompleted">Коректор закінчив роботу</message>
+	
+	<message key="submission.event.layout.layoutEditorAssigned">Призначено оформитель</message>
+	<message key="submission.event.layout.layoutEditorUnassigned">Оформитель відмовився від призначення</message>
+	<message key="submission.event.layout.layoutInitiated">Оформитель розпочав роботу</message>
+	<message key="submission.event.layout.layoutGalleyCreated">Формат оновлено</message>
+	<message key="submission.event.layout.layoutComplete">Оформлення завершено</message>
+
+	<!--
+	 *
+	 * INTERFACE - Contains phrases organized by the section of the
+	 *             user interface they appear in.
+	 *
+	-->
+
+	<!-- Reader article view -->
+	<message key="reader.fullText">Повний текст:</message>
+
+	<!-- Reader Comments -->
+	<message key="comments.commentsOnArticle">Коментарі до статті</message>
+
+	<message key="comments.viewAllComments">Оглянути всі коментарі</message>
+	<message key="comments.noComments">Немає коментарів читачів.</message>
+	<message key="comments.anonymous">Гість</message>
+	<message key="comments.anonymousNamed">"{Ім'я користувача}"</message>
+	<message key="comments.authenticated">{Ім'я користувача}</message>
+	<message key="comments.nReplies">(Відповідей - {кількість})</message>
+
+	<message key="comments.oneReply">(1 відповідь)</message>
+	<message key="comments.readerComments">Коментарі читачів</message>
+	<message key="comments.inResponseTo">З приводу <![CDATA[<a href="]]>{$url}<![CDATA[">]]>{$title}<![CDATA[</a>]]></message>
+	<message key="comments.emailReply">Відповідь по електронній пошті</message>
+	<message key="comments.postReply">Надіслати відповідь</message>
+
+	<message key="comments.delete">Зтерти коментарі</message>
+	<message key="comments.replies">Відповіді</message>
+	<message key="comments.enterComment">Надіслати коментарі</message>
+	<message key="comments.name">Им'я коментатора</message>
+	<message key="comments.email">Електронна адреса комментатора</message>
+	<message key="comments.title">Назва</message>
+
+	<message key="comments.body">Основний текст</message>
+	<message key="comments.postAnonymously">Надіслано анонімно</message>
+	<message key="comments.readMore">Читати далі</message>
+	<message key="comments.confirmDeleteChildren">Всі відповіді до коментарію зникнуть теж. Чи бажаєте Ви це зробити?</message>
+
+	<!-- Site Administration -->
+	<message key="admin.siteAdmin">Адміністрація сайта</message>
+
+	<message key="admin.siteSettings">Налагодження сайта</message>
+	<message key="admin.hostedJournals">Журнали на сайті</message>
+	
+	<message key="admin.settings.siteTitle">Назва сайта</message>
+	<message key="admin.settings.introduction">Введення</message>
+	<message key="admin.settings.aboutDescription">Опис сайту</message>
+	<message key="admin.settings.form.titleRequired">Необхідна назва.</message>
+
+	<message key="admin.settings.journalRedirect">Перенаправити</message>
+	<message key="admin.settings.journalRedirectInstructions">Основною сторінкою сайта стане сторінка обраного журналу, якщо у нього основний статус або він єдиний на сайті.</message>
+	<message key="admin.settings.noJournalRedirect">Не перенаправляти</message>
+	<message key="admin.settings.contactName">Им'я головного редактора</message>
+	<message key="admin.settings.contactEmail">Електронна адреса головного редактора</message>
+	<message key="admin.settings.minPasswordLength">Довжина паролю</message>
+
+	<message key="admin.settings.form.contactNameRequired">Им'я секретаря журнала.</message>
+	<message key="admin.settings.form.contactEmailRequired">Електронна адреса секретаря журналу не добавлено.</message>
+	<message key="admin.settings.form.minPasswordLengthRequired">Пароль повинен містити мінімум 4 знака.</message>
+	<message key="admin.settings.passwordCharacters">знаків</message>
+	<message key="admin.settings.siteLanguage">Мова сайта</message>
+	<message key="admin.settings.oaiRegistration">Реєстрування сайту для індексації (Metadata Harvesting)</message>
+
+	<message key="admin.settings.oaiRegistrationDescription"><![CDATA[To have the contents of all journals hosted on this site indexed within a globally distributed system of research databases, <a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">register</a> your site's URL with the Public Knowledge Project metadata <a href="http://pkp.sfu.ca/harvester/" target="_blank">harvester</a>. This tool collects the metadata from each indexed item in this journal, enabling accurate and collective searching among the research sites that adhere to the <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm#Introduction" target="_blank">Open Archives Initiative Protocol for Metadata Harvesting</a>.
+<br /><br />
+<a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">Click here</a> and enter <span class="highlight">{$siteUrl}</span> under <strong>Site URL</strong>, and <span class="highlight">{$oaiUrl}</span> under <strong>Base URL for OAI Archive</strong>.
+<br /><br />
+Note that the OAI interface can be disabled for this site by editing the OJS system configuration. Future versions of OJS will allow the OAI interface to be enabled or disabled for individual journals within the site.]]></message>
+
+	
+	<message key="admin.siteManagement">Керування сайтом</message>
+	<message key="admin.adminFunctions">Адміністративні функції</message>
+	<message key="admin.expireSessions">Припинити сесії користувачів</message>
+	<message key="admin.confirmExpireSessions">Ви впевнені, що бажаєте припинити сесії? Всі користувачі повинні будуть авторизуватися заново (в том числі і Ви).</message>
+	<message key="admin.clearTemplateCache">Скасування кеш шаблону</message>
+
+	<message key="admin.confirmClearTemplateCache">Ви дійсно бажаєте скасувати кеш шаблон?</message>
+	<message key="admin.systemInformation">Інформація про систему</message>
+	
+	<!-- Languages -->
+	<message key="admin.languages.languageSettings">Налаштування мов</message>
+	<message key="admin.languages.primaryLocaleInstructions">Це буде мова по замоченню для всіх журналів на сайті.</message>
+
+	<message key="admin.languages.supportedLocalesInstructions">Оберіть мови підтримки сайту. Обрані місця дії можуть бути використані всіма журналами, які підтримуються сайтом та також зявлятися на мові визначеній у меню на кожній сторінці сайту (який може бути не відображеним на деяких сторінках журналу). Якщо багаторазові місця дії не вибрані меню відбору мов не появиться та установка інших мов буде неможливою для журналу</message>
+	<message key="admin.languages.installedLocales">Інстальовані мови</message>
+	<message key="admin.languages.reload">Завантажити мову</message>
+	<message key="admin.languages.confirmReload">Ви впевнені, що бажаєте завантажити цей мовний сайт? Така дія зітре всі специфічні мовні шаблони.</message>
+
+	<message key="admin.languages.uninstall">Деінсталяція мови</message>
+	<message key="admin.languages.confirmUninstall">Ви впевнені, що бажаєте деінсталювати мову? Це може Это может зачепити журнали, які використовують цю мову.</message>
+	<message key="admin.languages.installNewLocales">Інсталювати нові мови</message>
+	<message key="admin.languages.installNewLocalesInstructions">Оберіть додаткові мови для інтерфейсу. Мови повинні бути інстальовані для того, щоб вони були використані в журналах. Подивіться документацію.</message>
+	<message key="admin.languages.noLocalesAvailable">Немає додаткових мов для інсталяції.</message>
+	<message key="admin.languages.installLocales">Інсталювати</message>
+
+	
+	<!-- System Information -->
+	<message key="admin.systemVersion">OJS версія</message>
+	<message key="admin.systemConfiguration">OJS конфігурація</message>
+	<message key="admin.serverInformation">Інформація про сервер</message>
+	<message key="admin.currentVersion">Актуальна версія</message>
+	<message key="admin.versionHistory">Історія версій</message>
+
+	<message key="admin.version">Версія</message>
+	<message key="admin.versionMajor">Головна</message>
+	<message key="admin.versionMinor">Незначна</message>
+	<message key="admin.versionRevision">Ревізія</message>
+	<message key="admin.versionBuild">Композиція</message>
+	<message key="admin.dateInstalled">Дата установки</message>
+
+	<message key="admin.systemConfigurationDescription"><![CDATA[OJS configuration settings from <tt>config.inc.php</tt>.]]></message>
+	<message key="admin.serverInformationDescription"><![CDATA[Basic operating system and server software versions. Click on <span class="highlight">Extended PHP Information</span> to view extended details of this server's PHP configuration.]]></message>
+	<message key="admin.phpInfo">Розширена PHP інформація</message>
+	<message key="admin.server.platform">OS платформа</message>
+	<message key="admin.server.phpVersion">PHP версія</message>
+	<message key="admin.server.apacheVersion">Apache версія</message>
+	<message key="admin.server.dbDriver">База даних драйвера</message>
+
+	<message key="admin.server.dbVersion">База даних версії сервера</message>
+	<message key="admin.editSystemConfigInstructions"><![CDATA[Use this form to modify your system configuration (the <tt>config.inc.php</tt> file). Click Save to save your new configuration, or "Display" to simply display the updated configuration file and not modify your existing configuration.
+<br /><br />
+<span class="formError">Warning: Modifying these settings can potentially leave your site in an inaccessible state (requiring your configuration file to be manually fixed). It is strongly recommended that you do not make any changes unless you know exactly what you are doing.</span>]]></message>
+	<message key="admin.saveSystemConfig">Зберігти налаштування</message>
+	<message key="admin.displayNewSystemConfig">Показати нові налаштування</message>
+	<message key="admin.systemConfigFileReadError"><![CDATA[Конфигурационный файл <tt>config.inc.php</tt> не существует или невалиден.]]></message>
+	<message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>ВНИМАНИЕ!</div>
+<p>Система не сможет автоматически переписать конфиг файл. Чтобы применить настройки, Вам нужно открыть  <tt>config.inc.php</tt> в соотв. текстовом редакторе и заполнить все нужные поля.</p>]]></message>
+	<message key="admin.displayConfigFileInstructions"><![CDATA[Содержание конфиг файла показано внизу. Чтобы применить настройки, Вам нужно открыть  <tt>config.inc.php</tt> в соотв. текстовом редакторе и заполнить все нужные поля, используя данные внизу.]]></message>
+
+	<message key="admin.configFileUpdatedInstructions"><![CDATA[Ваш конфиг файл не был обновлен. Чтобы применить настройки, Вам нужно открыть  <tt>config.inc.php</tt> в соотв. текстовом редакторе и заполнить все нужные поля.]]></message>
+	<message key="admin.contentsOfConfigFile">Зміст конфігурації файла</message>
+	<message key="admin.version.checkForUpdates">Перевірити на предмет нових релізів</message>
+	<message key="admin.version.latest">Остання версія</message>
+	<message key="admin.version.upToDate">Ваша система актуальна</message>
+	<message key="admin.version.updateAvailable">Є новий реліз системи</message>
+
+	<message key="admin.version.downloadPackage">Скачати</message>
+	<message key="admin.version.downloadPatch">Скачати реліз</message>
+	<message key="admin.version.moreInfo">Додаткова інформація </message>
+	
+	<message key="admin.journals.journalSettings">Налаштування журналу</message>
+	<message key="admin.journals.noneCreated">Немає створених журналів.</message>
+	<message key="admin.journals.confirmDelete">Зтерти цей журнал назавжди?</message>
+
+	<message key="admin.journals.create">Створити журнал</message>
+	<message key="admin.journals.createInstructions">Ви автоматично перетворитесь у видавця журнала. Післе створення нового журналу увійдіть як видавець та налаштуйте його.</message>
+	<message key="admin.journals.urlWillBe"><![CDATA[Адрес журнала {$path}/&lt;path&gt;]]></message>
+	<message key="admin.journals.form.titleRequired">Необхідна назва.</message>
+	<message key="admin.journals.form.pathRequired">Необхідний шлях.</message>
+	<message key="admin.journals.form.pathAlphaNumeric">Шлях повинен містити тільки літери або цифри у поєднані з дефісом.</message>
+
+	<message key="admin.journals.form.pathExists">Обраний шлях вже заброньований іншим користувачем системи.</message>
+	<message key="admin.journals.enableJournalInstructions">Активувати цей журнал</message>
+	<message key="admin.journals.journalDescription">Опис журналу</message>
+	<message key="admin.journals.importOJS1">Імпорт із системи OJS 1</message>
+	<message key="admin.journals.importOJS1Instructions">Прочитайте UPGRADE документи.</message>
+	<message key="admin.journal.pathImportInstructions">Існуючий або новий шлях (наприклад "ojs").</message>
+
+	<message key="admin.journal.importPath">OJS 1 шлях</message>
+	<message key="admin.journal.importPathInstructions">Задайте шлях до існуючого архіву OJS 1 інсталяції (напр. "/var/www/ojs").</message>
+	<message key="admin.journals.importSubscriptions">Вказівки для імпорта</message>
+	<message key="admin.journals.form.importPathRequired">Необхідно вказати шлях.</message>
+	<message key="admin.journals.importErrors">Імпорт провалився</message>
+	
+	
+	<!-- Journal Management -->
+
+	<message key="manager.journalManagement">Управління журналом</message>
+	<message key="manager.setup">Налаштування журналу</message>
+	<message key="manager.emails">Електронні пошти</message>
+	<message key="manager.statistics">Статистика</message>
+	<message key="manager.readingTools">Інструменти</message>
+	<message key="manager.people">Люди</message>
+	<message key="manager.guidelines">Авторам</message>
+
+	<message key="manager.filesBrowser">Броузер файлів</message>
+	<message key="manager.managementPages">Управління сторінками</message>
+	<message key="manager.users">Користувачі</message>
+	<message key="manager.roles">Ролі</message>
+	<message key="manager.subscriptionTypes">Типи підписок</message>
+	<message key="manager.subscriptions">Підписки</message>
+
+	<!-- Files Browser -->
+	<message key="manager.files.indexOfDir">Індекс {$dir}</message>
+	<message key="manager.files.uploadedFiles">Завантажені файлы</message>
+	<message key="manager.files.parentDir">Батьківська директорія</message>
+	<message key="manager.files.emptyDir">Немає файлів в цій директорії.</message>
+	<message key="manager.files.uploadFile">Завантажити файл</message>
+
+	<message key="manager.files.createDir">Створити директорію</message>
+	<message key="manager.files.confirmDelete">Зтерти цей этот файл? Директорія повинна бути порожньою для того, щоби можна було її зтерти.</message>
+	<message key="manager.files.note">Увага: файловий менеджер дозволяє оглянути файли і директорії журнала.</message>
+
+	<!-- Journal Setup -->
+	<message key="manager.setup.journalSetup">Установка журналу</message>
+	<message key="manager.setup.stepsToJournalSite">П'ять кроків до установки журнала</message>
+
+	<message key="manager.setup.managingPublishingSetup">Управлення и Публікації</message>
+	<message key="manager.setup.details">Деталі</message>
+	<message key="manager.setup.details.description">Им'я журнала, ISSN, контакти, спонсори та пошуковики.</message>
+	<message key="manager.setup.policies">Редакційна політика</message>
+	<message key="manager.setup.policies.description">Напрями, предметні галузі, система рецензування, розділи, рубрики, приватність, доступ, надійність.</message>
+	<message key="manager.setup.submissions">Прийом статей</message>
+
+	<message key="manager.setup.submissions.description">Вказівки авторам, авторські права, ліцензія, умови регістрації.</message>
+	<message key="manager.setup.management">Упрівління</message>
+	<message key="manager.setup.look">Вид журналу</message>
+	<message key="manager.setup.look.description">Заголовки, дизайн, зміст, логотипи, навігація, формати журналу.</message>
+	<message key="manager.setup.journalTitle">Назва журналу</message>
+
+	<message key="manager.setup.focusScope">Предметна галузь</message>
+	<message key="manager.setup.focusScopeDescription"><![CDATA[<strong>EXAMPLE HTML DATA</strong>]]></message>
+	<message key="manager.setup.journalSetupUpdated">Установку журнала оновлено.</message>
+	<message key="manager.setup.selectOne">Вибрати</message>
+	
+	<!-- Setup Step 1 -->
+	<message key="manager.setup.gettingDownTheDetails">Крок 1. Деталі</message>
+	<message key="manager.setup.generalInformation">Загальна інформація</message>
+
+	<message key="manager.setup.journalInitials">Ініціали журналу</message>
+	<message key="manager.setup.issn">ISSN</message>
+	<message key="manager.setup.issnDescription"><![CDATA[The ISSN (International Standard Serial Number) is an eight-digit number which identifies periodical publications as such, including electronic serials. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the <a href="http://www.issn.org" target="_new">ISSN web site</a>.  This can be done at any point in operating the journal.]]></message>
+	<message key="manager.setup.mailingAddressDescription">Місцезнаходження видавця та поштова адреса.</message>
+	<message key="manager.setup.sectionsAndSectionEditors">Розділи</message>
+	<message key="manager.setup.editorialReviewBoard">Редактори і рецензенти</message>
+
+	<message key="manager.setup.useEditorialReviewBoard">Редакторська колегія або рада рецензентів.</message>
+	<message key="manager.setup.editorialReviewBoardDescription">Журнали мають Редколегії, для того щоб спостерігати за редакційним напрямом журналу, беруть участь в призначенні редакторів, і, завдяки репутаціям членів правління, надають журналу стійке положення в певному в полі. Рада рецензентів відіграє подібну роль але крім того, воно проводить процес рецензування видань. Члени Ради рецензентів не матимуть доступу до адміністративної системи журналу, але будуть добавлені  до тих, хто проводить подібне рецензування.</message>
+	<message key="manager.setup.editorialMembers">Перейти до членів колегії та додати нових редакторів або рецензентів. Це можно зробити у любий час.</message>
+	<message key="manager.setup.principalContact">Головний редактор</message>
+	<message key="manager.setup.principalContactDescription">Відповідальний редактор журналу або видавець, им'я якого з'явиться на головній сторінці журналу в різділі Контакти, разом із Секретарем.</message>
+	<message key="manager.setup.technicalSupportContact">Техн. редактор електронної версії</message>
+
+	<message key="manager.setup.technicalSupportContactDescription">Ця особа буде внесена до списку на Контактній сторінці журналу для використання редакторів, авторів і рецензентів, вона повинна мати досвід роботи з такою системою використовуючи її різні можливості. Оскільки ця система журналу вимагає невеликої технічної підтримки, це можна розглядати як роботу з неповним робочим днем. Можливо, є випадки, наприклад, коли автори і рецензенти мають труднощі з інструкціями або форматами файлу, або виникає необхідність гарантувати, що журнал регулярно підтримується на сервері.</message>
+	<message key="manager.setup.publisher">Видавець</message>
+	<message key="manager.setup.publisherDescription">Назва организації, яка видає журнал.</message>
+	<message key="manager.setup.sponsors">Спонсори</message>
+	<message key="manager.setup.sponsorsDescription">Названа организації, яка надає фінансову та іншу підтримку журналу (напр. співтовариства вчених, кафедри, об'єднання та інше).</message>
+	<message key="manager.setup.addSponsor">Добавити спонсора</message>
+
+	<message key="manager.setup.note">Примітка</message>
+	<message key="manager.setup.institution">Организація</message>
+	<message key="manager.setup.contributors">Фінансова підтримка</message>
+	<message key="manager.setup.contributorsDescription">Інші организації і люди, які надають фінансову та іншу підтримку журналу.</message>
+	<message key="manager.setup.contributor">Вспомоществователи</message>
+	<message key="manager.setup.addContributor">Додати вспомоществователя</message>
+
+	<message key="manager.setup.searchEngineIndexing">Індексація</message>
+	<message key="manager.setup.searchEngineIndexingDescription">Додати короко опис журнала і ключові слова для пошуковиків.</message>
+	<message key="manager.setup.customTags">Власні теги</message>
+	<message key="manager.setup.customTagsDescription">З'являться в HTML кодировці будь-якої сторінки журналу (напр. метатеги).</message>
+	<message key="manager.setup.form.journalTitleRequired">Потрібна назва журналу.</message>
+	<message key="manager.setup.form.journalInitialsRequired">Потрібні ініціали журналу.</message>
+
+	<message key="manager.setup.form.contactNameRequired">Потрібний головний редактор.</message>
+	<message key="manager.setup.form.contactEmailRequired">Потрібна електронна адреса гол. редактора.</message>
+	<message key="manager.setup.form.supportNameRequired">Потрібен секретарь.</message>
+	<message key="manager.setup.form.supportEmailRequired">Потрібна електронна адреса секретаря.</message>
+
+	<!-- Setup Step 2 -->
+	<message key="manager.setup.journalPolicies">Крок 2. Редакційна політика</message>
+
+	<message key="manager.setup.focusAndScopeOfJournal">Предметна галузь і мета журналу</message>
+	<message key="manager.setup.focusAndScopeDescription">Введіть нижче твердження, яке з'явиться в розділі Про Журнал, яке звертається до авторів, читачів і бібліотекарів з приводу діапазону статей та іншої продукції, яку журнал буде публікувати.</message>
+	<message key="manager.setup.focusAndScope">Галузь і мета</message>
+	<message key="manager.setup.htmlSetupInstructions"><![CDATA[HTML can be used in textarea (for font size, color, etc.), with "returns" treated as <tt>&lt;br&gt;</tt>; HTML editor works with Firefox browsers.]]></message>
+	<message key="manager.setup.peerReviewPolicy">Заочне рецензування</message>
+	<message key="manager.setup.peerReviewDescription">Основні принципи політики рецензування та обробки для читачів і авторів, у тому числі кількість рецензентів, які  зазвичай задіяні у процесі рецензування, критерії за якими рецензентів просять оцінити наданий матеріал, час, який зазвичай надано для проведення рецензування, і принципи за якими набирають рецензентів. Це з'явиться в розділі  Про Журнал.</message>
+
+	<message key="manager.setup.reviewPolicy">Принципи рецензування</message>
+
+	<message key="manager.setup.reviewOptions">Подробиці рецензування</message>
+	<message key="manager.setup.reviewOptions.reviewTime">Термін рецензування</message>
+	<message key="manager.setup.reviewOptions.numWeeksPerReview">Звичайний термін отримання рецензій</message>
+        <message key="manager.setup.reviewOptions.noteOnModification">Може бути модифікований протягом редакційного процесу.</message>
+	<message key="manager.setup.reviewOptions.reviewerReminders">Нагадування рецензентам</message>
+
+        <message key="manager.setup.reviewOptions.automatedReminders">Автоматизована електронна пошта з нагадування буде надіслана рецензенту (редактор може також мати електронну пошту рецензента)</message>
+        <message key="manager.setup.reviewOptions.remindForInvite1">Якщо рецензент не відповів вимозі рецензування в межах</message>
+        <message key="manager.setup.reviewOptions.remindForInvite2">Днів.</message>
+        <message key="manager.setup.reviewOptions.remindForSubmit1">Якщо рецензент не представив рекомендацію в межах</message>
+        <message key="manager.setup.reviewOptions.remindForSubmit2"> днів після визначеної дати.</message>
+        <message key="manager.setup.reviewOptions.noteOnEmailWording">Формулювання нагадувань може редагуватися в електронній пошті, Управління Журналом.</message>
+
+	<message key="manager.setup.reviewOptions.reviewerRatings">Оцінки рецензії</message>
+        <message key="manager.setup.reviewOptions.onQuality">Редактори можуть оцінити рецензії по п'ятибальній системі.</message>
+	<message key="manager.setup.reviewOptions.reviewerAccess">Доступ рецензента</message>
+        <message key="manager.setup.reviewOptions.restrictReviewerFileAccess">Рецензенти будуть мати доступ до файлу з поданим матеріалом тільки після узгодження стосовно його рецензування.</message>
+
+	<message key="manager.setup.peerReviewPolicy2">Анонімне рецензування колегами</message>
+	<message key="manager.setup.reviewGuidelines">Правила рецензування</message>
+
+	<message key="manager.setup.reviewGuidelinesDescription">Інструкції для рецензентів забезпечують рецензентів критеріями для оцінювання поданого матеріалу щодо придатності його публікування в журналі, так само як і будь-які спеціальні інструкції з підготовки ефективного і доцільного рецензування.</message>
+	<message key="manager.setup.reviewProcess">Процес рецензування</message>
+	<message key="manager.setup.reviewProcessDescription"><![CDATA[OJS supports two models for managing the review process. The Standard Review Process is recommended because it steps reviewers through the process, ensures a complete review history for each submission, and takes advantage of automatic reminder notification, and standard recommendations for submissions (Accept; Accept with revisions; Submit for review; Submit elsewhere; Decline; See comments).<br /><br />Select one of the following:]]></message>
+	<message key="manager.setup.reviewProcessStandard">Стандартний процес рецензування</message>
+	<message key="manager.setup.reviewProcessStandardDescription">Редактори вишлють по електронній пошті відібраним рецензентам заголовок і абстракт відібраного матеріалу, так само як і запрошення зареєструватися на веб-сайті журналу, для того щоб завершити рецензування. Рецензенти заходять на веб-сайт журналу, для того щоб дати згоду зробити рецензію, завантажити відібраний матеріал, представити свої коментарі і вибрати рекомендацію.</message>
+	<message key="manager.setup.reviewProcessEmail">Додаток електронної пошти процесу рецензування</message>
+
+	<message key="manager.setup.reviewProcessEmailDescription">Коли Редактор секції посилає Рецензентам запит для рецензування, він включатиме відібраний матеріал як додаток. Якщо Рецензенти готові, перш за все, вони вишлють електронною поштою свою згоду, і пізніше вишлють електронною поштою рецензію і рекомендацію Редактору. Редактори зроблять копії рецензії під ім'ям рецензента на його сторінці і введуть рекомендацію рецензента щодо оглянутого матеріалу, будучі впевнені, що система має запис щодо процессу рецензування.</message>
+	<message key="manager.setup.guidelines">Вказівки</message>
+	<message key="manager.setup.sectionsDescription"><![CDATA[To create or modify sections for the journal (e.g., Articles, Book Reviews, etc.), go to Section Management.<br /><br />Authors on submitting items to the journal will designate...]]></message>
+	<message key="manager.setup.selectSectionDescription">Розділ журналу для якого буде розглянутий матеріал.</message>
+	<message key="manager.setup.selectEditorDescription">Редактор журналу, який бачити все через процес редагування.</message>
+	<message key="manager.setup.sectionsDefaultSectionDescription">(Якщо секції не додані, матеріали будуть представлени в секції статей для розгляду за умовчанням)</message>
+
+	<message key="manager.setup.privacyStatement">Приватність</message>
+	<message key="manager.setup.privacyStatementDescription">Це ствердження з'явиться на сторінці Про журнал так само як і на сторінці Матеріал, представлений автором та Повідомлення про підпис (реєстрацію) на сторінки. Нижче - рекомендована політика конфіденційності, яка може бути виправлена у будь-який момент.</message>
+	<message key="manager.setup.privacyStatement2">Приватність</message>
+	<message key="manager.setup.openAccessPolicy">Політика вільного доступу</message>
+	<message key="manager.setup.emails">Ідентифікація електронної пошти</message>
+	<message key="manager.setup.emailBounceAddress">Дефолтний адрес</message>
+
+	<message key="manager.setup.emailBounceAddressDescription">Будь-яка недоставлена електронна пошта приводитиме до повідомлення про помилку за цією адресою.</message>
+	<message key="manager.setup.emailSignature">Підпис</message>
+	<message key="manager.setup.emailSignatureDescription">Підготовлена електронна пошта, яку посилає система від імені журналу, додасть наступний підпис у кінці. Текст підготовленої електронної пошти доступні для редагування Управлінням Журналу.</message>
+
+	<message key="manager.setup.openAccessPolicyDescription">SJ підтримує "відкритий доступ", скорочуючи управління і публікуючи витрати і може здійснюватися в різноманітній формі. Зміст журналу може бути зроблений вільним для читачів або модуль підписки SJ' може бути використаний для того, шоб  підтримувати (a) частковий відкритий доступ, обрані матеріали можуть бути доступними негайно, (b)  відкритий доступ із затримками, з доступом до змісту іноді після першої публікації, і (c) національно розвиваючийся відкрий доступ, який  заснований на реєстрації IP адрес від місцевих установ. Крім того,  редакторів заохочують приєднатися до переважної більшость журналів, які проводять політику, що дозволяє авторам архівувати роботу, видану в цьому журналі у встановлених сховищах і e-print архівах. Якщо деяка форма відкритого доступу може бути надана або дозволена, нижче це потрібно бути описаним, і  з'явиться на сторінці Про Журнал.</message>
+	<message key="manager.setup.openAccessPolicy2">Політика вільного доступу</message>
+	<message key="manager.setup.addItemtoAboutJournal">Додати параграф до сторінки "Про нас"</message>
+
+	<message key="manager.setup.aboutItemContent">Зміст</message>
+	<message key="manager.setup.addAboutItem">Додати параграф про нас</message>
+	<message key="manager.setup.form.numReviewersPerSubmission">Потрібна кількість рецензентів отриманого матеріалу.</message>
+	<message key="manager.setup.userRegistration">Реєстрація користувача</message>
+
+
+
+
+
+	<message key="manager.setup.loggingAndAuditing">Щоденник дій</message>
+
+	<message key="manager.setup.journalArchiving">Архівація журналу</message>
+
+	<message key="manager.setup.lockssDescription"><![CDATA[Slavica Journals support the <a href="http://lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) system to ensure a secure and permanent archive for the journal. LOCKSS is open source software developed at Stanford University Library that enables libraries to preserve selected web journals by regularly polling registered journal websites for newly published content and archiving it. Each archive is continually validated against other library caches, and if content is found to be corrupted or lost, the other caches or the journal is used to restore it.
+<br /><br />
+Setting up LOCKSS support for Slavica Journals does not need to take place until after publishing is fully underway, at which point follow these two steps:]]></message>
+	<message key="manager.setup.lockssRegister"><![CDATA[Identify 6-10 libraries that will register and cache the journal. For example, turn to institutions where editors or Board members work and/or institutions already participating in LOCKSS. See <a href="http://lockss.org/lockss/Libraries" target="_blank">participating libraries</a>. Use the prepared invitations for (i) <a href="{$pageUrl}/manager/email?template=LOCKSS_EXISTING_ARCHIVE" target="_blank">libraries participating in LOCKSS</a> or (ii) <a href="{$pageUrl}/manager/email?template=LOCKSS_NEW_ARCHIVE" target="_blank">libraries not yet participating in LOCKSS</a>.]]></message>
+	<message key="manager.setup.lockssEnable"><![CDATA[Enable LOCKSS to store and distribute journal content at participating libraries via a LOCKSS <a href="{$pageUrl}/gateway/lockss" target="_blank">Publisher Manifest</a> page. A LOCKSS license will appear in About the Journal under Archiving:]]></message>
+	<message key="manager.setup.lockssLicenses"><![CDATA[See <a href="http://lockss.org/lockss/Publishers_and_Titles" target="_blank">other versions of a LOCKSS license</a>.]]></message>
+	
+	<!-- Setup Step 3 -->
+	<message key="manager.setup.guidingSubmissions">Крок 3. Вказівки для авторів</message>
+	<message key="manager.setup.authorGuidelines">Вказівки авторам</message>
+	<message key="manager.setup.authorGuidelinesDescription"><![CDATA[Set out for authors the bibliographic and formatting standards used for items submitted to the journal (e.g., <em>Publication Manual of the American Psychological Association</em>, 5th edition, 2001). It is often helpful to provide examples of the common citation formats for journals and books to be used in submissions. Also identify the types of appropriate Supplementary Files (e.g., data-sets, research instruments, etc.) which authors should be encouraged to upload, in addition to their submission, to enhance readers' engagement with their work.]]></message>
+
+	<message key="manager.setup.submissionGuidelines">Вказівки</message>
+	<message key="manager.setup.submissionPreparationChecklist">Вимоги до статей</message>
+	<message key="manager.setup.submissionPreparationChecklistDescription">Подаючи матеріал на розгляд до проведення авторів перш за все, просять перевірити кожен матеріал перевірити на відповідність Списку перевірки підготовленого матеріалу. Список перевірки також з'являється в Директивах Автора на сторінці Про Журнал. Список може бути написаний нижче, але всі позиції в списку вимагатимуть контрольної мітки до того як  автори зможуть перейти до представлення свого матеріалу.</message>
+	<message key="manager.setup.addChecklistItem">Додати елемент підготовки</message>
+	<message key="manager.setup.addItem">Додати вимоги</message>
+	<message key="manager.setup.authorCopyrightNotice">Авторське право</message>
+
+	<message key="manager.setup.copyrightNotice">Авторське право</message>
+	<message key="manager.setup.forAuthorsToIndexTheirWork">Для авторів, щоб вони індексували свою роботу</message>
+	<message key="manager.setup.forAuthorsToIndexTheirWorkDescription"><![CDATA[OJS adheres to the <a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> Protocol for Metadata Harvesting, which is the emerging standard for providing well-indexed access to electronic research resources on a global scale. The authors will use a similar template to provide metadata for their submission. The Journal Manager should select the categories for indexing and present authors with relevant examples to assist them in indexing their work, separating terms with a semi-colon (e.g., term1; term2). The entries should be introduced as examples by using "E.g.," or "For example,".]]></message>
+	<message key="manager.setup.discipline">Академічні дисципліни і предмети</message>
+	<message key="manager.setup.disciplineDescription">Корисно, коли журнал перетинає межі окремих дисциплін та/або автори представляють багато предметний матеріал.</message>
+	<message key="manager.setup.disciplineProvideExamples">Надайте приклади доречних академічних дисциплін для цього журналу</message>
+
+	<message key="manager.setup.disciplineExamples">(Наприклад, Історія; Освіта; Соціологія; Психологія; Культура; Право)</message>
+	<message key="manager.setup.subjectClassification">Предметна класифікація</message>
+	<message key="manager.setup.subjectClassificationDescription"><![CDATA[[Journal will use a subject classification system available on the web.<br />
+Title of classification system]]></message>
+	<message key="manager.setup.subjectClassificationExamples">(Наприклад, Математичний предметний класіфікатор; Класіфікатор бібліотеки Конгресу)</message>
+	<message key="manager.setup.subjectKeywordTopic">Ключові слова</message>
+	<message key="manager.setup.subjectProvideExamples">Надайте приклади ключових слів або тем як путівник для авторів</message>
+
+	<message key="manager.setup.subjectExamples">(Наприклад, Фотосинтез; Чорні Діри; Проблема Чотирьохкольорової Карти; Теорія Bayesian)</message>
+	<message key="manager.setup.coverage">Охват</message>
+	<message key="manager.setup.coverageDescription">Посилається на geo-spatial розташування, хронологічний або історичний обхват, і/або характеристики дослідницького зразка.</message>
+	<message key="manager.setup.coverageGeoProvideExamples">Надайте приклади доречні geo-spatial або географічним термінам для цього поля</message>
+	<message key="manager.setup.coverageGeoExamples">(Наприклад, Іберійський Півострів; Стратосфера; Арктичний Ліс; т.п.)</message>
+	<message key="manager.setup.coverageChronProvideExamples">Надайте приклади доречні до хронологічних або історичних термінів для цього поля</message>
+
+	<message key="manager.setup.coverageChronExamples">(Наприклад, Європейський Ренесанс; Юрський Період; Третій Триместр; т.п.)</message>
+	<message key="manager.setup.coverageResearchSampleProvideExamples">Надайте приклади доречні дослідницьким характеристикам для цього поля</message>
+	<message key="manager.setup.coverageResearchSampleExamples">(Наприклад, Вік; Гендер; Етнічність; т.п.)</message>
+	<message key="manager.setup.typeMethodApproach">Методи/Підходи</message>
+	<message key="manager.setup.typeProvideExamples">Надайте приклади доречні типам досліджень, методам та напрямам для цього поля</message>
+	<message key="manager.setup.typeExamples">(Наприклад, Історичний Запит; Квазі експериментальний; Літературний Аналіз; Огляд/Інтерв'ю т.п.)</message>
+
+	<message key="manager.setup.registerJournalForIndexing">Зареєструйтеся в журналі для індексації (Збір метаданих)</message>
+	<message key="manager.setup.registerJournalForIndexingDescription"><![CDATA[To have the contents of this journal indexed within a globally distributed system of research databases, <a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">register</a> your journal's URL with the Public Knowledge Project metadata <a href="http://pkp.sfu.ca/harvester/" target="_blank">harvester</a>. This tool collects the metadata from each indexed item in this journal, enabling accurate and collective searching among the research sites that adhere to the <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm#Introduction" target="_blank">Open Archives Initiative Protocol for Metadata Harvesting</a>.
+<br /><br />
+Note that if your site administrator has already registered this site with the PKP Harvester, your journal will be indexed automatically and you do not need to register your journal.
+<br /><br />
+<a href="http://pkp.sfu.ca/harvester/add.php" target="_blank">Click here</a> and enter <span class="highlight">{$siteUrl}</span> under <strong>Site URL</strong>, and <span class="highlight">{$oaiUrl}</span> under <strong>Base URL for OAI Archive</strong>.]]></message>
+
+	<!-- Setup Step 4 -->
+	<message key="manager.setup.managingTheJournal">Крок 4. Управління журналом</message>
+	<message key="manager.setup.publicationScheduling">Планування випусків</message>
+	<message key="manager.setup.publicationSchedule">План публикацій</message>
+
+	<message key="manager.setup.publicationScheduleDescription"><![CDATA[Journal items can be published collectively, as part of an issue with its own Table of Contents. Alternatively, individual items can be published as soon as they are ready, by adding them to the "current" volume's Table of Contents. Provide readers, in About the Journal, with a statement about the system this journal will use and its expected frequency of publication.]]></message>
+	<message key="manager.setup.publicationFormat">Формат</message>
+	<message key="manager.setup.publicationFormatYear">Рік</message>
+
+	<message key="manager.setup.initialIssue">Початковий випуск</message>
+	<message key="manager.setup.initialIssueDescription">Залежно від обраного формату, визначте випуск, обєм, та/або рік першого випуску, який може бути опублікований з OJS:</message>
+	<message key="manager.setup.frequencyOfPublication">Початок і періодичність</message>
+	<message key="manager.setup.frequencyOfPublicationDescription">Встановіть початкові номери випуску/об'єму (тому) і рік для першої публікації журналу, так само як і визначив періодичність випуску/об'єму (томів).</message>
+
+	<message key="manager.setup.frequencyOfPublicationNote">Примітка: Залишіть бланк матеріалів, якщо вони не використовуються цим журналом, і редактори зможуть повторно встановити номери у видавничому процесі.</message>
+	<message key="manager.setup.appearInAboutJournal">(Для того щоб зявилося на сторінці Про журнал) </message>
+	<message key="manager.setup.managementOfBasicEditorialSteps">Управління редакторським модулем</message>
+	<message key="manager.setup.basicEditorialStepsDescription"><![CDATA[Steps: Submission Queue &gt; Submission Review &gt; Submission Editing &gt; Scheduling Queue &gt; Table of Contents.<br /><br />
+Select a model for handling these aspects of the editorial process. (To designate a Managing Editor and Section Editors, go to Editors in Journal Management.)]]></message>
+	<message key="manager.setup.editorialProcess1">Один або більше редакторів управляють основними кроками без визначення того, хто що повинен робити.</message>
+	<message key="manager.setup.editorialProcess2">Відповідальний Редактор управляє чергою поданого матеріалу, плануючи (керуючи) чергу і таблицю змісту, у той час коли Редактори секцій управляють Рецензуванням і редагуванням матеріалу, який подано.</message>
+
+	<message key="manager.setup.editorialProcess3">Відповідальний редактор управляє чергою поданого матеріалу, редагуванням поданого матеріалу, плануванням черги і таблицею змісту, в той час як редактори  секцій управляють розглядом поданого матеріалу.</message>
+	<message key="manager.setup.copyediting">Редактори статей</message>
+	<message key="manager.setup.copyeditInstructions">Вказівки</message>
+	<message key="manager.setup.copyeditInstructionsDescription">Внизу Ви бачите детальний набір вказівок в HTML, які можна використовувати в якості приклада.</message>
+
+	<message key="manager.setup.layoutAndGalleys">Худ. редактор</message>
+	<message key="manager.setup.layoutInstructions">Вказівки для оформлювача</message>
+	<message key="manager.setup.layoutInstructionsDescription">Тут можна додати вказівки для форматування журналу як в HTML, так і в чистому тексті. Кожен журнал може мати своє особисте оформлення.</message>
+	<message key="manager.setup.proofreading">Коректори</message>
+
+	<message key="manager.setup.proofingInstructions">Вказівки коректорам</message>
+	<message key="manager.setup.proofingInstructionsDescription">Ввести тут конкретні вказівки, які будуть доступні всім зацікавленим та уповноваженим особам.</message>
+	<message key="manager.setup.volumePerYear">Томів на рік</message>
+	<message key="manager.setup.issuePerVolume">Книжок в одному томі</message>
+
+	<message key="manager.setup.publicIdentifier">Ідентифікація змісту журнала</message>
+	<message key="manager.setup.uniqueIdentifier">Унікальний ідентифікатор</message>
+	<message key="manager.setup.uniqueIdentifierDescription">Статтям і випускам можна присвоїти унікальний ідентифікаційний номер типу Digital Object Identifier (DOI).</message>
+	<message key="manager.setup.enablePublicIssueId">Випуски будуть відзначатися своїми ідентифікаторами.</message>
+	<message key="manager.setup.enablePublicArticleId">Статті будуть відзначатися своїми ідентифікаторами.</message>
+	<message key="manager.setup.pageNumberIdentifier">Пагінація</message>
+
+	<message key="manager.setup.enablePageNumber">Сторінки вводяться в зміст для кожного окремого матеріалу (напр. с. 13-26, або просто с. 13).</message>
+	<message key="manager.setup.subscriptionContactDescription">Якщо підписка активована, дана особа буде зазначена на сторінках Про нас як відповідальне за підписки.</message>
+	<message key="manager.setup.subscriptionAdditionalInformation">Додаткова інформація</message>
+	<message key="manager.setup.subscriptionAdditionalInformationDescription">Будь-яка додаткова інформація буде доступна на сторінках Про нас, в розділі Підписка, разом з механізмом платежів.</message>
+	<message key="manager.setup.subscription">Управління підписками</message>
+
+	<message key="manager.setup.enableSubscriptions">Активувати підписку для цього журналу.</message>
+
+	<!-- Setup Step 5 -->
+	<message key="manager.setup.customizingTheLook">Крок 5. Налаштування зовнішнього виду</message>
+	<message key="manager.setup.journalHomepageHeader">Головна сторінка журналу - верх</message>
+	<message key="manager.setup.journalHomepageHeaderDescription">Можна завантажити графічну версію змісту журнала.</message>
+	<message key="manager.setup.journalLogo">Логотип</message>
+
+	<message key="manager.setup.lists">Списки</message>
+	<message key="manager.setup.listsDescription">Введіть максимальне число пунктів (наприклад, матеріали, користувачі або призначення редагуваннь),  які з'являються на кожній сторінці списку, і кількість сторінок зв'язується для відображення на кожній сторінці.</message>
+	<message key="manager.setup.itemsPerPage">Пункти на кожній сторінці</message>
+	<message key="manager.setup.numPageLinks">Лінки на сторінки</message>
+	<message key="manager.setup.useTextTitle">Назва тексту</message>
+	<message key="manager.setup.useImageTitle">Зображення заголовка</message>
+
+	<message key="manager.setup.useImageLogo">Зображення логотипу</message>
+	<message key="manager.setup.noImageFileUploaded">Немає зображення пересланого файлу .</message>
+	<message key="manager.setup.navigationBar">Навігаційна панель</message>
+	<message key="manager.setup.itemsDescription">Пункти(перелік дій) навігаційної панелі можуть бути додані до поточного набору (Основна, Про, Основна користувача, і т.п.), що це з'являться зверху сторінки.</message>
+	<message key="manager.setup.labelName">Мітка</message>
+	<message key="manager.setup.addNavItem">Додати пункт</message>
+
+	<message key="manager.setup.journalPageHeader">Шапка (колонтитул) сторінки журналу</message>
+	<message key="manager.setup.journalPageHeaderDescription">Графічна версія заголовка журналу логотипу (.gif, .jpg, або .png файл), можливо більш маленька версія того,що використовували на початковій сторінці, може бути переслана, для того щоб з'явитися як колонтитул сторінок журналу, які замінять текстову версію, яка з'являється.</message>
+	<message key="manager.setup.alternateHeader">Альтернативна шапка (колонтитул)</message>
+	<message key="manager.setup.alternateHeaderDescription">Додатково, замість заголовка і логотипу, HTML версія колонтитула може бути вставлена в текстовий бокс нижче. Залиште бланк текстового боксу, якщо цього не вимагають.</message>
+	<message key="manager.setup.journalPageFooter">Нижній Колонтитул Сторінки Журналу</message>
+	<message key="manager.setup.journalPageFooterDescription">Це нижній колонтитул вашого журналу. Щоб змінити або відновити нижній колонтитул, розміщують код HTML в textbox нижче. Приклади могли бути іншою навігаційною панелью, лічильником, і т.п. Цей нижній колонтитул з'явиться на кожній сторінці.</message>
+
+	<message key="manager.setup.useJournalStyleSheet">Таблиця стилів шрифтів журналу</message>
+	<message key="manager.setup.noStyleSheetUploaded">Незавантажено стилі шрифтів.</message>
+	<message key="manager.setup.journalHomepageContent">Контент домашньої сторінки журналу</message>
+	<message key="manager.setup.journalHomepageContentDescription">За умовчанням, початкова сторінка складається із навігаційних лінків. Додатковий контент домашньої сторінки може бути використаний однією або наступними опціями, які з'являться відповідно до запиту. Зауважте, що поточний результат завжди доступний через Поточний зв'язок в навігаційній панелі.</message>
+
+	<message key="manager.setup.journalDescription">Опис журналу</message>
+	<message key="manager.setup.journalDescriptionDescription">Додайте коротко 20-25 слів опису в text/HTML, які зявляться зразу нижче навігаційних лінків.</message>
+	<message key="manager.setup.homepageImageDescription">Додайте зображення графічного файлу посередині сторінки.</message>
+	<message key="manager.setup.homepageImage">Малюнок для домашньої сторінки</message>
+	<message key="manager.setup.currentIssue">Поточний випуск</message>
+	<message key="manager.setup.additionalContent">Додатковий зміст</message>
+
+	<message key="manager.setup.additionalContentDescription">Додайте наступний контент, використовуючи text/HTML, який зявиться знизу зображення домашньої сторінки, якщо вона завантажена.</message>
+	<message key="manager.setup.navigationBarDescription">Додайте або переставте додаткові пункти навігаційної панелі.</message>
+	<message key="manager.setup.navItemIsLiteral">Значення мітки - текстова строка (наприклад, Установка "Журналу") ніж ключ повідомлення локалізації (наприклад, "manager.setup")</message>
+	<message key="manager.setup.navItemIsAbsolute">URL - абсолютний URL (наприклад, "http://www.example.com") ніж маршрут відносно сайту (наприклад, "/manager/setup")</message>
+	<message key="manager.setup.displayCurrentIssue">Додати зміст до поточного випуску.</message>
+	<message key="manager.setup.homeTitleImageInvalid">Невірний формат зображення колонтитулу заголовка домашньої сторінки. Загальноприйняті формати - .gif, .jpg, або .png.Invalid homepage header title image format. Accepted formats are .gif, .jpg, or .png.</message>
+
+	<message key="manager.setup.homeHeaderImageInvalid">Невірний формат зображення шапки (колонтитулу) логотипу домашньої сторінки. Загальноприйняті формати - .gif, .jpg, or .png.</message>
+	<message key="manager.setup.pageHeaderTitleImageInvalid">Невірний формат зображення шапки (колонтитулу) заголовка домашньої сторінки. Загальноприйняті формати - .gif, .jpg, or .png.</message>
+	<message key="manager.setup.pageHeaderLogoImageInvalid">Невірний формат зображення шапки (колонтитулу) логотипу сторінки. Загальноприйняті формати -.gif, .jpg, or .png.</message>
+
+	<message key="manager.setup.homepageImageInvalid">Невірний формат зображення домашньої сторінки. Загальноприйняті формати - .gif, .jpg, or .png.</message>
+
+	<message key="manager.setup.journalStyleSheetInvalid">Невірний формат стилей шрифтів журналу. Загальноприйнятий формат - .css.</message>
+	<message key="manager.setup.information">Інформація</message>
+	<message key="manager.setup.information.description">Короткий опис журналу для бібліотекарів та майбутніх авторів і читачів, які доступні в секції "Інформація" бокового поля.</message>
+	<message key="manager.setup.information.forReaders">Для читачів</message>
+	<message key="manager.setup.information.forAuthors">Для авторів</message>
+	<message key="manager.setup.information.forLibrarians">Для бібліотекарів</message>
+
+	<!-- Languages -->
+	<message key="manager.languages.primaryLocaleInstructions">Це буде мова сайту журналу за умовчанням.</message>
+	<message key="manager.languages.supportedLocalesInstructions">Виберіть всі сектори обрані для роботи, щоб підтримувати на сайті через меню вибору мов, яке зявляється на кожній сторінці. Меню з'явиться, якщо буде обрано більш ніж одне місця для роботи.</message>
+
+	<message key="manager.languages.noneAvailable">Пробачте, жодні додаткові мови не доступні. Звяжіться зі своїм адміністратором сайту, якщо ви бажаєте використовувати додаткові мови цього журналу.</message>
+	
+	
+	<!-- Section Management -->
+
+	<message key="manager.sections.noneCreated">Поки що немає створених розділів.</message>
+	<message key="manager.sections.confirmDelete">Ви впевнені, що хочете убрати даний розділ? Всі статті у ньому необхідно буде перенаправити в інші розділи, інакше вони зникнуть.</message>
+	<message key="manager.sections.create">Створити розділ</message>
+	<message key="manager.sections.editors">Редактори розділів</message>
+	<message key="manager.sections.unassigned">Наявні РР</message>
+	<message key="manager.sections.assigned">Редактори даного розділу</message>
+
+	<message key="manager.sections.form.titleRequired">У цього розділа немає назви.</message>
+	<message key="manager.sections.form.abbrevRequired">Для секції потрібний скорочений заголовок </message>
+	<message key="manager.section.sectionEditorInstructions">Виберіть серед доступних Редакторів секції і "Призначте Редактора" цій секції.</message>
+	<message key="manager.sections.submissionIndexing">Пункти в цій секції будуть включені в індексований зміст журналу.</message>
+
+	<message key="manager.sections.editorRestriction">Статті в цей розділ можуть присилати тільки редактори.</message>
+	<message key="manager.sections.hideTocTitle">Не показувати цей розділ в змісті журналу.</message>
+	<message key="manager.sections.readingTools">Інструменти</message>
+	<message key="manager.sections.indexed">Індексація</message>
+	<message key="manager.sections.policy">Правила розділу</message>
+	<message key="manager.sections.identifyType">В метаданих вкажіть ідентифікатор для статей цього розділу</message>
+
+	<message key="manager.sections.identifyTypeExamples">(Наприклад, "Розглянута стаття", "Не оцінена стаття", "Запрошена стаття", і т.п.)</message>
+	<message key="manager.sections.abstractsDisabled">Статті в цьому розділі не будуть мати анотацій.</message>
+
+	<!-- Import/Export -->
+	<message key="manager.importExport">Дані Імпорт/Експорт</message>
+	<!-- People Management -->
+
+	<message key="manager.people.allJournals">Всі журнали</message>
+	<message key="manager.people.editUser">Правити користувача</message>
+	<message key="manager.people.createUser">Створити нового користувача</message>
+	<message key="manager.people.enroll">Залучити користувача</message>
+	<message key="manager.people.enrollment">Реєстр</message>
+
+	<message key="manager.people.unenroll">Звільнити</message>
+	<message key="manager.people.confirmUnenroll">Видалити цього користувача?</message>
+	<message key="manager.people.confirmRemove">Видалити цього користувача з журналу? Така дія видалить  користувача зі всіх позиція в межах цього журналу.</message>
+	<message key="manager.people.confirmDisable">Блокувати цього користувача? Це перешкоджатиме користувачеві зареєструватися в системі.
+
+Ви можете вибірково надати користувачеві причину щодо блокування його рахунків.</message>
+	<message key="manager.people.noneEnrolled">Немає призначених користувачів.</message>
+	<message key="manager.people.enrollSelected">Призначити вибраних користувачів</message>
+
+	<message key="manager.people.noMatchingUsers">Немає відповідностей.</message>
+	<message key="manager.people.saveAndCreateAnotherUser">Зберігти і створити інший</message>
+	<message key="manager.people.userCreatedSuccessfully">Користувач створений успішно.</message>
+	<message key="manager.people.enrollUserAs">Призначити користувача на посаду</message>
+	<message key="manager.people.doNotEnroll">Не призначати</message>
+	<message key="manager.people.invalidUser">Даний користувач не існує.</message>
+
+	<message key="manager.people.noAdministrativeRights"><![CDATA[Sorry, you do not have administrative rights over this user. This may be because:
+		<ul>
+			<li>Этот пользователь администратор сайта</li>
+			<li>The user is active in journals you do not manage</li>
+		</ul>
+	This task must be performed by a site administrator.
+	]]></message>
+	<message key="manager.people.createUserGeneratePassword">Створити випадковий пароль.</message>
+	<message key="manager.people.createUserSendNotify">Надіслати колристувачеві запрошення електронною поштою, в якому розміщені їх ім'я і пароль.</message>
+	<message key="manager.people.userMustChangePassword">Вимагайте, щоб користувач змінював пароль, коли наступного часу він буде підписуватися.</message>
+	<message key="manager.people.disable">Дезактивувати</message>
+	<message key="manager.people.enable">Активувати</message>
+
+	<message key="manager.people.remove">Видалити</message>
+	<message key="manager.people.emailUsers">Надіслати лист користувачам</message>
+	<message key="manager.people.emailUsers.emailSelectedUsers">Надіслати листи вибраним користувачам</message>
+	<message key="manager.people.emailUsers.emailUsersEnrolledAs">Надіслати лист користувачам, які призначені на посади</message>
+	<message key="manager.people.emailUsers.selectUsers">Вибрати користувачей</message>
+	<message key="manager.people.emailUsers.selectTemplate">Вибрати шаблон</message>
+
+	<message key="manager.people.emailUsers.selectLocale">Вибрати мову</message>
+
+	<message key="manager.people.editProfile">Редакція профіля</message>
+
+	<message key="manager.people.signInAsUser">Увійти як користувач</message>
+	<message key="manager.people.signInAs">Увійти як</message>
+
+	<message key="manager.people.syncUsers">Синхронізувати призначення користувача</message>
+	<message key="manager.people.syncUserDescription">Синхронізація реєстрації зареєструє всіх користувачів, зареєстрованих відповідно до їх призначень в визначеному журналі в тій же самій ролі і в цьому журналі. Ця функція дозволяє загальний набір користувачів (наприклад, Рецензенти), які можуть бути синхронізовані між журналами.</message>
+	<message key="manager.people.enrollSync">Синхронізувати</message>
+	<message key="manager.people.enrollSyncRole">Синхронізувати роль</message>
+	<message key="manager.people.enrollSyncJournal">з журналом</message>
+	
+	<!-- Email Management -->
+
+	<message key="manager.emails.emailKey">Ключ елетронної пошти</message>
+	<message key="manager.emails.emailKeyExists">Електронна пошта з таким ключем вже існує. Ключі для електронної пошти мають бути унікальними.</message>
+	<message key="manager.emails.emailTemplate">Шаблон електронної пошти</message>
+	<message key="manager.emails.emailTemplates">Шаблони електронної пошти</message>
+	<message key="manager.emails.enabled">Активуйте цей шаблон електронної поошти</message>
+	<message key="manager.emails.enable">Активуйте</message>
+
+	<message key="manager.emails.disable">Блокування</message>
+	<message key="manager.emails.reset">Скидання</message>
+	<message key="manager.emails.createEmail">Сстворення електронної пошти</message>
+	<message key="manager.emails.editEmail">Редагування електронної пошти</message>
+	<message key="manager.emails.confirmDelete">Ви впевненні, що хочете зтерти цей шаблон електронної пошти?</message>
+	<message key="manager.emails.confirmReset">Ви впевнені, що ви знову хочете становити цей шаблон електронної пошти за умовчанням з його значеннями?</message>
+
+	<message key="manager.emails.resetToDefault">Повернення до налаштувань за умовчанням</message>
+	<message key="manager.emails.resetAll">Повернення до всіх шаблонів</message>
+	<message key="manager.emails.confirmResetAll">Ви впевнені,що ви запевняєте, що ви хочете знову встановити всі шаблони електронної пошти в цьому журналі? Ви втратите будь-які налаштування, які ви зробили.</message>
+	<message key="manager.emails.form.subjectRequired">Необхідно визначити тему електронної пошти.</message>
+	<message key="manager.emails.form.bodyRequired">Зміст електронної пошти готовий.</message>
+	<message key="manager.emails.editTestExample">Редагувати тестовий приклад електронної пошти</message>
+
+	<!-- Subscription Type Management -->
+	<message key="manager.subscriptionTypes.createTitle">Create</message>
+	<message key="manager.subscriptionTypes.create">Create New Subscription Type</message>
+	<message key="manager.subscriptionTypes.confirmDelete">Warning! All subscriptions with this subscription type will also be deleted. Are you sure you want to continue and delete this subscription type?</message>
+	<message key="manager.subscriptionTypes.noneCreated">No subscription types have been created.</message>
+	<message key="manager.subscriptionTypes.name">Subscription type</message>
+
+	<message key="manager.subscriptionTypes.cost">Cost</message>
+	<message key="manager.subscriptionTypes.currency">Currency</message>
+	<message key="manager.subscriptionTypes.format">Format</message>
+	<message key="manager.subscriptionTypes.duration">Duration</message>
+	<message key="manager.subscriptionTypes.subscriptionTypeCreatedSuccessfully">Subscription type created successfully.</message>
+	<message key="manager.subscriptionTypes.editTitle">Edit</message>
+
+	<message key="manager.subscriptionTypes.edit">Edit Subscription Type</message>
+	<message key="manager.subscriptionTypes.year">year</message>
+	<message key="manager.subscriptionTypes.years">years</message>
+	<message key="manager.subscriptionTypes.month">month</message>
+	<message key="manager.subscriptionTypes.months">months</message>
+	<message key="manager.subscriptionTypes.form.typeNameRequired">A subscription type name is required.</message>
+
+	<message key="manager.subscriptionTypes.form.typeNameExists">A subscription type with this name already exists.</message>
+	<message key="manager.subscriptionTypes.form.costRequired">A cost is required.</message>
+	<message key="manager.subscriptionTypes.form.costNumeric">The cost must be a positive, numeric value.</message>
+	<message key="manager.subscriptionTypes.form.durationRequired">A duration is required.</message>
+	<message key="manager.subscriptionTypes.form.durationNumeric">The duration must be a positive, numeric value.</message>
+	<message key="manager.subscriptionTypes.form.currencyRequired">A currency is required.</message>
+
+	<message key="manager.subscriptionTypes.form.currencyValid">Виберіть, будь ласка, вид валюти.</message>
+	<message key="manager.subscriptionTypes.form.formatRequired">Потрібен тип формату підписки.</message>
+	<message key="manager.subscriptionTypes.form.formatValid"> Виберіть, будь-ласка, тип формату підписки.</message>
+	<message key="manager.subscriptionTypes.form.institutionalValid">Будь ласка, використовуйте наданий пермикач.</message>
+	<message key="manager.subscriptionTypes.form.membershipValid">Будь ласка, використовуйте наданий пермикач.</message>
+	<message key="manager.subscriptionTypes.form.publicValid">Будь ласка, використовуйте наданий пермикач.</message>
+
+	<message key="manager.subscriptionTypes.form.typeName">І'мя</message>
+	<message key="manager.subscriptionTypes.form.description">Опис</message>
+	<message key="manager.subscriptionTypes.form.cost">Вартість</message>
+	<message key="manager.subscriptionTypes.form.costInstructions">ВВедіть числову ціну  (напр. 40 або 40.00). Не включайте інших текстів, як наприклад "$".</message>
+	<message key="manager.subscriptionTypes.form.currency">Валюта</message>
+	<message key="manager.subscriptionTypes.form.duration">Термін</message>
+
+	<message key="manager.subscriptionTypes.form.durationInstructions">Термін підписки, у кількості місяців(напр. 12).</message>
+	<message key="manager.subscriptionTypes.form.format">Формат</message>
+	<message key="manager.subscriptionTypes.form.institutional">Підписчики будуть підтверджені через домен, або IP аутеттифікацію.</message>
+	<message key="manager.subscriptionTypes.form.membership">Підписчики повинні бути членами асоціації або організації.</message>
+	<message key="manager.subscriptionTypes.form.saveAndCreateAnotherType">Збережіть, або Створіть інший</message>
+
+	<message key="manager.subscriptionTypes.format.online">Онлайн</message>
+	<message key="manager.subscriptionTypes.format.print">Друк</message>
+	<message key="manager.subscriptionTypes.format.printOnline">Друк та Онлайн</message>
+
+	<!-- Subscription Management -->
+	<message key="manager.subscriptions.createTitle">Створити</message>
+	<message key="manager.subscriptions.create">Створити нову підписку</message>
+
+	<message key="manager.subscriptions.selectSubscriber">Вибрати підписчика</message>
+	<message key="manager.subscriptions.selectSubscriber.desc">Виберіть користувача, якого ви бажаєте підписати на журнал. Врахуйте, що менеджери, редактори, редактори секцій, дизайнери, коректори та наукові редактори журналу можуть вносити свої корективи, на правах підпсичиків.</message>
+	<message key="manager.subscriptions.subscribe">Підписатись</message>
+	<message key="manager.subscriptions.confirmDelete">Ви впевнені, що хотіли б видалити цю підписку?</message>
+	<message key="manager.subscriptions.noneCreated">Не створено жодної підписки.</message>
+	<message key="manager.subscriptions.user">Користувач</message>
+
+	<message key="manager.subscriptions.subscriptionType">Ти підписки</message>
+	<message key="manager.subscriptions.dateStart">Старт</message>
+	<message key="manager.subscriptions.dateEnd">Кінець</message>
+	<message key="manager.subscriptions.ipRange">Діапазон IP</message>
+	<message key="manager.subscriptions.subscriptionCreatedSuccessfully">Підписка відбулась успішно.</message>
+	<message key="manager.subscriptions.editTitle">Редагувати</message>
+
+	<message key="manager.subscriptions.edit">Редагувати підписку</message>
+	<message key="manager.subscriptions.form.userIdRequired">Потрібен користувач.</message>
+	<message key="manager.subscriptions.form.userIdValid">Будь ласка, виберіть валідного користувача.</message>
+	<message key="manager.subscriptions.form.subscriptionExists">Цей користувач вже має підписку на цей на цей журнал.</message>
+	<message key="manager.subscriptions.form.typeIdRequired">Потібен тип підписки.</message>
+	<message key="manager.subscriptions.form.typeIdValid">Будь ласка, виберіть валідний тип підписки.</message>
+
+	<message key="manager.subscriptions.form.dateStartRequired">Вкажіть початкову дату піписки.</message>
+	<message key="manager.subscriptions.form.dateStartValid">Вкажіть початкову дату піписки.</message>
+	<message key="manager.subscriptions.form.dateEndRequired">Потрібна кінцева дата підписки.</message>
+	<message key="manager.subscriptions.form.dateEndValid">Будь ласка, виберіть кінцеву дату підписки.</message>
+	<message key="manager.subscriptions.form.membershipRequired">Вибраний тип підписки вимагає інформацію членства.</message>
+	<message key="manager.subscriptions.form.domainIPRangeRequired">Вибраний тип підписки вимагає домен та/або IP діапазон для ідентифікації підписки.</message>
+
+	<message key="manager.subscriptions.form.domainValid">Будь ласка, введіть валідний домен.</message>
+	<message key="manager.subscriptions.form.ipRangeValid">Будь ласка, введіть валідни ІP діапазон.</message>
+	<message key="manager.subscriptions.form.notifyEmailValid">Будь ласка, користуйтесь віконцем перевірки.</message>
+	<message key="manager.subscriptions.form.subscriptionContactRequired">Щоб відіслати користувачу електронну пошту повідмлення, контактне імя та електронна пошта користувача повинні бути вказані в установках журналу.</message>
+	<message key="manager.subscriptions.form.userId">Користувач</message>
+	<message key="manager.subscriptions.form.typeId">Ти підписки</message>
+
+	<message key="manager.subscriptions.form.dateStart">Дата початку</message>
+	<message key="manager.subscriptions.form.dateEnd">Дата закінчення</message>
+	<message key="manager.subscriptions.form.membership">Членство</message>
+	<message key="manager.subscriptions.form.membershipInstructions">Введіть інформацію про членство, якщо тип підпсики вимагає, щоб підпискик належав до асоціації, або організації.</message>
+	<message key="manager.subscriptions.form.domain">Домен</message>
+	<message key="manager.subscriptions.form.domainInstructions">Введіть домен у разі, якщо Ваш тип підписки для організацій. У разі, якщо тут введено домен,діапазон IP може бути довільним. Дійсні значення - імена домена(e.g. lib.sfu.ca).</message>
+
+	<message key="manager.subscriptions.form.ipRange">IP діапазон</message>
+	<message key="manager.subscriptions.form.ipRangeInstructions">Введіть IP діапазон для типу підписки для організацій. Якщо тут введено IP діапазон, тоді домен є довільним. Дійсні значення включають IP (e.g. 142.58.103.1), IP діапазон(e.g. 142.58.103.1 - 142.58.103.4),  IP діапахон з range with '*' (e.g. 142.58.103.*), або будь-яка комбінація знаків, розділених';' (e.g. 142.58.103.* - 142.58.107.* ; 142.58.108.1 ; 142.58.106.*)</message>
+	<message key="manager.subscriptions.form.notifyEmail">Послати користувачу лист повідомлення з його ім'ям користувача та деталями підписки.</message>
+	<message key="manager.subscriptions.form.saveAndCreateAnother">Зберегти та створити інший</message>
+
+	<!-- Editor -->
+	<message key="editor.home">Редактор Початок</message>
+
+	<message key="editor.submissionsAndPublishing">Прийом та редагування</message>
+	<message key="editor.submissionQueue">Список надісланих статей</message>
+	<message key="editor.submissionArchive">Статья у процесі обробки</message>
+	<message key="editor.publishing">Видання</message>
+	<message key="editor.publishedIssues">Опубликовані випуски</message>
+	<message key="editor.allSections">Всі секції</message>
+
+	<message key="editor.submissionQueue.noSubmissions">Немає статей у цьому списку.</message>
+	<message key="editor.submissionQueue.saveChanges">Зберегти зміни?</message>
+	<message key="editor.submissionArchive.noSubmissions">Немає статей в цьому архіві.</message>
+	<message key="editor.submissionArchive.saveChanges">Зберегти зміни а архівованих статях? Виділені для видалення статті зникнуть назавжди.</message>
+	<message key="editor.submissionArchive.confirmDelete">Ви впевнені, що хочете назавжди видалити цю статтю?</message>
+	<message key="editor.submissionReview.confirmDecision">Зберегти запис цього рішення?</message>
+
+	<message key="editor.notifyUsers">Повідомити користувачів</message>
+	<message key="editor.usersNotified">Копистувачі повідомлені</message>
+	<message key="editor.notifyUsers.allUsers">Надіслати це повідомлення всім підписчикам журнала ({$count} осіб).</message>
+	<message key="editor.notifyUsers.interestedUsers">Посліти це повідомлення тільки тим підписчикам, які згодні отримувати розсилку ({$count} осіб.).</message>
+	<message key="editor.notifyUsers.includeToc">Включити Зміст журнала:</message>
+
+	<!-- Scheduling Queue -->
+
+	<message key="editor.schedulingQueue">План публикацій</message>
+	<message key="editor.schedulingQueue.noSubmissions">Немає статей у списку.</message>
+	<message key="editor.schedulingQueue.saveChanges">Зберегти зміни в списку? Вімічені для видалення статі повернуться в список надісланих статей.</message>
+	<message key="editor.schedulingQueue.schedule">Планувати</message>
+	<message key="editor.schedulingQueue.unscheduled">Не планувати</message>
+	<message key="editor.schedulingQueue.newIssue">Новий випуск</message>
+
+	<!-- Editor Index Page -->
+	<message key="editor.editorAdministration">Адмінистрація Редактор</message>
+	<message key="editor.issues.createIssue">Створити випуск</message>
+	<message key="editor.issues.backIssues">Старі видання</message>
+	<message key="editor.issues.futureIssues">Майбутні видання</message>
+	<message key="editor.issues.currentIssue">Поточний випуск</message>
+
+	<message key="editor.issues.numArticles">Кільк. статей</message>
+	<message key="editor.issues.noArticles">Немає запланованих статей для цього випуска.</message>
+	<message key="editor.issues.confirmDelete">Вы впевнені, що хочете назавжди видалити цей випуск?</message>
+
+	<!-- Back Issues -->
+	<message key="editor.issues.published">Опублікавані</message>
+	<message key="editor.issues.unpublished">Неопубліковані</message>
+
+	<!-- Create Issue / Issue Data -->
+
+	<message key="editor.issues.issueIdentification">Ідентифікація</message>
+	<message key="editor.issues.publicIssueIdentifier">Заг. ідентификатор випуска</message>
+	<message key="editor.issues.description">Розклад</message>
+
+	<message key="editor.issues.accessStatus">Доступ</message>
+	<message key="editor.issues.accessDate">Відкрити дату доступу</message>
+	<message key="editor.issues.invalidAccessDate">Дата доступу недійсна.</message>
+	<message key="editor.issues.issuePublicIdentificationExists">Ідентифікація загального доступу вже існує.</message>
+	<message key="editor.issues.coverPage">Обкладинка</message>
+	<message key="editor.issues.coverPageInstructions">(Позв. форматы: .gif, .jpg, or .png )</message>
+
+	<message key="editor.issues.uploaded">Загружено</message>
+	<message key="editor.issues.remove">Видалити</message>
+	<message key="editor.issues.removeCoverPage">Видалити картинку обкладинки?</message>
+	<message key="editor.issues.invalidCoverPageFormat">Недійсний формат обкладинки. Прийнатні формати .gif, .jpg, or .png.</message>
+	<message key="editor.issues.coverPageCaption">Cover caption</message>
+
+	<message key="editor.issues.openAccess">Вільний доступ</message>
+	<message key="editor.issues.subscription">Підписка</message>
+	<message key="editor.issues.identification">Ідентификація</message>
+	<message key="editor.issues.access">Доступ</message>
+	<message key="editor.issues.cover">Обкладинка</message>
+	<message key="editor.issues.confirmIssueDelete">Всі статті будуть повернені у чергу та всі дотичні файлибудуть видлені. Ви впевнені, що ви хочете видалити цей випуск?</message>
+
+	<!-- Live Issues -->
+	<message key="editor.issues.issueData">Данні про випуск</message>
+	<message key="editor.issues.saveChanges">Зберегти зміни в Змісті?</message>
+	<message key="editor.issues.default">По умолчанию</message>
+	<message key="editor.issues.order">Сорування</message>
+	<message key="editor.issues.publicId">Публ. ID</message>
+
+	<message key="editor.issues.publishIssue">Опублікувати випуск</message>
+	<message key="editor.issues.previewIssue">Перегляд</message>
+	<message key="editor.issues.preview">(переглянути)</message>
+	<message key="editor.issues.confirmPublish">Опубліковати данй випуск?</message>
+	<message key="editor.issues.publicArticleIdExists">Не можу зберегти загальний id статті:</message>		
+	<message key="editor.issues.noLiveIssues">Немає опублікованих випусків</message>
+
+	<message key="editor.issues.open">Відкрити</message>
+	<message key="editor.issues.pages">Сторінки</message>
+
+	<!-- Navigation sidebar menu -->
+	<message key="editor.navigation.issues">Випуски</message>
+	<message key="editor.navigation.futureIssues">Майбутні виыпуски</message>
+	<message key="editor.navigation.createIssue">Створити випуск</message>
+
+	<message key="editor.navigation.issueArchive">Старі випуски</message>
+	
+	<!-- Used by editor in submission review / editing -->
+	<message key="editor.article.designateReviewVersion">Відмітити оригінальний файл як версію для рецензії</message>
+	<message key="editor.article.uploadReviewVersion">Загрузити відредагований файл в якості версії для рецензії</message>
+	<message key="editor.article.showSuppFile">Запропонувати файл рецензентам</message>
+
+	<message key="editor.article.layoutAndProof">Вид &amp; Правка</message>
+	<message key="editor.article.clear">Правити</message>
+	<message key="editor.article.clearReviewer">Коректор</message>
+	<message key="editor.article.changeSection">Змінити розділ</message>
+	<message key="editor.article.setDueDate">Визначити граничний термін</message>
+
+	<message key="editor.article.addReviewer">Додати рецензента</message>
+	<message key="editor.article.toReviewer">Рецензенту</message>
+	<message key="editor.article.notifyReviewer">Повідомити рецензента</message>
+	<message key="editor.article.initiateReview">Почати рецензування</message>
+	<message key="editor.article.initiateAllReviews">Активувати всі рецензії</message>
+	<message key="editor.article.cancelReview">Відмінити запит на рецензування</message>
+
+	<message key="editor.article.clearReview">Очистити рецензування</message>
+	<message key="editor.article.enterRecommendation">Рекомендації</message>
+	<message key="editor.article.enterReviewerRecommendation">Рекомендації рецензента</message>
+	<message key="editor.article.recommendation">Рекомендація</message>
+	<message key="editor.article.selectReviewer">Вибрати рецензента</message>
+	<message key="editor.article.selectReviewerNotes"><![CDATA[Name links to reviewer's profile.<br/>
+Высшая оценка 5 (Отлично).<br/>
+Сколько дней нужно рецензентам для завершения работы.<br />
+Latest is date of most recently accepted review,<br/>
+with a plus sign (+) indicating review-in-progress.]]></message>
+
+	<message key="editor.article.replaceReviewer">Замінити рецензента</message>
+	<message key="editor.article.editorToEnter">Внести рекомендацію рецензента/коментарії для рецензента</message>
+	<message key="editor.article.peerReviewOptions">Опції спецредагування</message>	
+	<message key="editor.article.decision">Рішення</message>	
+	<message key="editor.article.noEditorSelected">Немає вибраного редактора.</message>
+	<message key="editor.article.recordDecision">Записати рішенняр</message>
+	<message key="editor.article.cannotRecord">Статті повинні бути відправлені секційному редактору, який повинен надати відредаговану версію, щоб в наступному секторі можна було прийняти рішення про публикації. Подальші рішення можна прийняти після відправлення статті для кінцевої вертки.</message>
+
+	<message key="editor.article.reviewersSeeAuthorsVersion">Рецензенти, які можуть побачити авторську версію</message>
+	<message key="editor.article.designateDueDate">Назначити граничний термін</message>
+	<message key="editor.article.designateDueDateDescription">Змінити кінцеву дату для цього редактора, введіть іншу дату або видаліть дату та введіть кількість тижнів для редагування.</message>
+	<message key="editor.article.todaysDate">Сьогодні</message>
+	<message key="editor.article.requestedByDate">Запроси за датами</message>
+	<message key="editor.article.dueDateFormat">Формат: ГГГГ-MM-ДД</message>
+
+	<message key="editor.article.numberOfWeeks">Кількість тижнів</message>
+	<message key="editor.article.selectCopyeditor">Назначити техн. редактора</message>
+	<message key="editor.article.replaceCopyeditor">Замінити техн. редактора</message>
+	<message key="editor.article.editorsCopyedit">Редакторськая верстка</message>
+	<message key="editor.article.showAuthor">Дозволити авторам доступ до файлу</message>
+	<message key="editor.article.showCopyeditor">Показати версію техн. редактору</message>
+
+	<message key="editor.article.rateReviewer">Оцінити роботу рецензента</message>
+	<message key="editor.article.reviewerRating.veryGood">5 Відмінно</message>
+	<message key="editor.article.reviewerRating.good">4 Добре</message>
+	<message key="editor.article.reviewerRating.average">3 Посередньо</message>
+	<message key="editor.article.reviewerRating.poor">2 Погано</message>
+	<message key="editor.article.reviewerRating.veryPoor">1 Зовсім погано</message>
+
+	<message key="editor.article.quality">Оцінка</message>
+	<message key="editor.article.comments">Коментарії</message>
+	<message key="editor.article.saveRating">Зберегти оцінку</message>
+	<message key="editor.article.noneSelected">Нічого не вибрано</message>
+	<message key="editor.article.editorAuthorComments">Коментарії Редактора/Автора</message>
+	<message key="editor.article.authorProofing">Авторська верстка</message>
+
+	<message key="editor.article.archiveSubmission">Архівувати статтю</message>
+	<message key="editor.article.restoreToQueue">Поновити в списку статей, що опрацьовуються</message>
+	<message key="editor.article.assignEditor">Назначити секційного редактора</message>
+	<message key="editor.article.selectEditor">Выбрати {$roleName}</message>
+	<message key="editor.article.selectDecision">Выбрати рішення</message>
+
+	<message key="editor.article.decision.accept">Прийняти статтю</message>
+	<message key="editor.article.decision.pendingRevisions">Потрібні рецензії</message>
+	<message key="editor.article.decision.resubmit">Послати знову</message>
+	<message key="editor.article.decision.decline">Відхилити</message>
+	<message key="editor.article.selectLayoutEditor">Вибрати худ. редактора</message>
+	<message key="editor.article.replaceLayoutEditor">Замінити худ. редактора</message>
+
+	<message key="editor.article.reviewSubmission">Переглянути статтью</message>
+	<message key="editor.article.resubmitForReview">Послати рецензентам</message>
+	<message key="editor.article.resubmitFileForPeerReview">Послати вибраний файл спецрецензентам</message>
+	<message key="editor.article.sendToCopyedit">Надіслати файл на верстку</message>
+	<message key="editor.article.sendFileToCopyedit">Надіслати вибранный файл редактору</message>
+	
+	<message key="editor.article.selectProofreader">Назначити коректора</message>
+
+	<message key="editor.article.replaceProofreader">Замінити коректора</message>
+	<message key="editor.article.authorComments">Коментарії автора</message>
+	<message key="editor.article.proofreaderComments">Коментарії корректора</message>
+	<message key="editor.article.layoutEditorFinal">Кінець худ. редагування</message>
+	<message key="editor.article.placeSubmissionInSchedulingQueue">Послати статтю на друк</message>
+	<message key="editor.article.scheduleSubmission">Відправити</message>
+
+	<message key="editor.article.noDate">(дата)</message>
+
+	<message key="editor.submissions.showBy">Показати по</message>
+	<message key="editor.submissions.submitMMDD">Відправити MM-DD</message>
+	<message key="editor.submissions.activeAssignments">Робочі призначення</message>
+	<message key="editor.submissions.invite">Запросити</message>
+	<message key="editor.submissions.accept">Прийняти</message>
+
+	<message key="editor.submissions.noSubmissions">Немаяє отриманих статей</message>
+	<message key="editor.submissions.lastAssigned">Остання</message>
+	<message key="editor.submissions.averageTime">Днів</message>
+	<message key="editor.submissions.lastCompleted">Остання опублікована</message>
+	
+	<!-- Section Editor -->
+	<message key="sectionEditor.activeEditorialAssignments">Редакторські призначення</message>
+
+	<message key="sectionEditor.completedEditorialAssignments">Виконані редакторські завдання</message>
+	<message key="sectionEditor.noneAssigned">Немає призначених статей.</message>
+	<message key="sectionEditor.copyedit.confirmRenotify">Повідомлення даного редактора повторить його призначення. Ви впевнені, що це потрібно робити?</message>
+	<message key="sectionEditor.author.confirmRenotify">Повідомлення автора повторить процес.Ви впевнені, що це потрібно робити?</message>
+	<message key="sectionEditor.layout.confirmRenotify">Повідомлення худ. редактора поновить його призначення.Ви впевнені, що це потрібно робити?</message>
+	<message key="sectionEditor.proofreader.confirmRenotify">Повідомдлення коректора поновить його призначення.  Ви впевнені, що це потрібно робити?</message>
+
+	<message key="sectionEditor.regrets.breadcrumb">Співчуття</message>
+	<message key="sectionEditor.regrets.title">#{$articleId} Співчуття рецензента, Відміни &amp; Попередні раунди</message>
+	<message key="sectionEditor.regrets">Співчуття</message>
+	<message key="sectionEditor.regrets.link">Співчуття рецензента, Відміни &amp; Попередні раунди</message>
+
+	<message key="sectionEditor.regrets.reviewRound">Спецрецензія, Раунд {$round}</message>
+	<message key="sectionEditor.regrets.decisionRound">Рішення редактора, Раунд {$round}</message>
+	<message key="sectionEditor.regrets.regretsAndCancels">Співчуття рецензента &amp; Відміни</message>
+	<message key="sectionEditor.regrets.regret">Співчуття</message>
+	<message key="sectionEditor.regrets.result">Результат</message>
+
+	<message key="sectionEditor.review.addReviewer">Додати рецензента</message>
+
+	<!-- Layout Editor -->
+	<message key="layoutEditor.activeEditorialAssignments">Діючі редакторські призначення</message>
+	<message key="layoutEditor.completedEditorialAssignments">Виконані редакторські завдання</message>
+	<message key="layoutEditor.noActiveAssignments">Немає редакторских призначень.</message>
+	<message key="layoutEditor.layoutEditingAssignments">Завдання по форматуванню</message>
+
+	<message key="layoutEditor.galley.uploadGalleyFormat">Загрузити формат</message>
+	<message key="layoutEditor.galley.replaceGalley">Замінити файл</message>
+	<message key="layoutEditor.galley.uploadSuppFile">Загрузити дод. файл</message>
+	<message key="submission.layout.galleyNoImages">Немає картинок</message>
+	
+	<!-- Reviewer -->
+	<message key="reviewer.pendingReviews">Стаття, що очікують редагування</message>
+
+	<message key="reviewer.completedReviews">Завершено</message>
+	<message key="reviewer.averageQuality">Рейтинг</message>
+	
+	<!-- Used in submission review -->
+	<message key="reviewer.article.fileToBeReviewed">Файл для редакування</message>
+	<message key="reviewer.article.notifyTheEditor">Повідомити редактора</message>
+
+	<message key="reviewer.article.canDoReview">Буде здійснено редагування</message>
+	<message key="reviewer.article.cannotDoReview">Неможливо здійснити редагування</message>
+	<message key="reviewer.article.submissionEditor">Призначення редактора</message>
+	<message key="reviewer.article.reviewerCommentsDescription">Внесіть тут у редагування коментарі</message>
+	<message key="reviewer.article.editorToEnter">Вхід для редактора</message>
+
+	<message key="reviewer.article.sendReminder">Надіслати нагадування</message>
+	<message key="reviewer.article.automatic">(Auto)</message>
+	<message key="reviewer.article.selectRecommendation">Вібрати рекомендацію</message>
+	<message key="reviewer.article.recommendation">Рекомендація</message>
+	<message key="reviewer.article.submitReview">Надати рецензію редактору</message>
+	<message key="reviewer.article.reviewerComments">Коментарі</message>
+
+	<message key="reviewer.article.uploadedFile">Завантажені файли</message>	
+	<message key="reviewer.article.reviewersAnnotatedVersion">Версія завантажена редактором</message>
+	<message key="reviewer.article.reviewersAnnotatedVersionDescription">(Якщо ви хочете надати файл редатору, збережіть його на вашому жорсткому диску та використайте Вставити/Загрузити.)</message>
+        <message key="reviewer.article.schedule.request">Запит редактора</message>
+        <message key="reviewer.article.schedule.response">Ваша відповідь</message>
+        <message key="reviewer.article.schedule.submitted">Рецензія подана</message>
+
+        <message key="reviewer.article.schedule.due">Редагування обов'язкове</message>
+	<message key="reviewer.article.decision.accept">Прийняти надане</message>
+	<message key="reviewer.article.decision.pendingRevisions">Потрібен перегляд</message>
+	<message key="reviewer.article.decision.resubmitHere">Передати на редагування</message>
+        <message key="reviewer.article.decision.resubmitElsewhere">Передати в інше місце</message>
+	<message key="reviewer.article.decision.decline">Відмінити подання</message>
+
+	<message key="reviewer.article.decision.seeComments">Побачити коментарі</message>
+	<message key="reviewer.article.schedule">Розклад</message>
+        <message key="reviewer.article.noteOnUploads">Видалити всі примітки редактора з завантажених файлів через перевірку властивостей документів(under File in Word and Acrobat).</message>
+        <message key="reviewer.article.submissionToBeReviewed">Подати на редагування</message>
+        <message key="reviewer.article.reviewSchedule">Переглянути розклад</message>
+        <message key="reviewer.article.reviewSteps">Переглянути кроки</message>
+
+        <message key="reviewer.article.reviewerGuidelines">Посібник редактора</message>
+        <message key="reviewer.article.notifyEditorA">Повідомити подання редактору</message>
+        <message key="reviewer.article.notifyEditorB">as to whether you will undertake the review.</message>
+        <message key="reviewer.article.consultGuidelines">Якщо ви збираєтесь здійснити редагування, проконсультуйтесь з посібником редактора нижче.</message>
+        <message key="reviewer.article.downloadSubmission">Натисніть на назви файлів для завантаження та перегляду( на екрані або для друку) файлів даного завантеження.</message>
+        <message key="reviewer.article.enterReviewA">Натисніть на іконку для вводу (або завантеження) вашої рецензії на дане подання.</message>
+
+        <message key="reviewer.article.uploadFile">Додатково, ви можете загрузити файли для редактора та/або автора для консультації.</message>
+        <message key="reviewer.article.selectRecommendation">Виберіть рекомендації та подайте рецензію для завершення процесу. Ви можете внести рецензію або загрузити файл перед вибором рекомендації.</message>
+	<message key="reviewer.article.mustSelectDecision">Не вибрано жодної рекомендації. Ви повинні обрати рекомендацію для подання.</message>
+	<message key="reviewer.article.confirmDecision">Як тільки ви приймете та внесете рішення, ви не зможете більше внести зміни до даного редагування. Ви впевнені, що ви бажаете продовжити?</message>
+
+	<!-- Used in submission editing -->
+
+	<message key="copyeditor.article.fileToCopyedit">Файл для верстки</message>
+	<message key="copyeditor.article.copyeditorFile">Файл</message>
+	<message key="copyeditor.article.uploadedFile">Загружений файл</message>
+	<message key="copyeditor.article.copyeditorFinalFile">Файл верстки</message>
+	
+	<!-- Proofreader -->
+	<message key="proofreader.noProofreadingAssignments">Немає коректорських призначень</message>
+
+	<!-- Author -->
+	<message key="author.submit">Нова стаття</message>
+	<message key="author.track">Активні статті</message>
+	<message key="author.submit.submitArticle">Відправити статтю</message>
+	<message key="author.submit.stepsToSubmit">П'ять кроків до публікації</message>
+	<message key="author.submit.startHere">Почати процес відправленя нової статті.</message>
+
+	<message key="author.submit.step1">Шаг 1. Початок відправлення</message>
+	<message key="author.submit.step2">Шаг 2. Внесення метаданих</message>
+	<message key="author.submit.step3">Шаг 3. Завантажити статтю</message>
+	<message key="author.submit.step4">Шаг 4. Завантажити додатков. файли</message>
+	<message key="author.submit.step4a">Шаг 4a. Завантажити додатков. файл</message>
+
+	<message key="author.submit.step5">Шаг 5. Підтвердження</message>
+	<message key="author.submit.start">1. Початок</message>
+	<message key="author.submit.metadata">2. Внести метадані</message>
+	<message key="author.submit.upload">3. Завантажити статтю</message>
+	<message key="author.submit.supplementaryFiles">4. Завантажити додаткові файли</message>
+	<message key="author.submit.confirmation">5. Підтверждення</message>
+
+	<message key="author.submit.cancelSubmission">Ви можете виконати дане подання пізніше через вибір Активне Подання через Подання від Автора.</message>
+	<message key="author.submit.notAccepting">Цей журнал не приймає подання на даний момент.</message>
+	
+	<message key="author.submissions.uploadCopyeditedVersion">Завантажити редакційний файл</message>
+	<message key="author.submissions.proofreadingCorrections">Виправлення</message>
+	<message key="author.submissions.confirmDelete">Бажаєте видалити цю неповну статтю?</message>
+	<message key="author.submissions.viewStatus">Переглянути статус</message>
+
+	<message key="author.submissions.noSubmissions">Немає статей.</message>
+
+	<!-- Article Submission Step 1 -->
+	<message key="author.submit.journalSection">Розділ журналу</message>
+	<message key="author.submit.selectSection">Обрати розділ...</message>
+	
+	<message key="author.submit.submissionChecklist">Вимоги до статті</message>
+
+	<message key="author.submit.submissionChecklistDescription">Автори повинні підтвердити, що їх матеріал відповідає всім наведеним нижче умовам. Тільки в цьому випадку вони можуть перейти до наступного етапу депонування статті (Крок 2).</message>
+	<message key="author.submit.verifyChecklist">Позначайте всі зазначені умови</message>
+	<message key="author.submit.commentsForEditor">До уваги редактора</message>
+	<message key="author.submit.comments">Введіть текст(за бажанням)</message>
+	<message key="author.submit.form.sectionRequired">Виберіть розділ журнала</message>
+	
+	<!-- Article Submission Step 2 -->
+
+	<message key="author.submit.privacyStatement">Заява про конфіденційність</message>
+	<message key="author.submit.selectPrincipalContact">Особа(автор) для зв"язку з редактором.</message>
+
+	<message key="author.submit.addAuthor">Додати автора</message>
+	<message key="author.submit.deleteAuthor">Видалити автора</message>
+	<message key="author.submit.submissionSupportingAgencies">Спонсори Вашого дослідження</message>
+	<message key="author.submit.submissionSupportingAgenciesDescription">Вкажіть организацію або інститут, які надали Вам матеріальну та/або фінансову підтримку.</message>
+	<message key="author.submit.agencies">Організації</message>
+
+	<message key="author.submit.coverageInstructions">Опишіть географічне та історичне(часове) охоплення Вашого дослідження.</message>
+	<message key="author.submit.subjectClassInstructions">Використовуйте класифікаційну схему, вказану під лінком внизу, для вибору категорії, яка підходить (або классификаційного номеру) для Вашого дослідження.</message>
+	<message key="author.submit.languageInstructions"><![CDATA[English=en; French=fr; Russian=ru. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">Дополнительные коды</a>.]]></message>
+	<message key="author.submit.form.authorRequired">Потрібен мінімум один автор.</message>
+	<message key="author.submit.form.authorRequiredFields">Потрібно ввести і"мя, призвіще та мейл кожного автора.</message>
+	<message key="author.submit.form.titleRequired">Введіть назву Вашої статті</message>
+
+	
+	<!-- Article Submission Step 3 -->
+	<message key="author.submit.uploadInstructions"><![CDATA[
+<p>Чтобы прислать статью для публикации в этом журнале, нужно сделать следующее:</p>
+
+<ol>
+<li>Нажать на кнопку Browse (или Выбрать файл), после чего откроется диалоговое окошко для выбора директории на Вашем компьютере.</li>
+<li>Выбрать мышкой файл.</li>
+<li>Нажать Open.</li>
+<li>Нажать Загрузить (Upload) файл.</li>
+<li>Когда материал загрузится, нажать Сохранить и Продолжить (Save and Continue) внизу страницы.</li>
+</ol>]]></message>
+	<message key="author.submit.submissionFile">Файл статті</message>
+	<message key="author.submit.uploadSubmissionFile">Завантажити файл</message>
+	<message key="author.submit.replaceSubmissionFile">Замінити файл</message>
+	<message key="author.submit.noSubmissionFile">Немає завантажених файлів</message>
+	
+	<!-- Article Submission Step 4 -->
+
+	<message key="author.submit.noSupplementaryFiles">Немає додаткових файлів до цієї статті.</message>
+	<message key="author.submit.backToSupplementaryFiles">Назад до додаткових файлів</message>
+	<message key="author.submit.confirmDeleteSuppFile">Видалити цей додатковий файл?</message>
+	<message key="author.submit.uploadSuppFile">Завантажити додатковий файл</message>
+	
+	<!-- Article Submission Step 4a: Дополнительные файлы -->
+
+	<message key="author.submit.addSupplementaryFile">Додати додатковий файл</message>
+	<message key="author.submit.editSupplementaryFile">Редактувати додатковий файл</message>
+	<message key="author.submit.supplementaryFileData">Метадані додаткового файла</message>
+	<message key="author.submit.supplementaryFileDataDescription">Для індексації додаткового матеріалу потрібна наступна інформація.</message>
+	<message key="author.submit.supplementaryFileUpload">Додатковий файл</message>
+	<message key="author.submit.suppFile.createrOrOwner">Автор (власник) файлу</message>
+
+	<message key="author.submit.suppFile.researchInstrument">Дослідницькі інструменти</message>
+	<message key="author.submit.suppFile.researchMaterials">Матеріали дослідження</message>
+	<message key="author.submit.suppFile.researchResults">Результати дослідження</message>
+	<message key="author.submit.suppFile.transcripts">Транскрипти</message>
+	<message key="author.submit.suppFile.dataAnalysis">Аналіз данних</message>
+	<message key="author.submit.suppFile.dataSet">Дані</message>
+
+	<message key="author.submit.suppFile.sourceText">Чистий текст</message>
+	<message key="author.submit.suppFile.briefDescription">Короткий опис</message>
+	<message key="author.submit.suppFile.contributorOrSponsor">Спонсор</message>
+	<message key="author.submit.suppFile.availableToPeers">Надати чистий текст (без метаданих) рецензентам, щоб стаття могла бути рецензована анонімно.</message>
+	<message key="author.submit.suppFile.publisherDescription">Опис: Використовувати тільки для офіційно опублікованих матеріалів.</message>
+	<message key="author.submit.suppFile.dateDescription">Дата створення інструменту.</message>
+
+	<message key="author.submit.suppFile.sourceDescription">Назва дослідження або інших джерел.</message>
+	<message key="author.submit.suppFile.specifyOtherType">Уточнити які саме</message>
+	<message key="author.submit.suppFile.noFile">Немає загружених матеріалів</message>
+	<message key="author.submit.suppFile.form.titleRequired">Внесіть назву додаткового файлу</message>
+	<message key="author.submit.suppFile.form.subjectRequired">Внесіть предмет</message>
+	<message key="author.submit.suppFile.form.descriptionRequired">Внесіть опис</message>
+
+	
+	<!-- Article Submission Step 5 -->
+	<message key="author.submit.noFiles">У цієї статті немає прикріплених файлів</message>
+	<message key="author.submit.filesSummary">Резюме файлів</message>
+	<message key="author.submit.finishSubmission">Завершити відправку</message>
+	<message key="author.submit.submissionComplete">Стаття відправлена. Дякуємо.</message>
+
+	<!-- Used in submission review / editing -->
+	<message key="submission.review.mustUploadFileForReview">Лист-запит не може бути наділаний поки не буде надана версія рецензії.</message>
+	<message key="author.article.uploadAuthorVersion">Загрузити авторську версію</message>
+	<message key="author.article.copyeditedFile">Редагований файл</message>
+	<message key="author.article.authorRevisedFile">Aвторський файл</message>
+
+	<!-- Submission Tracking - Copyedit Specific -->
+
+	<message key="submission.copyedit.mustUploadFileForInitialCopyedit">Лист-запит не може бути наділаний поки не буде редактором обраний файл для редагування, сторінка редагування.</message>
+	<message key="submission.copyedit.mustUploadFileForCopyedit">Лист-запит не може бути наділаний поки не буде загружено файл для редагування.</message>
+	<message key="submission.copyedit.initialCopyedit">Перше редування</message>
+	<message key="submission.copyedit.editorsCopyedit">Редакторське редагування</message>
+	<message key="submission.copyedit.editorAuthorReview">Авторське редагування</message>
+	<message key="submission.copyedit.finalCopyedit">Фінальне редагування</message>
+
+	<message key="submission.copyedit.copyeditVersion">C/E Версія</message>
+	<message key="submission.copyedit.selectCopyeditor">Назначити коректора</message>
+	<message key="submission.copyedit.useFile">Використати файл</message>
+	<message key="submission.copyedit.copyeditComments">Коректоські коментарі</message>
+	<message key="submission.copyedit.instructions">Коректорські інструкції</message>
+	
+	<!-- Submission Tracking - Layout Specific -->
+
+	<message key="submission.layout.layoutVersion">Макет</message>
+	<message key="submission.layout.layoutFile">Файл</message>
+	<message key="submission.layout.galleys">Формати верстки</message>
+	<message key="submission.layout.newGalley">Створити новий формат</message>
+	<message key="submission.layout.assignLayoutEditor">Призначити редактора макету</message>
+
+	<message key="submission.layout.replaceLayoutEditor">Замінити редактора макету</message>
+	<message key="submission.layout.initialGalleyCreation">Нач. створення формата</message>
+	<message key="submission.layout.supplementaryFiles">Відзив про додаткові файли</message>
+	<message key="submission.layout.layoutComments">Коментарі за форматом</message>
+	<message key="submission.layout.galleyLabelRequired">Потрібна етикерка для формату.</message>
+	<message key="submission.layout.confirmDeleteGalley">Забрати назавжди цей формат?</message>
+
+	<message key="submission.layout.newSupplementaryFile">Завантажити новий додатковий файл</message>
+	<message key="submission.layout.confirmDeleteSupplementaryFile">Забрати назавжди цей додатковий файл?</message>
+	<message key="submission.layout.editGalley">Редагування формату</message>
+	<message key="submission.layout.addGalley">Додати формат</message>
+	<message key="submission.layout.galleyFileData">Інформація про формати</message>
+	<message key="submission.layout.galleyLabel">Етикетка</message>
+
+	<message key="submission.layout.galleyLabelInstructions">Етикетка зазвичай вміщує тип формату, що викорисовується (напр. HTML, PDF, DOC, PostScript).</message>
+	<message key="submission.layout.galleyHTMLData">HTML формати</message>
+	<message key="submission.layout.galleyStylesheet">Файлы стилю</message>
+	<message key="submission.layout.noStyleFile">Немає стиюя для цього формату.</message>
+	<message key="submission.layout.deleteGalleyStylesheet">Витерти цей стиль.</message>
+	<message key="submission.layout.galleyImages">Картинки</message>
+
+	<message key="submission.layout.galleyNoImages">Немає картинок для йього формату.</message>
+	<message key="submission.layout.confirmDeleteGalleyImage">Видалити картинку з цього формату?</message>
+	<message key="submission.layout.galleyStyle">Стиль</message>
+	<message key="submission.layout.viewingGalley">Формат прийому</message>
+	<message key="submission.layout.galleyFormat">Формат верстки</message>
+	<message key="submission.layout.viewProof">Переглянути правку</message>
+
+	<message key="submission.layout.instructions">Вказівки по форматуванню</message>
+	
+	
+	<!-- Submission Tracking - Proofread Specific -->
+	<message key="submission.proofreadingComments">Коментарі по правці</message>
+	<message key="submission.queueForScheduling">В чергу на публикацію</message>
+	<message key="submission.archiveSubmission">Архів наділаних статей</message>
+	<message key="submission.proofread.corrections">Правки</message>
+
+	<message key="submission.proofread.instructions">Вказівки корректорам</message>
+
+	<!-- Submission History -->
+	<message key="submission.history.submissionEventLog">Щоденник действий</message>
+	<message key="submission.history.submissionEmailLog">Почтовий щоденний</message>
+	<message key="submission.history.submissionNotes">Примітки до надісланої статті</message>
+	<message key="submission.history.noLogEntries">Немає записів.</message>
+
+	<message key="submission.history.recentLogEntries">Недавні записи</message>
+	<message key="submission.history.viewLog">Переглянути щоденник</message>
+	<message key="submission.history.clearLog">Очиститти щоденник</message>
+	
+	<message key="submission.logType.article">Стаття</message>
+	<message key="submission.logType.author">Автор</message>
+	<message key="submission.logType.editor">Редактор</message>
+
+	<message key="submission.logType.review">Рецензія</message>
+	<message key="submission.logType.copyedit">Верстка</message>
+	<message key="submission.logType.layout">Формат</message>
+	<message key="submission.logType.proofread">Правка</message>
+	
+	<!-- Submission Event Log -->
+	<message key="submission.event.confirmClearLog">Прибрати всі записи?</message>
+
+	<message key="submission.event.confirmDeleteLogEntry">Прибрати цей запис?</message>
+	<message key="submission.event.deleteLogEntry">Стерти запис</message>
+	<message key="submission.event.backToEventLog">Назад до щоденника</message>
+
+	<!-- Submission Email Log -->
+	<message key="submission.email.confirmClearLog">Очистити поштові записи?</message>
+	<message key="submission.email.confirmDeleteLogEntry">Прибрати цей поштовий запис?</message>
+
+	<message key="submission.email.deleteLogEntry">Стерти запис</message>
+	<message key="submission.email.backToEmailLog">Назад до поштового щоденника</message>
+	
+	<!-- Submission Comments -->
+	<message key="submission.comments.comments">Коментарі</message>
+	<message key="submission.comments.review">Рецензія</message>
+	<message key="submission.comments.editorAuthorCorrespondence">Редактор-Автор кореспонденція</message>
+
+	<message key="submission.comments.copyeditComments">Коментарі за версткою</message>
+	<message key="submission.comments.corrections">Виправлення</message>
+	<message key="submission.comments.noComments">Немає комментарів</message>
+	<message key="submission.comments.noReviews">Немає рецензій</message>
+	<message key="submission.comments.subject">Про що</message>
+	<message key="submission.comments.viewableDescription"><![CDATA[These comments can be shared with the author.<br />
+(After saving, further comments can be added.)]]></message>
+
+	<message key="submission.comments.canShareWithAuthor">Для автора та редактора</message>
+	<message key="submission.comments.cannotShareWithAuthor">Для редактора</message>
+	<message key="submission.comments.addComment">Додати коментар</message>
+	<message key="submission.comments.editComment">Правити коментар</message>
+	<message key="submission.comments.confirmDelete">Прибрати цей коментар?</message>
+	<message key="submission.comments.importPeerReviews">Импортувати спецрецензії</message>
+
+	<message key="submission.comments.forAuthorEditor">Для автора та редактора</message>
+	<message key="submission.comments.forEditor">Для редактора</message>
+	<message key="submission.comments.sendDecisionToReviewers">Послати рецензентам рішення редактора</message>
+	<message key="submission.comments.saveAndEmailAuthor">Зберегти та послати автору</message>
+	<message key="submission.comments.saveAndEmailEditor">Зберегти та послати редактору</message>
+	
+	<!-- Login -->
+
+	<message key="user.login.loginError">Неправильний логін.</message>
+	<message key="user.login.accountDisabled">Ваш акаунт недійсний. Прохання звернутись до адміністратора.</message>
+	<message key="user.login.accountDisabledWithReason">Ваш акаунт деактивований з таких причин: {$reason}</message>
+	<message key="user.login.rememberUsernameAndPassword">Запам'ятати мій логін</message>
+	<message key="user.login.registerNewAccount">Реєстрація нового користувача</message>
+	<message key="user.login.forgotPassword">Забули Ваш пароль?</message>
+
+	<message key="user.login.resetPassword">Послати пароль</message>
+	<message key="user.login.resetPasswordInstructions"><![CDATA[Мы посылаем новый пароль, а не старый.<br /><br />Введите ваш мейл адрес и получите новый пароль.]]></message>
+	<message key="user.login.lostPassword.invalidUser">Немає користувача з такою адресою.</message>
+	<message key="user.login.lostPassword.confirmationSent">На Вашу адресу відправлена вимога про верифікацію. Дотримуйтесь інструкцій, щоб отримати новий пароль.</message>
+	<message key="user.login.lostPassword.invalidHash">Недійсний линк. Будь-ласка, запросіть знову Ваш пароль.</message>
+	<message key="user.login.lostPassword.passwordSent">На Вашу адресу надіслано новий пароль. Ви можете викорситати його для входу на сайт.</message>
+
+	<message key="user.login.changePasswordInstructions"><![CDATA[Выберите новый пароль, прежде чем войти в Ваш акаунт.<br /><br />Пожалуйста, введите имя и Ваш старый пароль, чтобы поменять пароль.]]></message>
+	<message key="user.login.registeredEmail">Мейл зареєстровано іншим користувачем</message>
+	
+	<!-- Profile -->
+	<message key="user.profile.editProfile">Правити профиль</message>
+	<message key="user.profile.form.firstNameRequired">І'мя обов'язкове.</message>
+	<message key="user.profile.form.lastNameRequired">Призвіще обов'язкове.</message>
+
+	<message key="user.profile.form.emailRequired">Дійсна адреса обов'язкова.</message>
+	<message key="user.profile.form.usernameRequired">Ім'я користувача обов'язкове.</message>
+	<message key="user.profile.form.passwordRequired">Пароль обов'язковий.</message>
+	<message key="user.profile.leavePasswordBlank">Не заповнюйте поле, якщо хочете зберегти старий пароль.</message>
+	<message key="user.profile.oldPassword">Старий пароль</message>
+	<message key="user.profile.newPassword">Новий пароль</message>
+
+	<message key="user.profile.repeatNewPassword">Повторити новий пароль</message>
+	<message key="user.profile.changePasswordInstructions">Введіть Ваш старий та новий паролі.</message>
+	<message key="user.profile.form.oldPasswordInvalid">Старий пароль неправильний.</message>
+	<message key="user.profile.form.newPasswordRequired">Введіть новий пароль.</message>
+	<message key="user.profile.form.notifications">Підписки</message>
+	
+	<!-- Registration -->
+
+	<message key="user.register.repeatPassword">Повторити пароль</message>
+	<message key="user.register.form.usernameExists">Вибране ім'я користувача вже зареєстроване іншим членом сайту.</message>
+	<message key="user.register.form.usernameAlphaNumeric">Ім'я користувача може складатись з букв, цифр, дефісу, але повинно починатись та закінчуватись буквою.</message>
+	<message key="user.register.form.emailExists">Вибраний мейл використовується іншим членом сайту.</message>
+	<message key="user.register.form.passwordsDoNotMatch">Паролі не співпадають</message>
+	<message key="user.register.selectJournal">Вибрати журнал для реєстрації</message>
+
+	<message key="user.register.registerAs">Зареєструватись як</message>
+	<message key="user.register.privacyStatement">Конфіденційність</message>
+	<message key="user.register.completeForm">Заповніть цю форму, щоб отримати доступ до цього журналу.</message>
+	<message key="user.register.alreadyRegisteredOtherJournal"><![CDATA[<a href="{$registerUrl}">Нажать здесь</a>, если Вы зарегистрированы в качестве пользователя этого или другого журнала нашего сайта.]]></message>
+	<message key="user.register.notAlreadyRegisteredOtherJournal"><![CDATA[<a href="{$registerUrl}">Нажать здесь</a> если Вы <strong>не</strong> зарегистрированы в качестве пользователя этого или другого журнала нашего сайта.]]></message>
+	<message key="user.register.loginToRegister">Введіть Ваше ім'я та пароль, щоб отримати доступ до цього журналу.</message>
+	<message key="user.register.registrationDisabled">Цей журнал поки не реєструє нових користувачів.</message>
+
+	<message key="user.register.usernameRestriction">Ім'я користувача повино вміщувати тільки строчні букви, числа та дефіс.</message>
+	<message key="user.register.passwordLengthRestriction">Пароль повинен складатись з не менш ніж {$length} знаків.</message>
+	<message key="user.register.form.passwordLengthTooShort">Ваш пароль не достатньо довгий.</message>
+	<message key="user.register.readerDescription">Повідомлення мейлом про вихід новых статей або журнальних номерів.</message>
+	<message key="user.register.authorDescription">Дозволяється відправляти статті в журнал.</message>
+	<message key="user.register.reviewerDescription">Бажаю бути спецрецензентом журналу. В мою компетенцію входят такі теми:</message>
+	
+	
+		<!-- Subscriptions -->
+	<message key="user.subscriptions.mySubscriptions">Мої підписки</message>
+	<message key="user.subscriptions.individualSubscriptions">Особисті підписки</message>
+	<message key="user.subscriptions.institutionalSubscriptions">Інституційні підписки</message>
+	<message key="user.subscriptions.renew">Відновити</message>
+	<message key="user.subscriptions.purchase">Придбати</message>
+	<message key="user.subscriptions.purchaseNewSubscription">Придбати нову підписку</message>
+	<message key="user.subscriptions.purchaseIndividualSubscription">Придбати особисту підписку</message>
+	<message key="user.subscriptions.purchaseInstitutionalSubscription">Придбати інституційну підписку</message>
+	<message key="user.subscriptions.expires">Закінчується</message>
+	<message key="user.subscriptions.expired">Закінчена</message>
+	<message key="user.subscriptions.viewSubscriptionTypes">Переглянути типи доступних підписок</message>
+	<message key="user.subscriptions.form.typeId">Тип підписки</message>
+	<message key="user.subscriptions.form.membership">Члени</message>
+	<message key="user.subscriptions.form.membershipRequired">Вибраний тип підписки потребує інформацію про членство</message>
+	<message key="user.subscriptions.form.typeIdValid">Please select a valid subscription type.</message>
+	<message key="user.subscriptions.form.subscriptionExists">This user account already has an individual subscription.</message>
+	<message key="user.subscriptions.form.membershipInstructions">Membership information if required for the selected subscription type.</message>
+	<message key="user.subscriptions.form.institutionName">Institution name</message>
+	<message key="user.subscriptions.form.institutionNameRequired">An institution name is required.</message>
+	<message key="user.subscriptions.form.institutionMailingAddress">Mailing address</message>
+	<message key="user.subscriptions.form.domain">Domain</message>
+	<message key="user.subscriptions.form.domainInstructions"><![CDATA[If a domain is entered here, IP ranges are optional.<br />Valid values are domain names (e.g. lib.sfu.ca).]]></message>
+	<message key="user.subscriptions.form.domainIPRangeRequired">The selected subscription type requires a domain and/or an IP range for subscription authentication.</message>
+	<message key="user.subscriptions.form.domainValid">Please enter a valid domain.</message>
+	<message key="user.subscriptions.form.ipRange">IP ranges</message>
+	<message key="user.subscriptions.form.ipRangeItem"><![CDATA[&#8226;]]></message>
+	<message key="user.subscriptions.form.ipRangeInstructions"><![CDATA[If IP ranges are entered here, the domain is optional.<br />Valid values include an IP address (e.g. 142.58.103.1), IP range (e.g. 142.58.103.1 - 142.58.103.4), IP range with wildcard '*' (e.g. 142.58.*.*), and an IP range with CIDR (e.g. 142.58.100.0/24).]]></message>
+	<message key="user.subscriptions.form.ipRangeValid">Please enter a valid IP range.</message>
+	<message key="user.subscriptions.form.deleteIpRange">Delete</message>
+	<message key="user.subscriptions.form.addIpRange">Add</message>
+
+
+
+	<!-- Search -->
+	<message key="search.browseAuthorIndex">Список авторів</message>
+	<message key="search.searchFor">Пошук статей</message>
+	<message key="search.inField">В</message>
+	<message key="search.allFields">Всі</message>
+
+	<message key="search.author">Автори</message>
+	<message key="search.title">Назви</message>
+	<message key="search.abstract">Анотації</message>
+	<message key="search.fullText">Повний текст</message>
+	<message key="search.indexTerms">Слова</message>
+	<message key="search.withinJournal">В журналі</message>
+
+	<message key="search.allJournals">Всі журнали</message>
+	<message key="search.searchAllCategories">Поиск за категоріями</message>
+	<message key="search.searchCategories">Шукати категорії</message>
+	<message key="search.date">Дата</message>
+	<message key="search.dateFrom">з</message>
+	<message key="search.dateTo">по</message>
+
+	<message key="search.discipline">Дисципліни</message>
+	<message key="search.subject">Предмет</message>
+	<message key="search.typeMethodApproach">Підхід</message>
+	<message key="search.coverage">Де-коли</message>
+	<message key="search.matchAll">За категоіиями</message>
+	<message key="search.authorIndex">За авторами</message>
+
+	<message key="search.titleIndex">Список назв</message>
+	<message key="search.authorDetails">Інформація про автора</message>
+	<message key="search.searchResults">Результати пошуку</message>
+	<message key="search.reviseSearch">Змінити пошук</message>
+	<message key="search.noResults">Немає співпадінь</message>
+	<message key="search.noKeywordError">Ввести хоча б одне слово.</message>
+
+	<message key="search.syntaxInstructions"><![CDATA[Подсказки: <ul>
+<li>Ключевые слова чувствительны к регистру</li>
+<li>Английские предлоги и союзы игнорируются</li>
+<li>По умолчанию поиск проводится <em>по всем</em> ключевым словам (агенс <strong>AND</strong> экспериенцер)</li>
+<li>Используйте <strong>OR</strong> для поиска того или иного термина, напр. <em>образование OR обучение</em></li>
+<li>Используйте скобки для создания сложных фраз, напр. <em>архив ((журналов OR конференций) NOT диссертаций)</em></li>
+<li>Для поиска точной фразы используйте кавычки, напр. <em>"научные исследования"</em></li>
+<li>Исключайте слово при помощи знака <strong>-</strong> (дефис) или оператора <strong>NOT</strong>; напр. <em>конкурс -красоты</em> или же <em>конкурс NOT красоты</em></li>
+<li>Используйте <strong>*</strong> в качестве версификатора, напр. <em>научн*</em> охватит слова "научный", "научные" и т.д.</li>
+</ul>]]></message>
+
+	<!-- Interstitial page for PDFs -->
+	<message key="article.pdf.title">Portable Document Format (PDF)</message>
+	<message key="article.pdf.note"><![CDATA[PDF файл, который Вы выбрали, начнет открываться на этой странице, если в Вашем броузере установлен плагин <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Acrobat Reader</a>. В противном случае Вы можете скачать файл на Ваш компъютер и открыть его при помощи PDF чтеца. Больше об этом на страницах <a href="http://highwire.stanford.edu/help/pdf-faq.dtl">PDF ЧаВо</a>.<br /><br />Если файл не открывается автоматически, <a href="{$pdfUrl}">нажмите здесь</a>.]]></message>
+	
+	<!-- Interstitial page for non-PDF non-HTML galleys -->
+	<message key="article.nonpdf.title">Скачати статтю</message>
+	<message key="article.nonpdf.note"><![CDATA[Выбранный Вами файл должен скачаться автоматически. Если не получается, <a href="{$pdfUrl}">нажмите здесь</a>.]]></message>
+
+	
+	<!-- Site index -->
+	<message key="site.journalsHosted">Журнали на цьому сайті</message>
+	<message key="site.journalView">Переглянути</message>
+	<message key="site.journalRegister">Реєстрація</message>
+	<message key="site.journalCurrent">Поточний випуск</message>
+	
+
+	<!-- Current index -->
+	<message key="current.current">Поточний</message>
+
+	<message key="current.noCurrentIssue">Немає поточного випуска</message>
+	<message key="current.noCurrentIssueDesc">В цьому журналі немає опублікованих випусків.</message>
+
+	<!-- Archive index -->
+	<message key="archive.archives">Архіви</message>
+	<message key="archive.browse">Перелистати старі номери</message>
+	<message key="archive.issueUnavailable">Випуск недоступний</message>
+
+	
+	<!-- About The Journal -->
+	<message key="about.aboutSite">Про сайт</message>
+	<message key="about.contact">Контакти</message>
+	<message key="about.contact.principalContact">Головний редактор</message>
+	<message key="about.contact.supportContact">Техн. редактор електронної версії</message>
+	<message key="about.contact.phone">Телефон</message>
+
+	<message key="about.contact.fax">Факс</message>
+	<message key="about.contact.email">Мейл</message>
+	<message key="about.journalContact">Контакти</message>
+	<message key="about.aboutTheJournal">Про журнал</message>
+	<message key="about.editorialTeam">Відповідальні редактори</message>
+	<message key="about.editorialPolicies">Редакційна політика</message>
+
+	<message key="about.focusAndScope">Цілі та завдання</message>
+	<message key="about.sectionPolicies">Розділи та редактори</message>
+	<message key="about.submissions">Прийом статей</message>
+	<message key="about.sponsors">Спонсори</message>
+	<message key="about.contributors">Джерела підтримки</message>
+	<message key="about.onlineSubmissions">Відправка статей</message>
+
+	<message key="about.onlineSubmissions.haveAccount">У Вас вже є логін для журналу {$journalTitle}?</message>
+	<message key="about.onlineSubmissions.login">Логін</message>
+	<message key="about.onlineSubmissions.needAccount">Потрібен логін?</message>
+	<message key="about.onlineSubmissions.registration">Реєструватись</message>
+	<message key="about.onlineSubmissions.registrationRequired">Якщо Аи зареєструвалист та увійшли у свій акаунт, Ви можете розпочати процесс відправки статті. Для цього потрібно вибрати роль Автора.</message>
+	<message key="about.authorGuidelines">Вказівки для авторів</message>
+
+	<message key="about.submissionPreparationChecklist">Підготовка статей</message>
+	<message key="about.copyrightNotice">Авторські права</message>
+	<message key="about.privacyStatement">Приватність</message>
+	<message key="about.peerReviewProcess">Процес рецензування</message>
+	<message key="about.publicationFrequency">Періодичність</message>
+	<message key="about.openAccessPolicy">Політика вільного доступу</message>
+
+	<message key="about.archiving">Архівація</message>
+	<message key="about.subscriptions">Підписки</message>
+	<message key="about.subscriptionsContact">Контакт для підписки</message>
+	<message key="about.availableSubscriptionTypes">Типи підписок</message>
+	<message key="about.journalSponsorship">Видавець та спонсори</message>
+	<message key="about.siteMap">Карта сайту</message>
+
+	<message key="about.aboutThisPublishingSystem">Про видавничу систему</message>
+	<message key="about.people">Люди</message>
+	<message key="about.policies">Політика</message>
+	<message key="about.other">Інше</message>
+	<message key="about.aboutOJSJournal"><![CDATA[Этот журнал является частью издательской системы, которая предлагает академическим и научным издательствам инструменты для онлайн публикаций на основе <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> при GNU General Public License.]]></message>
+	<message key="about.aboutOJSSite"><![CDATA[Этот журнал является частью издательской системы, которая предлагает академическим и научным издательствам инструменты для онлайн публикаций на основе <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> при GNU General Public License.]]></message>
+	
+	<!-- Help -->
+
+	<message key="help.help">Допомога</message>
+	<message key="help.ojsHelp">Славістика - допомога</message>
+	<message key="help.ojsHelpAbbrev">OJS Допомога</message>	
+	<message key="help.toc">Зміст</message>	
+	<message key="help.searchResults">Результати пошуку</message>
+	<message key="help.matchesFound">{$matches} збігів</message>
+	<message key="help.noMatchingTopics">Немає збігів</message>
+
+	<message key="help.helpIndex">Індекс допоміжних матеріалів</message>
+	<message key="help.contents">Зміст</message>
+	<message key="help.upALevel">Вверх</message>	
+	<message key="help.relatedTopics">Пов'язані теми</message>
+	<message key="help.search">Пошук в допомозі</message>
+	<message key="help.searchFor">Шукати</message>
+
+	
+	<!-- Installer -->
+	<message key="installer.ojsInstallation">OJS Установка</message>
+	<message key="installer.ojsUpgrade">OJS Оновлення</message>
+	<message key="installer.installationInstructions"><![CDATA[<h4>OJS Version {$version}</h4>
+
+<p>Thank you for downloading the Public Knowledge Project's <strong>Slavica Journals</strong>. Before proceeding, please read the <a href="{$baseUrl}/docs/README">README</a> file included with this software. For more information about the Public Knowledge Project and its software projects, please visit the <a href="http://pkp.sfu.ca/" target="_blank">PKP web site</a>. If you have bug reports or technical support inquiries about Slavica Journals, see the <a href="http://pkp.sfu.ca/support/forum">support forum</a> or visit PKP's online <a href="http://pkp.sfu.ca/bugzilla/" target="_blank">bug reporting system</a>. Although the support forum is the preferred method of contact, you can also email the team at <a href="mailto:pkp-support@sfu.ca">pkp-support@sfu.ca</a>.</p>
+
+<h4>Upgrade</h4>
+
+<p>If you are upgrading an existing installation of OJS 2.x, <a href="{$pageUrl}/install/upgrade">click here</a> to proceed.</p>
+
+<h4>Recommended system requirements</h4>
+
+<ul>
+	<li><a href="http://www.php.net/" target="_blank">PHP</a> >= 4.2.x (including PHP 5.x)</li>
+	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> >= 3.23.23 (including MySQL 4.x) or <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> >= 7.1 (including PostgreSQL 8.x)</li>
+	<li><a href="http://httpd.apache.org/" target="_blank">Apache</a> >= 1.3.2x or >= 2.0.4x or Microsoft IIS 6</li>
+	<li>Operating system: Any OS that supports the above software, including <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.sun.com/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a>, <a href="http://www.microsoft.com/">Windows</a></li>
+</ul>
+
+<p>As PKP does not have the resources to test every possible combination of software versions and platforms, no guarantee of correct operation or support is implied.</p>
+
+<p>Changes to these settings can be made after installation by editing the file <tt>config.inc.php</tt> in the base OJS directory, or using the site administration web interface.</p>
+
+<h4>Supported database systems</h4>
+
+<p>OJS has currently only been tested on MySQL and PostgreSQL, although other database management systems supported by <a href="http://adodb.sourceforge.net/" target="_blank">ADOdb</a> may work (in full or partially). Compatibility reports and/or code patches for alternative DBMSs can be sent to the OJS team.</p>
+
+<h4>Pre-Installation Steps</h4>
+
+<p>1. The following files and directories (and their contents) must be made writable:</p>
+<ul>
+	<li><tt>config.inc.php</tt> is writable (optional): {$writable_config}</li>
+	<li><tt>help/cache/</tt> is writable: {$writable_help}</li>
+	<li><tt>locale/cache/</tt> is writable: {$writable_locale}</li>
+	<li><tt>public/</tt> is writable: {$writable_public}</li>
+	<li><tt>templates/t_cache/</tt> is writable: {$writable_templates_cache}</li>
+	<li><tt>templates/t_compile/</tt> is writable: {$writable_templates_compile}</li>
+</ul>
+
+<p>2. A directory to store uploaded files must be created and made writable (see "File Settings" below).</p>
+
+<h4>Manual installation</h4>
+
+<p>Select <strong>Manual Install</strong> to display the SQL statements necessary to create the OJS database schema and initial data so that database installation can be performed manually. This option is useful when debugging installation problems, particularly on unsupported platforms. Note that this installation method will not attempt to create the database or any tables, although the configuration file will still be written with the supplied database settings.</p>]]></message>
+	<message key="installer.upgradeInstructions"><![CDATA[<h4>OJS Version {$version}</h4>
+	
+<p>Thank you for downloading the Public Knowledge Project's <strong>Slavica Journals</strong>. Before proceeding, please read the <a href="{$baseUrl}/docs/README">README</a> and <a href="{$baseUrl}/docs/UPGRADE">UPGRADE</a> files included with this software. For more information about the Public Knowledge Project and its software projects, please visit the <a href="http://pkp.sfu.ca/" target="_blank">PKP web site</a>. If you have bug reports or technical support inquiries about Slavica Journals, see the <a href="http://pkp.sfu.ca/support/forum">support forum</a> or visit PKP's online <a href="http://pkp.sfu.ca/bugzilla/" target="_blank">bug reporting system</a>. Although the support forum is the preferred method of contact, you can also email the team at <a href="mailto:pkp-support@sfu.ca">pkp-support@sfu.ca</a>.</p>
+<p>It is <strong>strongly recommended</strong> that you back up your database, files directory, and OJS installation directory before proceeding.</p>
+<p>If you are running in <a href="http://www.php.net/features.safe-mode" target="_blank">PHP Safe Mode</a>, please ensure that the max_execution_time directive in your php.ini configuration file is set to a high limit. If this or any other time limit (e.g. Apache's "Timeout" directive) is reached and the upgrade process is interrupted, manual intervention will be required.</p>]]></message>
+	<message key="installer.localeSettings">Локальні установки</message>
+
+	<message key="installer.localeSettingsInstructions"><![CDATA[For complete Unicode (UTF-8) support, select UTF-8 for all character set settings. Note that this support currently requires a MySQL >= 4.1.1 or PostgreSQL >= 7.1 database server. Please also note that full Unicode support requires PHP >= 4.3.0 compiled with support for the <a href="http://www.php.net/mbstring" target="_blank">mbstring</a> library (enabled by default in most recent PHP installations). You may experience problems using extended character sets if your server does not meet these requirements.
+<br /><br />
+Your server currently supports mbstring: <strong>{$supportsMBString}</strong>]]></message>
+	<message key="installer.localeInstructions">Перша мова для кристуваня в цій системі. Будь ласка, проконсультуйтесь з OJS документацією, якщо ви цікавитеся мовною підтримкою, які тут не перелічені.</message>
+	<message key="installer.additionalLocales">Додактові locales</message>
+	<message key="installer.additionalLocalesInstructions">Виберіть будь-яку додаткову мову для підтримки цієї системи.Ці мови будуть доступні для використання журналом на цьому сайті. Додаткові мови також можуть бути встановлені у будь-який час з інтерфейсу адміністратора.</message>
+	<message key="installer.clientCharset">Client character set</message>
+	<message key="installer.clientCharsetInstructions">The encoding to use for data sent to and received from browsers.</message>
+
+	<message key="installer.connectionCharset">Connection character set</message>
+	<message key="installer.databaseCharset">Database character set</message>
+	<message key="installer.locale">Locale</message>
+	<message key="installer.fileSettings">Установки файлу</message>
+
+	<message key="installer.filesDir">Директорія для завантаження</message>
+	<message key="installer.filesDirInstructions"><![CDATA[Enter full pathname to an existing directory where uploaded files are to be kept. This directory should not be directly web-accessible. <strong>Please ensure that this directory exists and is writable prior to installation.</strong> Windows path names should use forward slashes, e.g. "C:/myjournal/files".]]></message>
+	<message key="installer.securitySettings">Установки безпеки</message>
+	<message key="installer.encryption">Password encryption algorithm</message>
+	<message key="installer.encryptionInstructions">SHA1 рекомендовано, якщо  ваша система його підтримує (requires PHP >= 4.3.0).</message>
+	<message key="installer.administratorAccount">Аккаунт адміністратора</message>
+
+	<message key="installer.administratorAccountInstructions">Цей аккаунт користувача буде знаходитись на скайті адміністратора та матиме повний доступ до сиситеми. Додатковий аккаунт користувача може бути створено після встановлення.</message>
+	<message key="installer.databaseSettings">Установи бази даних</message>
+	<message key="installer.databaseDriver">Драйвер бази даних</message>
+	<message key="installer.databaseHost">Host</message>
+	<message key="installer.databaseUsername">І'мя користувача</message>
+	<message key="installer.databasePassword">Пароль</message>
+
+	<message key="installer.databaseName">І'мя бази даних</message>
+	<message key="installer.databaseDriverInstructions"><![CDATA[<strong>Database drivers listed in brackets do not appear to have the required PHP extension loaded and installation will likely fail if selected.</strong><br />Any unsupported database drivers listed above are listed solely for academic purposes and are unlikely to work.]]></message>
+	<message key="installer.databaseHostInstructions">Leave the hostname blank to connect using domain sockets instead of over TCP/IP. This is not necessary with MySQL, which will automatically use sockets if "localhost" is entered, but is required with some other database servers such as PostgreSQL.</message>
+	<message key="installer.createDatabase">Створтити нову базу даних</message>
+	<message key="installer.createDatabaseInstructions">Для використання цієї опції ваша система бази жаних повина підтримувати віддалену базу даних, вай аккаунт користувача повинен мати дозвіл на створення нових баз даних. Якщо інсталляція не відбувається з обраною опцією, вручну створіть базу даних на вашому сервері та запустіть установку знову.</message>
+	<message key="installer.miscSettings">Miscellaneous Settings</message>
+
+	<message key="installer.oaiRepositoryId">OAI repository identifier</message>
+	<message key="installer.oaiRepositoryIdInstructions"><![CDATA[A unique identifier used to identify metadata records indexed from this site using the <a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> Protocol for Metadata Harvesting.]]></message>
+	<message key="installer.installOJS">Встановити славістичний журнал</message>
+	<message key="installer.upgradeOJS">Оновити славістичний журнал</message>
+	<message key="installer.manualInstall">Довідник установки</message>
+	<message key="installer.manualUpgrade">Довідник лновлення</message>
+
+	<message key="installer.form.localeRequired">A locale must be selected.</message>
+	<message key="installer.form.clientCharsetRequired">Необхідно вибрати характер клієнта.</message>
+	<message key="installer.form.filesDirRequired">Необхідно вибрати директорію для зберігання завантажених файлів.</message>
+	<message key="installer.form.encryptionRequired">Необхідно вибрати алгоритм для написання пароля користувача.</message>
+	<message key="installer.form.databaseDriverRequired">Необхідно вибрати драйвер бази даних.</message>
+	<message key="installer.form.databaseNameRequired">Необхідне ім'я бази даних.</message>
+
+	<message key="installer.form.usernameRequired">Необхідне ім'я користувача для аккаунта адмінстратора.</message>
+	<message key="installer.form.passwordRequired">Необхідний пароль для аккаунта адміністратора.</message>
+	<message key="installer.form.usernameAlphaNumeric">ім'я адмініатратора може складатьсь тільки з альфанумерічних знаків, a underscores, and hyphens, and must begin and end with an alphanumeric character.</message>
+	<message key="installer.form.passwordsDoNotMatch">Не вистачає імені адміністратора.</message>
+	<message key="installer.form.emailRequired">Необхідна електронна адреса для аккаунта адміністратора.</message>
+	<message key="installer.form.separateMultiple">Separate multiple values with commas</message>
+
+	<message key="installer.installErrorsOccurred">Під час установки виникли помилки</message>
+	<message key="installer.installFilesDirError">Вказана директорія для завантаження файлів не існує, або не прописана.</message>
+	<message key="installer.publicFilesDirError">Файли загального доступу директорії не існують, або не прописані.</message>
+	<message key="installer.installFileError"><![CDATA[The installation file <tt>dbscripts/xml/install.xml</tt> does not exist or is not readable.]]></message>
+	<message key="installer.installParseDBFileError"><![CDATA[Error parsing the database installation file <tt>{$file}</tt>.]]></message>
+	<message key="installer.configFileError"><![CDATA[The configuration file <tt>config.inc.php</tt> does not exist or is not readable.]]></message>
+	<message key="installer.reinstallAfterDatabaseError"><![CDATA[<strong>Warning:</strong> If installation failed part way through database installation you may need to drop your OJS database or database tables before attempting to reinstall the database.]]></message>
+
+	<message key="installer.overwriteConfigFileInstructions"><![CDATA[<h4>IMPORTANT!</h4>
+<p>The installer could not automatically overwrite the configuration file. Before attempting to use the system, please open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.</p>]]></message>
+	<message key="installer.contentsOfConfigFile">Contents of configuration file</message>
+	<message key="installer.manualSQLInstructions"><![CDATA[<h4>Manual installation</h4>
+<p>The SQL statements to create the OJS database schema and initial data are displayed below. Note that the system will be unusable until these statements have been executed manually. You will also have to manually configure the <tt>config.inc.php</tt> configuration file.</p>]]></message>
+	<message key="installer.installerSQLStatements">SQL statements for installation</message>
+	<message key="installer.installationComplete"><![CDATA[<p>Installation of OJS has completed successfully.</p>
+<p>To begin using the system, <a href="{$indexUrl}/index/login">login</a> with the username and password entered on the previous page.</p>]]></message>
+	<message key="installer.upgradeComplete"><![CDATA[<p>Upgrade of OJS to version {$version} has completed successfully.</p>
+<p>Don't forget to set the "installed" setting in your config.inc.php configuration file back to <em>On</em>.</p>]]></message>
+	<message key="installer.skipFilesDir">Не створюйте необхідних субдиректорій (тільки необхідні для ручної установки)</message>
+
+	<message key="installer.releaseNotes">Release Notes</message>
+	<message key="installer.checkYes">Так</message>
+	<message key="installer.checkNo"><![CDATA[<span class="formError">NO</span>]]></message>
+
+
+	<!-- Article Logs -->
+	<message key="log.author.submitted">{$authorName} has entered a new submission, ID {$submissionId}.</message>
+	<message key="log.author.documentRevised">{$authorName}має редаговану статтю {$articleId}. ID нового файла {$fileId}.</message>
+
+	<message key="log.review.reviewerAssigned">{$reviewerName} призначений на редагування {$articleId} на наступний тур редагування {$round}.</message>
+	<message key="log.review.reviewerUnassigned">{$reviewerName} відхилений від редагування {$articleId} наступного туру редагування {$round}.</message>
+	<message key="log.review.reviewInitiated">The round {$round} review by {$reviewerName} for submission {$articleId} has been initiated.</message>
+	<message key="log.review.reviewReinitiated">The round {$round} review by {$reviewerName} for submission {$articleId} has been reinitiated.</message>
+	<message key="log.review.reviewCancelled">The round {$round} review by {$reviewerName} for submission {$articleId} has been cancelled.</message>
+	<message key="log.review.reviewCleared">The round {$round} review by {$reviewerName} for submission {$articleId} has been cleared.</message>
+
+	<message key="log.review.reviewerRated">{$reviewerName} був поставлений на тур $round} редагування подання {$articleId}.</message>
+	<message key="log.review.reviewDueDateSet">Остаточна дата для туру {$round} редагування подання {$articleId} by {$reviewerName} назначена на {$dueDate}.</message>
+	<message key="log.review.reviewRecommendationSet">Рекомендація для туру{$round} редагування подання {$articleId} by {$reviewerName} has been set.</message>
+	<message key="log.review.resubmit">The submission {$articleId} було викреслено з черги редагування.</message>
+	<message key="log.review.reviewDeclined">{$reviewerName} відхилив редагування {$round} редагування подання  {$articleId}.</message>
+	<message key="log.review.reviewAccepted">{$reviewerName} прийняв тур{$round} редагування подання  {$articleId}.</message>
+
+	<message key="log.review.reviewAcceptedByProxy">{$userName} Прийняв тур {$round} редагування подання  {$articleId} від імені {$reviewerName}.</message>
+	<message key="log.review.reviewerFile">Завантаджено файл редактора.</message>
+
+
+	<message key="log.copyedit.initiate">Copyediting on submission {$articleId} has been commenced by {$copyeditorName}.</message>
+	<message key="log.copyedit.copyeditFileSet">The default copyedit file has been chosen.</message>
+	<message key="log.copyedit.initialEditComplete">{$copyeditorName} завешив коректорську правку подання {$articleId}.</message>
+
+	<message key="log.copyedit.finalEditComplete">{$copyeditorName} завершив фінальну коректорську правку подання {$articleId}.</message>
+	<message key="log.copyedit.copyeditorAssigned">{$copyeditorName} призначений на коректорську правку подання {$articleId}.</message>
+	<message key="log.copyedit.copyeditorFile">Версія коректорської правки подання завантажена.</message>
+	<message key="log.copyedit.authorFile">Версія коректорської правки автором подання завантажена.</message>
+
+	<message key="log.layout.layoutEditorAssigned">{$editorName} призначений як редактор формату {$articleId}.</message>
+	<message key="log.layout.layoutEditorUnassigned">{$editorName} відмовився як редактор формату подання {$articleId}.</message>
+
+	<message key="log.layout.layoutEditComplete">{$editorName} завершив редагування формату подання{$articleId}.</message>
+
+	<message key="log.editor.metadataModified">The metadata for this article was modified by {$editorName}.</message>
+	<message key="log.editor.editorFile">Авторська версія файлу подання завантажена.</message>
+	<message key="log.editor.archived">Подання {$articleId} заархівовано.</message>
+	<message key="log.editor.restored">Подання{$articleId} поставлено у чергу.</message>
+	<message key="log.editor.editorAssigned">{$editorName} призначений як редактор подання {$articleId}.</message>
+
+	<message key="log.proofread.assign">{$assignerName}призначений {$proofreaderName} коректувати подання {$articleId}.</message>
+	<message key="log.proofread.complete">{$proofreaderName} has submitted {$articleId} for scheduling.</message>
+
+	<message key="log.imported">{$userName} має важливу статтю {$articleId}.</message>
+
+	<!-- Reading Tools entries -->
+	<message key="rt.readingTools">Інструменти</message>
+
+	<message key="rt.admin.status">Статус</message>
+	<message key="rt.admin.configuration">Конфігурація</message>
+	<message key="rt.admin.management">Керування</message>
+
+	<!-- RT Settings -->
+	<message key="rt.admin.settings">Настройки</message>
+
+	<message key="rt.admin.selectedVersion">Версія</message>
+	<message key="rt.admin.rtDisabled">Не працює</message>
+	<message key="rt.admin.rtEnable">Ввести настройки, щоб задіяти Інструмени, або замінити версію.</message>
+
+	<message key="rt.admin.versionDescription">Будь ласка, виберіть версію для Reading Tools, що відповідають вимогам цього журналу.</message>
+
+	<message key="rt.admin.options">Опції</message>
+
+	<message key="rt.admin.settings.disable">Виключити інструменти</message>
+	<message key="rt.admin.settings.captureCite">Цитати (Показиває цитату зі статті в стандартному форматеі за допомогою наступного софтвера: EndNote, Reference Manager, and ProCite)</message>
+	<message key="rt.admin.settings.viewMetadata">Переглянути метаданні статті (Показує одиниці індексованої інформації, яка накопичена автором та системою)</message>
+	<message key="rt.admin.settings.supplementaryFiles">Додаткові файли (Displays a list of any supplementary files that the author included with an item)</message>
+
+	<message key="rt.admin.settings.authorBio">Переглянути біоданні автора (Displays the bio statements entered by the author)</message>
+	<message key="rt.admin.settings.defineTerms">Пошук слова (Enables readers to double-click on any word in an item and send the word to a dictionary)</message>
+	<message key="rt.admin.settings.emailAuthor">Відправити мейл автору (Takes readers to an email template with the author's email)</message>
+	<message key="rt.admin.settings.emailOthers">Послати статтю колезі (Takes readers to an email template with the title of item as its subject)</message>
+
+	<!-- RT Versions -->
+
+	<message key="rt.admin.versions.restoreVersions">Restore Versions to Defaults</message>
+	<message key="rt.admin.versions.createVersion">Створити версію</message>
+	<message key="rt.admin.versions.confirmRestore">Ви впевнені, що хочете поновити всі версії? If so, you will need to choose an active Version on the Settings page.</message>
+	<message key="rt.admin.versions.confirmDelete">Ви впевнені, що хочете видалити цю версію та всі відповідні контексти та пошуки?</message>
+	<message key="rt.admin.versions.edit.editVersion">Редагувати версію</message>
+	<message key="rt.admin.versions.metadata">Mетсданні</message>
+
+	<message key="rt.admin.versions.export">Експорт</message>
+	<message key="rt.admin.versions.importVersion">Import Version</message>
+
+	<!-- RT Contexts -->
+	<message key="rt.admin.contexts.edit.editContext">Редагувати контекст</message>
+	<message key="rt.admin.contexts.createContext">Створити контекст</message>
+	<message key="rt.admin.contexts.confirmDelete">Ви впевнені, що хочете видалити цей контекст та всі відповідні пошуки?</message>
+
+	<message key="rt.admin.contexts.metadata">Метадані</message>
+	<message key="rt.admin.contexts.options">Опції</message>
+	<message key="rt.admin.contexts.options.authorTerms">Use author names as default search terms to enable users to find other works by the authors for this item (e.g., for an "Other Works" context)</message>
+	<message key="rt.admin.contexts.options.defineTerms"><![CDATA[Use the word highlighted by the reader as default search term or be left blank if none has been selected for this item (e.g., for a "Define Terms" context). The "Define Terms" option must be enabled in the <a href="{$requestPageUrl}/settings">RST Settings</a> to allow double-clicking on words to open this context.]]></message>
+
+	<!-- RT Searches -->
+	<message key="rt.admin.searches.edit.editSearch">Редагувати пошук</message>
+
+	<message key="rt.admin.searches.confirmDelete">Ви впевнені що хочете видалити цей пошук?</message>
+	<message key="rt.admin.searches.createSearch">Створити пошук</message>
+
+	<message key="rt.admin.validateUrls">Validate URLs</message>
+	<message key="rt.admin.validateUrls.description"><![CDATA[Possibly invalid URLs for search sites are displayed below.<br/>
+You should manually verify any URLs marked as invalid, as this test is not 100% accurate.<br/>
+Validation may fail on search URLs that require posted form data.]]></message>
+	<message key="rt.admin.validateUrls.validate">Validate</message>
+	<message key="rt.admin.validateUrls.urlIsInvalid">{$url} не валідний.</message>
+
+	<message key="rt.admin.validateUrls.ok">OK</message>
+	<message key="rt.admin.validateUrls.complete">Validation complete.</message>
+	
+	<!-- RT Entities -->
+	<message key="rt.version">Версія</message>
+	<message key="rt.versions">Версії</message>
+	<message key="rt.version.title">Назва</message>
+
+	<message key="rt.version.locale">Мова</message>
+	<message key="rt.version.key">Ключ</message>
+	<message key="rt.version.description">Опис</message>
+
+	<message key="rt.context">Контекст</message>
+	<message key="rt.contexts">Контексти</message>
+	<message key="rt.context.title">Назва</message>
+
+	<message key="rt.context.abbrev">Скорочення</message>
+	<message key="rt.context.description">Опис</message>
+	<message key="rt.context.order">Порядок</message>
+
+	<message key="rt.search">Пошук</message>
+	<message key="rt.searches">Пошуки</message>
+	<message key="rt.search.title">Назва</message>
+
+	<message key="rt.search.url">URL</message>
+	<message key="rt.search.order">Порядок</message>
+	<message key="rt.search.description">Опис</message>
+	<message key="rt.search.searchUrl">Пошук URL</message>
+	<message key="rt.search.searchPost">Данні</message>
+
+	<message key="rt.authorBio">Данні про автора</message>
+	<message key="rt.aboutAuthor">Про авторів</message>
+
+	<message key="rt.captureCitation">Цитатник</message>
+
+	<message key="rt.viewMetadata">Переглянути метаданні</message>
+
+	<message key="rt.articleMetadata">Метаданні статті</message>
+	<message key="rt.metadata.dublinCore">Dublin Core</message>
+	<message key="rt.metadata.pkpItem">PKP метаданні</message>
+	<message key="rt.metadata.forThisDocument">Метаданні цього документу</message>
+	<message key="rt.metadata.dublinCore.title">Назва</message>
+	<message key="rt.metadata.dublinCore.primaryAuthor">Автор</message>
+
+	<message key="rt.metadata.dublinCore.subject">Предметна галузь</message>
+	<message key="rt.metadata.dublinCore.description">Опис</message>
+	<message key="rt.metadata.dublinCore.publisher">Видавець</message>
+	<message key="rt.metadata.dublinCore.contributor">Контриб'ютор</message>
+	<message key="rt.metadata.dublinCore.date">Дата</message>
+	<message key="rt.metadata.dublinCore.type">Тип</message>
+
+	<message key="rt.metadata.dublinCore.format">Формат</message>
+	<message key="rt.metadata.dublinCore.identifier">Ідентифікатор</message>
+	<message key="rt.metadata.dublinCore.source">Джерело</message>
+	<message key="rt.metadata.dublinCore.language">Мова</message>
+	<message key="rt.metadata.dublinCore.relation">Пов'язані матеріали</message>
+	<message key="rt.metadata.dublinCore.coverage">Покриття</message>
+
+	<message key="rt.metadata.dublinCore.rights">Права</message>
+
+	<message key="rt.metadata.pkp.title">Назва документу</message>
+	<message key="rt.metadata.pkp.primaryAuthor">Автор, заклад</message>
+	<message key="rt.metadata.pkp.discipline">Дисципліни</message>
+	<message key="rt.metadata.pkp.subject">Предмети</message>
+	<message key="rt.metadata.pkp.subjectClass">Класифікация</message>
+
+	<message key="rt.metadata.pkp.abstract">Анотація</message>
+	<message key="rt.metadata.pkp.publisher">Організатор,місто</message>
+	<message key="rt.metadata.pkp.sponsors">Спонсоры</message>
+	<message key="rt.metadata.pkp.date">(YYYY-MM-DD)</message>
+	<message key="rt.metadata.pkp.type">Тип</message>
+	<message key="rt.metadata.pkp.genre">Тип дослідженя або жанр</message>
+
+	<message key="rt.metadata.pkp.peerReviewed">Рецензована стаття</message>
+	<message key="rt.metadata.pkp.format">Формат файлу</message>
+	<message key="rt.metadata.pkp.uri">Універсальний ідентифікатор, URI</message>
+	<message key="rt.metadata.pkp.source">Журнал/конференція, том., №. (год)</message>
+	<message key="rt.metadata.pkp.language">Russian=ru, English=en, Bulgarian=bg</message>
+	<message key="rt.metadata.pkp.suppFiles">Додаткові файли</message>
+
+	<message key="rt.metadata.pkp.coverage">Просторово-часове охоплення, методика дослідження</message>
+	<message key="rt.metadata.pkp.copyright">Права та дозволи</message>
+
+	<message key="rt.suppFiles">Додаткові файли</message>
+	<message key="rt.suppFiles.viewMetadata">Метаданні</message>
+	<message key="rt.suppFiles.download">Скачати</message>
+
+	<message key="rt.captureCite">Цитата</message>
+	<message key="rt.captureCite.online">Онлайн</message>
+
+
+	<message key="rt.printVersion">Версія для друку</message>
+	<message key="rt.lookUp">Пошук слова</message>
+	<message key="rt.colleague">Послати лінк колезі</message>
+	<message key="rt.addComment">Додати коментар</message>
+
+	<message key="rt.emailAuthor">Зв'язатись з автором</message>
+	<message key="rt.beNotifiedWhen">Отримати повідомленя, якщо...</message>
+
+	<message key="rt.relatedItems">Знайти подібні статті</message>
+	<message key="rt.thisJournal">Знайти в цьому журналі</message>
+	
+	<message key="rt.email.sent">Ваше повідомлення відправлено.</message>
+	<message key="rt.email.needLogin"><![CDATA[* Нужна <a target="_parent" href="{$pageUrl}/user/register">регистрация</a>]]></message>
+
+	<message key="rt.context.searchTerms">Ключові слова</message>
+	<message key="rt.context.termToDefine">Термин</message>
+	<message key="rt.context.searchDescription">Ключові слова вибрані автором та можуть бути змінені читачем. Щоб взнати більше про ресурси, натисніть на символ інформації. Ціёресурси вибрані тому, що вони відповідають вікритому доступу до всіх частин свого змісту.</message>
+	<message key="rt.context.defineTermsDescription">Подвійний клік на будь-яке слово у тексті відкриє його у Word-to-Define box. Ви також можеете надрукувати, або вставити слово у віконце. Виберіть функцію пошуку для отримання визначення слова. Щоб взнати бальше про ресурси, натисніть на симвл інформації. Ці ресурси були обрані тому, що вони відповідає їх відкритому (free) доступу до всіх частин їх змісту.</message>
+	<message key="rt.context.authorTermsDescription">Для частин, що не є авторськими залиште всі імена перевіреними для пошуку for similarly co-authored work, or search one at a time by checking only a single name. To learn more about the resource searched, click on the information symbol. These resources have been selected because of their relevance and their open (free) access to all or part of their contents.</message>
+
+	<message key="rt.context.and">AND</message>
+
+	<!--
+	 *
+	 * MISC - Entries that do not belong in the other sections.
+	 *
+	-->
+	<!-- Icons: Default "alt" text -->
+	<message key="icon.view.alt">Переглянути</message>
+	<message key="icon.edit.alt">Правити</message>
+	<message key="icon.delete.alt">Видалтти</message>
+
+	<message key="icon.letter.alt">Лист</message>
+	<message key="icon.mail.alt">Мейл</message>
+	<message key="icon.info.alt">Інфо</message>
+	
+	<!-- Debug messages -->
+	<message key="debug.executionTime">Сторінка створена за</message>
+	<message key="debug.databaseQueries">Кількість ДБ запросів</message>
+
+	<!--
+	 *
+	 * DEFAULT - Default settings for setup items.
+	 *
+	-->
+	<message key="default.journalSettings.checklist.notPreviouslyPublished">Ця стаття не була раніше опублікована, а також не надана іншому журналу для розгляду та публікації. Якщо подібне має місце, то випадок повинен бути пояснений у примітках до відправленої статті (Шаг 5).</message>
+	<message key="default.journalSettings.checklist.fileFormat">Відправавляємий матеріал набрано у текстовому редакторі Microsoft Word, формат DOC или RTF; сторінки без пагинації, без переносов, без колонтитулов, без абзацного отступа (абзацный отступ не задан при помощи табуляции), вирівнювання по ширині; всі иілюстрації, схеми, фігури та таблиці розташовані в тексті у відповідному місці, а не наприкінці статті.</message>
+	<message key="default.journalSettings.checklist.submissionAppearance">Шрифт Times New Roman, 12 pt; всі інші використані шрифти мають бути архівовані та відправлені в додаткових файлах як додаток; межстрочний інтервал - 1; викорисовується курсив замість підкреслювання (за вийнятком підкреслених URL адрес).</message>
+	<message key="default.journalSettings.checklist.bibliographicRequirements"><![CDATA[Текст обработан в соответствии с требованиями, предъявляемыми к авторам. С конкретными требованиями можно ознакомиться на странице <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Редакционные требования</a>, которая находится в разделе О нас.]]></message>
+	<message key="default.journalSettings.checklist.anonymous">Якщо відправлений файл носить характер теоретичної статті, він буде рецензирований анонімно (peer-review). З такою метою імена авторів будуть видалені. Якщо автор посилаєтьсяна свої роботи, то в посиланнях сылках та біблиографії його ім'я має бути змінене на Автор (напр. Автор 1996: 156). Имя автора не должно присутствовать и в свойствах (Properties) документа.</message>
+
+	<message key="default.journalSettings.privacyStatement">Імена та адреса, вказані вами при реєструванні на цьому сайті, будуть використані виключно для техгнічних цілей: контакту з Вами або з рецензентами (редакторами) в процесі підготовки Вашої статті до публікації.  Вони ні в якому разі не будуть надаватись іншим особам або організаціям.</message>
+	<message key="default.journalSettings.copyeditInstructions"><![CDATA[The copyediting stage is intended to improve the flow, clarity, grammar, wording, and formatting of the article. It represents the last chance for the author to make any substantial changes to the text, as the next stage is restricted to typos and formatting corrections. 
+
+The file to be copyedited is in Word or .rtf format and therefore can be easily edited as a word processing document. This set of  instructions displayed here proposes two approaches to copyediting. The one is based on Microsoft Word's Track Changes feature and requires that the copyeditor, editor and author have access to this program. A second system, that is software independent, has been borrowed, with permission, from the Harvard Educational Review. The journal editor is in a position to modify these instructions, so suggestions can be made to improve the process for this journal. 
+
+<h4>Copyediting Systems</h4>
+
+<strong>1. Microsoft Word's Track Changes</strong>
+
+Under Tools in the menu bar, the feature Track Changes enables the copyeditor to make insertions (text appears in color) and deletions (text appears crossed out in color or in the margins as deleted). The copyeditor can post queries to both the author (Author Queries) and to the editor (Editor Queries) by inserting these queries in square brackets. The copyedited version is then uploaded and the editor is notified. The editor then reviews the text and notifies the author. 
+
+The editor and author should leave those changes with which they are satisfied. If further changes are necessary, the editor and author can make changes to the initial insertions or deletions, as well as make new insertions or deletions elsewhere in the text. Authors and editors should respond to each of the queries addressed to them, with responses placed inside the square brackets. 
+
+After the text has been reviewed by editor and author, the copyeditor will make a final pass over the text accepting the changes in preparation for the layout and galley stage. 
+
+
+<strong>2. Harvard Educational Review </strong>
+
+<strong>Instructions for Making Electronic Revisions to the Manuscript</strong>
+
+Please follow the following protocol for making electronic revisions to your manuscript:
+
+<strong>Responding to suggested changes</strong>
+&nbsp; For each of the suggested changes that you accept, unbold the text
+&nbsp; For each of the suggested changes that you do not accept, re-enter the original text and <strong>bold</strong> it
+
+<strong>Making additions and deletions</strong>
+&nbsp; Indicate additions by <strong>bolding</strong> the new text
+&nbsp; Replace deleted sections with: <strong>[deleted text]</strong>
+&nbsp; If you delete a sentence or more, please indicate with a note, e.g., <strong>[deleted 2 sentences]</strong>
+
+<strong>Responding to Queries to the Author (QAs)</strong>
+&nbsp; Keep all QAs intact and bolded within the text. Do not delete them
+&nbsp; To reply to a QA, add a comment after it. Comments should be delimited using:
+<strong>[Comment:</strong>]
+&nbsp; e.g., <strong>[Comment: Expanded discussion of methodology as you suggested]</strong>
+
+<strong>Making comments</strong>
+&nbsp; Use comments to explain organizational changes or major revisions
+&nbsp; e.g., <strong>[Comment: Moved the above paragraph from p. 5 to p. 7]</strong>
+&nbsp; Note: When referring to page numbers, please use the page numbers from the printed copy of the manuscript that was sent to you. This is important since page numbers may change as a document is revised electronically.
+
+<h4>An Illustration of an Electronic Revision</h4>
+
+<strong>The original "manuscript" file</strong>
+
+Before making dramatic departures from the structure and organization of your original manuscript, please check in with the co-chairs of your piece. After you are finished with your revisions, rename the file from AuthorNameQA.doc to AuthorNameQAR.doc (e.g., from LeeQA.doc to LeeQAR.doc). Print out a hardcopy of your manuscript and mail it with a floppy disk containing the completely revised and renamed word processing file.
+
+
+<strong>Manuscript returned to the author with queries and suggestions</strong>
+
+Before making dramatic departures from the structure and organization of <strong>the manuscript that we are returning to you</strong>, please check in with the <strong>editors who are co-chairing</strong> your piece. After you are finished with your revisions, rename the file from AuthorNameQA.doc to AuthorNameQAR.doc (e.g., from LeeQA.doc to LeeQAR.doc). Print out a hardcopy of your manuscript and mail it with a floppy disk containing the completely revised and renamed word processing file. <strong>[QA: In this paragraph, it might help to stress the importance of following carefully the instructions for making electronic revisions. Otherwise the editing process may be slowed considerably]</strong>
+
+<strong>Revised manuscript sent back to HER</strong>
+
+Before making dramatic departures from the structure and organization of the manuscript that we are returning to you, please check in with the editors who are co-chairing your piece. <strong>Please understand that failure to follow the following instructions may significantly delay the publication of your manuscript.</strong>
+
+After you are finished with your revisions, rename the file from AuthorNameQA.doc to AuthorNameQAR.doc (e.g., from LeeQA.doc to LeeQAR.doc). Print out a hardcopy of your manuscript and mail it with a floppy disk containing the <strong>[deleted word]</strong> revised and renamed word processing file. <strong>[QA: In this paragraph, it might help to stress the importance of following carefully the instructions for making electronic revisions. Otherwise the editing process may be slowed considerably] [Comment: I added a sentence in response to your suggestion.]</strong>
+
+<strong>Notes:</strong>
+&bull; Unbolded text indicates acceptance of the suggested changes to the first sentence
+&bull; Sentence added in response to QA. Bold text indicates addition of new text
+&bull; [deleted word] indicates deletion of "completely"
+&bull; Comment contains a reply to the editors' QA]]></message>
+
+	<message key="default.journalSettings.emailSignature"><![CDATA[________________________________________________________________________
+{$journalName}
+{$indexUrl}/{$journalPath}
+]]></message>
+	<message key="default.journalSettings.forReaders"><![CDATA[Мы приглашаем наших читателей подписаться на рассылки с последними новостями. Для этого нужно <a href="{$indexUrl}/{$journalPath}/user/register">зарегистрироваться</a>. Регистрация позволить Вам выбрать роль автора, а также подписаться на журнальные рассылки с содержанием последнего выпуска журнала. Таким образом издатели журнала получат обратную информацию о читательском интересе. Посмотрите также страницу <a href="{$indexUrl}/{$journalPath}/about/submissions#privacyStatement">Конфиденциальность</a>.]]></message>
+	<message key="default.journalSettings.forAuthors"><![CDATA[Вы хотите отправить Ваши материалы для публикации в этом журнале? Просмотрите, пожалуйста, раздел <a href="{$indexUrl}/{$journalPath}/about">Про нас</a>, где Вы сможете ознакомиться с редакционной политикой и<a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">требованиями к авторам</a>. Будущим авторам нужно <a href="{$indexUrl}/{$journalPath}/user/register">зарегистрироваться</a> в роли Автора, <a href="{$indexUrl}/index/login">войти</a> в свой акаунт и <a href="{$indexUrl}/author/submit">заполнить</a> форму отправки статей.]]></message>
+	<message key="default.journalSettings.forLibrarians"><![CDATA[Мы надеемся, что сотрудники библиотек впишут этот журнал в их список электронных журналов. Данная издательская система создана для того, чтобы дать возможность академическим и научным библиотекам организовать собственные электронные журналы для преподователей и научных работников. Больше об этих возможностей, см. сайт разработчиков <a href="http://pkp.sfu.ca">Public Knowledge Project</a>.]]></message>
+
+	<message key="default.journalSettings.lockssLicense"><![CDATA[Этот журнал использует систему LOCKSS для создания общих архивов участвующих библиотек и издателей с тем, чтобы повысить надежность и доступность публикаций. Больше об этом, см. <a href="http://lockss.org/">здесь</a>.]]></message>
+
+</locale>

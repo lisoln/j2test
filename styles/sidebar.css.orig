@@ -1,0 +1,103 @@
+/**
+ * sidebar.css
+ *
+ * Copyright (c) 2003-2010 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Site-wide shared elements for pages including sidebar(s).
+ *
+ * $Id$
+ */
+
+/**
+ * Sidebar
+ */
+
+#developedBy {
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	font-family:"Constantia";
+	text-align: center;
+}
+
+#sidebar div.block {
+	font-size: 0.95em;
+	padding: 0 0 0 0;
+	font-family:"Tahoma";
+	border-width:1px;
+	border-color:#a9b4ca;
+	border-bottom-style:solid;
+
+}
+
+#sidebar div.block span.blockTitle {
+	display: block;
+	padding: 0 0 0.5em 0em;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family:"Constantia";
+	color: #01445f;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#sidebar div.block span.blockSubtitle {
+	display: block;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family:"Constantia";
+	padding-bottom: 0.5em;
+}
+
+#sidebar input.textField, #sidebar select.selectMenu, #sidebar input.button {
+	font-size: 0.9em;
+	font-family:"Verdana";
+
+}
+span.rtop, span.rbottom {
+	display:block;
+	background: #e8ebf1;
+	height: 5px;
+}
+
+span.rtop span, span.rbottom span {
+	display:block;
+	height: 1px;
+	overflow: hidden; 
+	background: #e8ebf1;
+}
+
+span.r1 {
+	margin: 0 5px;
+}
+
+span.r2 {
+	margin: 0 3px;
+}
+
+span.r3 {
+	margin: 0 2px;
+}
+
+span.rtop span.r4, span.rbottom span.r4 {
+	margin: 0 1px;
+	height: 2px;
+}
+
+#sidebar div.block {
+
+	padding-bottom: 1.5em;	
+	margin-bottom: 1.5em;
+	
+}
+
+div.roundedCorner {
+	padding-left: 1em;
+    	background: #e8ebf1;
+
+}
+
+/* Used to flag already-rounded corners */
+div.alreadyRounded {
+}

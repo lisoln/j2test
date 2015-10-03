@@ -1,0 +1,16 @@
+body {
+  margin:.0in .0in;
+  padding: 0px;
+  width:100%;  
+}
+.bg-header {
+  display: block;
+}
+#leftSidebar {
+  display: none;
+}
+#main {
+  width: 95%;
+  margin: 0px auto;
+  float: none;
+}

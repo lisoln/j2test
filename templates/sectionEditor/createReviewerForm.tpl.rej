@@ -1,0 +1,24 @@
+--- templates/sectionEditor/createReviewerForm.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/sectionEditor/createReviewerForm.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,19 +1,18 @@
+ {**
+- * createReviewerForm.tpl
++ * templates/sectionEditor/createReviewerForm.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Form for editors to create reviewers.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitle" value="sectionEditor.review.createReviewer"}
+ {include file="common/header.tpl"}
+ {/strip}
+ 
+-<form method="post" name="reviewerForm" action="{url op="createReviewer" path=$articleId|to_array:"create"}">
++<form method="post" id="reviewerForm" action="{url op="createReviewer" path=$articleId|to_array:"create"}">
+ 
+ {include file="common/formErrors.tpl"}
+ 

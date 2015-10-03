@@ -1,0 +1,118 @@
+--- ojs-2.3.7/pages/user/ProfileHandler.inc.php	2012-03-15 10:19:29.000000000 -0700
++++ ojs-2.4.1/pages/user/ProfileHandler.inc.php	2012-10-02 17:07:08.000000000 -0700
+@@ -1,7 +1,7 @@
+ <?php
+ 
+ /**
+- * @file ProfileHandler.inc.php
++ * @file pages/user/ProfileHandler.inc.php
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+@@ -12,8 +12,6 @@
+  * @brief Handle requests for modifying user profiles.
+  */
+ 
+-// $Id$
+-
+ import('pages.user.UserHandler');
+ 
+ class ProfileHandler extends UserHandler {
+@@ -26,10 +24,12 @@
+ 
+ 	/**
+ 	 * Display form to edit user's profile.
++	 * @param $args array
++	 * @param $request PKPRequest
+ 	 */
+ 	function profile($args, &$request) {
+ 		$this->validate();
+-		$this->setupTemplate(true);
++		$this->setupTemplate($request, true);
+ 
+ 		import('classes.user.form.ProfileForm');
+ 
+@@ -44,10 +44,12 @@
+ 
+ 	/**
+ 	 * Validate and save changes to user's profile.
++	 * @param $args array
++	 * @param $request PKPRequest
+ 	 */
+-	function saveProfile() {
++	function saveProfile($args, &$request) {
+ 		$this->validate();
+-		$this->setupTemplate();
++		$this->setupTemplate($request);
+ 		$dataModified = false;
+ 
+ 		import('classes.user.form.ProfileForm');
+@@ -55,19 +57,19 @@
+ 		$profileForm = new ProfileForm();
+ 		$profileForm->readInputData();
+ 
+-		if (Request::getUserVar('uploadProfileImage')) {
++		if ($request->getUserVar('uploadProfileImage')) {
+ 			if (!$profileForm->uploadProfileImage()) {
+ 				$profileForm->addError('profileImage', __('user.profile.form.profileImageInvalid'));
+ 			}
+ 			$dataModified = true;
+-		} else if (Request::getUserVar('deleteProfileImage')) {
++		} else if ($request->getUserVar('deleteProfileImage')) {
+ 			$profileForm->deleteProfileImage();
+ 			$dataModified = true;
+ 		}
+ 
+ 		if (!$dataModified && $profileForm->validate()) {
+ 			$profileForm->execute();
+-			Request::redirect(null, Request::getRequestedPage());
++			$request->redirect(null, $request->getRequestedPage());
+ 
+ 		} else {
+ 			$profileForm->display();
+@@ -76,10 +78,12 @@
+ 
+ 	/**
+ 	 * Display form to change user's password.
++	 * @param $args array
++	 * @param $request PKPRequest
+ 	 */
+-	function changePassword() {
++	function changePassword($args, &$request) {
+ 		$this->validate();
+-		$this->setupTemplate(true);
++		$this->setupTemplate($request, true);
+ 
+ 		import('classes.user.form.ChangePasswordForm');
+ 
+@@ -94,8 +98,10 @@
+ 
+ 	/**
+ 	 * Save user's new password.
++	 * @param $args array
++	 * @param $request PKPRequest
+ 	 */
+-	function savePassword() {
++	function savePassword($args, &$request) {
+ 		$this->validate();
+ 
+ 		import('classes.user.form.ChangePasswordForm');
+@@ -107,16 +113,15 @@
+ 		}
+ 		$passwordForm->readInputData();
+ 
+-		$this->setupTemplate(true);
++		$this->setupTemplate($request, true);
+ 		if ($passwordForm->validate()) {
+ 			$passwordForm->execute();
+-			Request::redirect(null, Request::getRequestedPage());
++			$request->redirect(null, $request->getRequestedPage());
+ 
+ 		} else {
+ 			$passwordForm->display();
+ 		}
+ 	}
+-
+ }
+ 
+ ?>

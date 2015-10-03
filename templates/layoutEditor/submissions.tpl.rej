@@ -1,0 +1,16 @@
+--- templates/layoutEditor/submissions.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/layoutEditor/submissions.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * submissions.tpl
++ * templates/layoutEditor/submissions.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Layout editor submissions list.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitle" value="common.queue.long.$pageToDisplay"}

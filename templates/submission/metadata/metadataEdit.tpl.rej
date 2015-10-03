@@ -1,0 +1,14 @@
+--- templates/submission/metadata/metadataEdit.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/submission/metadata/metadataEdit.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -389,6 +389,11 @@
+ 
+ <div class="separator"></div>
+ 
++{foreach from=$pubIdPlugins item=pubIdPlugin}
++	{assign var=pubIdMetadataFile value=$pubIdPlugin->getPubIdMetadataFile()}
++	{include file="$pubIdMetadataFile" pubObject=$article}
++{/foreach}
++
+ {call_hook name="Templates::Submission::MetadataEdit::AdditionalMetadata"}
+ 
+ {if $journalSettings.metaCitations}

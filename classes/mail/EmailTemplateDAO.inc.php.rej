@@ -1,0 +1,12 @@
+--- classes/mail/EmailTemplateDAO.inc.php	2012-03-15 10:19:28.000000000 -0700
++++ classes/mail/EmailTemplateDAO.inc.php	2012-10-02 17:07:08.000000000 -0700
+@@ -13,9 +13,6 @@
+  * @brief Operations for retrieving and modifying Email Template objects.
+  */
+ 
+-// $Id$
+-
+-
+ import('lib.pkp.classes.mail.PKPEmailTemplateDAO');
+ import('lib.pkp.classes.mail.EmailTemplate');
+ 

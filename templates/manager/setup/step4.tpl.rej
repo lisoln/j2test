@@ -1,0 +1,22 @@
+--- templates/manager/setup/step4.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/manager/setup/step4.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,17 +1,16 @@
+ {**
+- * step4.tpl
++ * templates/manager/setup/step4.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Step 4 of journal setup.
+  *
+- * $Id$
+  *}
+ {assign var="pageTitle" value="manager.setup.managingTheJournal"}
+ {include file="manager/setup/setupHeader.tpl"}
+ 
+-<form name="setupForm" method="post" action="{url op="saveSetup" path="4"}" enctype="multipart/form-data">
++<form id="setupForm" method="post" action="{url op="saveSetup" path="4"}" enctype="multipart/form-data">
+ {include file="common/formErrors.tpl"}
+ 
+ {if count($formLocales) > 1}

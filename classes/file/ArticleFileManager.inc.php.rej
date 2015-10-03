@@ -1,0 +1,11 @@
+--- classes/file/ArticleFileManager.inc.php	2012-03-15 10:19:28.000000000 -0700
++++ classes/file/ArticleFileManager.inc.php	2012-10-02 17:07:08.000000000 -0700
+@@ -270,7 +259,7 @@
+ 		$articleFile =& $this->getFile($fileId, $revision);
+ 		if (isset($articleFile)) {
+ 			$fileType = $articleFile->getFileType();
+-			$filePath = $this->filesDir . $articleFile->getType() . '/' . $articleFile->getFileName();
++			$filePath = $this->filesDir .  $this->fileStageToPath($articleFile->getFileStage()) . '/' . $articleFile->getFileName();
+ 
+ 			return parent::downloadFile($filePath, $fileType, $inline);
+ 

@@ -1,0 +1,17 @@
+--- templates/issue/view.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/issue/view.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,13 +1,11 @@
+ {**
+- * view.tpl
++ * templates/issue/view.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * View issue -- This displays the issue TOC or title page, as appropriate,
+  * *without* header or footer HTML (see viewPage.tpl)
+- *
+- * $Id$
+  *}
+ {if $subscriptionRequired && $showGalleyLinks && $showToc}
+ 	<div id="accessKey">

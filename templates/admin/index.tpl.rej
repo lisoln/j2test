@@ -1,0 +1,26 @@
+--- templates/admin/index.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/admin/index.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,17 +1,21 @@
+ {**
+- * index.tpl
++ * templates/admin/index.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Site administration index.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitle" value="admin.siteAdmin"}
+ {include file="common/header.tpl"}
+ {/strip}
++
++{if $newVersionAvailable}
++<div class="warningMessage">{translate key="site.upgradeAvailable.admin" currentVersion=$currentVersion latestVersion=$latestVersion}</div>
++{/if}
++
+ <div id="siteManagement">
+ <h3>{translate key="admin.siteManagement"}</h3>
+ 

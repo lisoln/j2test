@@ -1,0 +1,22 @@
+--- templates/subscription/subscriptionTypeForm.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/subscription/subscriptionTypeForm.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,17 +1,16 @@
+ {**
+- * subscriptionTypeForm.tpl
++ * templates/subscription/subscriptionTypeForm.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Subscription type form under journal management.
+  *
+- * $Id$
+  *}
+ {strip}
+ {if $typeId}
+ {assign var="pageTitle" value="manager.subscriptionTypes.edit"}
+-	
++
+ {else}
+ 	{assign var="pageTitle" value="manager.subscriptionTypes.create"}
+ {/if}

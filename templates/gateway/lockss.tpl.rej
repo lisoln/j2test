@@ -1,0 +1,17 @@
+--- templates/gateway/lockss.tpl	2011-02-01 14:20:03.000000000 -0800
++++ templates/gateway/lockss.tpl	2012-03-15 10:19:29.000000000 -0700
+@@ -1,13 +1,12 @@
+ {**
+  * lockss.tpl
+  *
+- * Copyright (c) 2003-2011 John Willinsky
++ * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * LOCKSS Publisher Manifest gateway page.
+  * NOTE: This page is not localized in order to provide a consistent interface to LOCKSS across all OJS installations. It is not meant to be accessed by humans.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitleTranslated" value="LOCKSS Publisher Manifest"}

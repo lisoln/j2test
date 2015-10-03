@@ -1,0 +1,24 @@
+--- templates/admin/settings.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/admin/settings.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,19 +1,18 @@
+ {**
+- * settings.tpl
++ * templates/admin/settings.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Site settings form.
+  *
+- * $Id$
+  *}
+ {strip}
+ {assign var="pageTitle" value="admin.siteSettings"}
+ {include file="common/header.tpl"}
+ {/strip}
+ 
+-<form name="settings" method="post" action="{url op="saveSettings"}" enctype="multipart/form-data">
++<form id="settings" method="post" action="{url op="saveSettings"}" enctype="multipart/form-data">
+ {include file="common/formErrors.tpl"}
+ 
+ <table class="data" width="100%">

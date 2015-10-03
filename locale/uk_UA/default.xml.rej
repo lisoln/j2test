@@ -1,0 +1,52 @@
+--- locale/uk_UA/default.xml	2012-03-15 10:19:29.000000000 -0700
++++ locale/uk_UA/default.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -142,27 +141,29 @@
+ <br />
+ <pre>4. Форматування
+ Перед абзацом, що починається словами "Ця остання тема..." немає відступу.</pre>]]></message>
+-	<message key="default.journalSettings.emailSignature"><![CDATA[________________________________________________________________________
++       <message key="default.journalSettings.emailSignature"><![CDATA[________________________________________________________________________
+ {$journalName}
+ {$indexUrl}/{$journalPath}
+ ]]></message>
+-	<message key="default.journalSettings.forReaders"><![CDATA[Ми заохочуємо авторів реєструватися на сайті для користування службою сповіщень цього журналу. Для реєстрації використовуйте посилання <a href="{$indexUrl}/{$journalPath}/user/register">Зареєструватися</a> у верхньому меню домашньої сторінки сайту журналу. Ви зможете оперативно отримувати поштою сторінки змісту нових опублікованих випусків нашого видання та дозволите редакції відстежувати читацькі пріоритети та інтереси. Будь ласка, ознайомтеся з нашим <a href="{$indexUrl}/{$journalPath}/about/submissions#privacyStatement">Положенням про конфіденційність</a>, у якому йдеться про те, що журнал гарантує нерозповсюдження імен та електронних адрес своїх читачів стороннім особам.]]></message>
+-	<message key="default.journalSettings.forAuthors"><![CDATA[Ви хочете опублікувати свою роботу у цьому журналі? Рекомендуємо ознайомитись з нашою редакційною політикою на сторінці <a href="{$indexUrl}/{$journalPath}/about">Про журнал</a> та переглянути <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Керівництва для авторів</a>. Для того, щоб мати можливість надсилати рукописи у наше видання, автори повинні <a href="{$indexUrl}/{$journalPath}/user/register">зареєструватися</a> на сайті журналу. Якщо Ви вже зареєстровані, просто <a href="{$indexUrl}/index/login">увійдіть на сайт</a> та пройдіть 5 кроків подання рукопису для публікації.]]></message>
+-	<message key="default.journalSettings.forLibrarians"><![CDATA[Ми заохочуємо наукові бібліотеки включати цей журнал до списків своїх електронних колекцій. Крім того, ця видавнича система має засоби інтеграції з бібліотечним програмним забезпеченням, вона дозволяє бібліотекам забезпечувати архівне збереження електронного змісту журналу та/або безпосередньо брати участь у видавничому процесі. Більш детально про ці можливості див. на сайті <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).]]></message>
+-	<message key="default.journalSettings.lockssLicense"><![CDATA[Цей журнал використовує систему LOCKSS для розподіленого архівного зберігання опублікованого змісту в численних бібліотеках та інформаційних центрах. Бібліотеки - учасниці проекту LOCKSS гарантують довготермінове зберігання вичерпних архівів журналу та автоматичне відновлення пошкодженої інформації. <a href="http://lockss.org/">Детальніше...</a>]]></message>
+-
+-	<!-- Default settings for payment items. -->
+-	<message key="default.journalSettings.submissionFee">Подання статті</message>
+-	<message key="default.journalSettings.submissionFeeDescription">Автори частково компенсують витрати на рецензування, перераховуючи журналу Плату за подання статті.</message>
+-	<message key="default.journalSettings.fastTrackFee">Прискорене рецензування</message>
+-	<message key="default.journalSettings.fastTrackFeeDescription">Платникам гарантується, що їх подання буде рецензоване і вони отримають сповіщення про рішення редактора упродовж 4 тижнів.</message>
+-	<message key="default.journalSettings.publicationFee">Публікація статті</message>
+-	<message key="default.journalSettings.publicationFeeDescription">Якщо робота буде прийнята до публікації, Вам буде необхідно перерахувати журналу Плату за публікацію статті для компенсування витрат на видання.</message>
+-	<message key="default.journalSettings.waiverPolicy">Якщо Ви не маєте коштів на оплату публікації, Ви можете звернутися з проханням про виняток у сплаті. Ми не хочемо, щоб плата ставала перешкодою для публікації якісних наукових робіт.</message>
+-	<message key="default.journalSettings.purchaseArticleFee">Купити статтю</message>
+-	<message key="default.journalSettings.purchaseArticleFeeDescription">Платники мають змогу переглядати, завантажувати та роздруковувати цю статтю.</message>
+-	<message key="default.journalSettings.membershipFee">Членство у асоціації</message>
+-	<message key="default.journalSettings.membershipFeeDescription">Сплата дозволить Вам на один рік стати членом цієї асоціації та отримати повний	 доступ до цього журналу.</message>
+-	<message key="default.journalSettings.donationFee">Пожертви журналу</message>
+-	<message key="default.journalSettings.donationFeeDescription">Ми з вдячністю приймаємо пожертви будь-яких сум на розвиток журналу. Вони дають редакції додаткові можливості тримати видання на високому професійному рівні та забезпечувати якісний зміст нашій аудиторії читачів.</message>
++       <message key="default.journalSettings.forReaders"><![CDATA[Ми заохочуємо авторів реєструватися на сайті для користування службою сповіщень цього журналу. Для реєстрації використовуйте посилання <a href="{$indexUrl}/{$journalPath}/user/register">Зареєструватися</a> у верхньому меню домашньої сторінки сайту журналу. Ви зможете оперативно отримувати поштою сторінки змісту нових опублікованих випусків нашого видання та дозволите редакції відстежувати читацькі пріоритети та інтереси. Будь ласка, ознайомтеся з нашим <a href="{$indexUrl}/{$journalPath}/about/submissions#privacyStatement">Положенням про конфіденційність</a>, у якому йдеться про те, що журнал гарантує нерозповсюдження імен та електронних адрес своїх читачів стороннім особам.]]></message>
++       <message key="default.journalSettings.forAuthors"><![CDATA[Ви хочете опублікувати свою роботу у цьому журналі? Рекомендуємо ознайомитись з нашою редакційною політикою на сторінці <a href="{$indexUrl}/{$journalPath}/about">Про журнал</a> та переглянути <a href="{$indexUrl}/{$journalPath}/about/submissions#authorGuidelines">Керівництва для авторів</a>. Для того, щоб мати можливість надсилати рукописи у наше видання, автори повинні <a href="{$indexUrl}/{$journalPath}/user/register">зареєструватися</a> на сайті журналу. Якщо Ви вже зареєстровані, просто <a href="{$indexUrl}/index/login">увійдіть на сайт</a> та пройдіть 5 кроків подання рукопису для публікації.]]></message>
++       <message key="default.journalSettings.forLibrarians"><![CDATA[Ми заохочуємо наукові бібліотеки включати цей журнал до списків своїх електронних колекцій. Крім того, ця видавнича система має засоби інтеграції з бібліотечним програмним забезпеченням, вона дозволяє бібліотекам забезпечувати архівне збереження електронного змісту журналу та/або безпосередньо брати участь у видавничому процесі. Більш детально про ці можливості див. на сайті <a href="http://pkp.sfu.ca/ojs">Open Journal Systems</a>).]]></message>
++       <message key="default.journalSettings.lockssLicense"><![CDATA[Цей журнал використовує систему LOCKSS для розподіленого архівного зберігання опублікованого змісту в численних бібліотеках та інформаційних центрах. Бібліотеки - учасниці проекту LOCKSS гарантують довготермінове зберігання вичерпних архівів журналу та автоматичне відновлення пошкодженої інформації. <a href="http://lockss.org/">Детальніше...</a>]]></message>
++
++       <!-- Default settings for payment items. -->
++       <message key="default.journalSettings.submissionFee">Подання статті</message>
++       <message key="default.journalSettings.submissionFeeDescription">Автори частково компенсують витрати на рецензування, перераховуючи журналу Плату за подання статті.</message>
++       <message key="default.journalSettings.fastTrackFee">Прискорене рецензування</message>
++       <message key="default.journalSettings.fastTrackFeeDescription">Платникам гарантується, що їх подання буде рецензоване і вони отримають сповіщення про рішення редактора упродовж 4 тижнів.</message>
++       <message key="default.journalSettings.publicationFee">Публікація статті</message>
++       <message key="default.journalSettings.publicationFeeDescription">Якщо робота буде прийнята до публікації, Вам буде необхідно перерахувати журналу Плату за публікацію статті для компенсування витрат на видання.</message>
++       <message key="default.journalSettings.waiverPolicy">Якщо Ви не маєте коштів на оплату публікації, Ви можете звернутися з проханням про виняток у сплаті. Ми не хочемо, щоб плата ставала перешкодою для публікації якісних наукових робіт.</message>
++       <message key="default.journalSettings.purchaseArticleFee">Купити статтю</message>
++       <message key="default.journalSettings.purchaseArticleFeeDescription">Платники мають змогу переглядати, завантажувати та роздруковувати цю статтю.</message>
++       <message key="default.journalSettings.membershipFee">Членство у асоціації</message>
++       <message key="default.journalSettings.membershipFeeDescription">Сплата дозволить Вам на один рік стати членом цієї асоціації та отримати повний  доступ до цього журналу.</message>
++       <message key="default.journalSettings.donationFee">Пожертви журналу</message>
++       <message key="default.journalSettings.donationFeeDescription">Ми з вдячністю приймаємо пожертви будь-яких сум на розвиток журналу. Вони дають редакції додаткові можливості тримати видання на високому професійному рівні та забезпечувати якісний зміст нашій аудиторії читачів.</message>
++	<message key="default.journalSettings.purchaseIssueFee">Купити випуск</message>
++	<message key="default.journalSettings.purchaseIssueFeeDescription">Сплата цього платежу дозволить Вам переглядати, завантажувати та роздруковувати статті цього випуску.</message>
+ </locale>

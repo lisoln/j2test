@@ -1,0 +1,16 @@
+--- templates/author/submission/layout.tpl	2012-03-15 10:19:29.000000000 -0700
++++ templates/author/submission/layout.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * layout.tpl
++ * templates/author/submission/layout.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Subtemplate defining the layout editing table.
+  *
+- * $Id$
+  *}
+ {assign var=layoutSignoff value=$submission->getSignoff('SIGNOFF_LAYOUT')}
+ {assign var=layoutFile value=$submission->getFileBySignoffType('SIGNOFF_LAYOUT')}
