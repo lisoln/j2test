@@ -1,0 +1,19 @@
+--- plugins/generic/customBlockManager/locale/en_US/locale.xml	2012-03-15 10:19:29.000000000 -0700
++++ plugins/generic/customBlockManager/locale/en_US/locale.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -2,14 +2,12 @@
+ <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+ 
+ <!--
+-  * locale.xml
++  * @file plugins/generic/customBlockManager/locale/en_US/locale.xml
+   *
+   * Copyright (c) 2003-2012 John Willinsky
+   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+   *
+-  * Localization strings for the en_US (U.S. English) locale.
+-  *
+-  * $Id$
++  * Localization strings.
+   -->
+  
+ <locale name="en_US" full_name="U.S. English">

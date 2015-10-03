@@ -1,0 +1,10 @@
+--- plugins/generic/customBlockManager/locale/ro_RO/locale.xml	2012-03-15 10:19:29.000000000 -0700
++++ plugins/generic/customBlockManager/locale/ro_RO/locale.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -9,7 +9,6 @@
+   *
+   * Localization strings for the ro_RO (Romanian) locale.
+   *
+-  * $Id: locale.xml,v 1.0 2:30 PM 8/11/2010 kosson Exp $
+   -->
+  
+ <locale name="ro_RO" full_name="Română">

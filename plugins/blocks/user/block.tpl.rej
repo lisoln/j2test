@@ -1,0 +1,23 @@
+--- plugins/blocks/user/block.tpl	2012-03-15 10:19:29.000000000 -0700
++++ plugins/blocks/user/block.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,18 +1,17 @@
+ {**
+- * block.tpl
++ * plugins/blocks/user/block.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Common site sidebar menu -- user tools.
+  *
+- * $Id$
+  *}
+ <div class="block" id="sidebarUser">
+ 	{if !$implicitAuth}
+ 		<span class="blockTitle">{translate key="navigation.user"}</span>
+ 	{/if}
+-	
++
+ 	{if $isUserLoggedIn}
+ 		{translate key="plugins.block.user.loggedInAs"}<br />
+ 		<strong>{$loggedInUsername|escape}</strong>

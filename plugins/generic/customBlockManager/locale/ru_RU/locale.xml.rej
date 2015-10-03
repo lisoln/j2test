@@ -1,0 +1,10 @@
+--- plugins/generic/customBlockManager/locale/ru_RU/locale.xml	2012-03-15 10:19:29.000000000 -0700
++++ plugins/generic/customBlockManager/locale/ru_RU/locale.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -9,7 +9,6 @@
+   *
+   * Localization strings for the en_US (U.S. English) locale.
+   *
+-  * $Id$
+   -->
+  
+ <locale name="en_US" full_name="U.S. English">

@@ -1,0 +1,16 @@
+--- plugins/generic/googleAnalytics/pageTagGa.tpl	2009-04-08 12:54:41.000000000 -0700
++++ plugins/generic/googleAnalytics/pageTagGa.tpl	2010-10-29 18:09:00.000000000 -0700
+@@ -17,6 +17,13 @@
+ var pageTracker = _gat._getTracker("{$googleAnalyticsSiteId|escape}");
+ pageTracker._initData();
+ pageTracker._trackPageview();
++{foreach from=$gsAuthorAccounts item=gsAuthorAccount key=k}
++	var authorTracker{$k|escape} = _gat._getTracker("{$gsAuthorAccount|escape}");
++	authorTracker{$k|escape}._setDomainName("none");
++	authorTracker{$k|escape}._setAllowLinker(true);
++	authorTracker{$k|escape}._initData();
++	authorTracker{$k|escape}._trackPageview();
++{/foreach}
+ </script>
+ <!-- /Google Analytics -->
+ 

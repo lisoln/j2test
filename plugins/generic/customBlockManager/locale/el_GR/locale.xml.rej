@@ -1,0 +1,10 @@
+--- plugins/generic/customBlockManager/locale/el_GR/locale.xml	2012-03-15 10:19:29.000000000 -0700
++++ plugins/generic/customBlockManager/locale/el_GR/locale.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -9,7 +9,6 @@
+   *
+   * Localization strings for the el_GR locale.
+   *
+-  * $Id$
+   -->
+  
+ <locale name="el_GR" full_name="Greek">

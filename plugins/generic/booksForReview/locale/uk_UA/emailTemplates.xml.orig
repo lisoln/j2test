@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * emailTemplateData.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  *
+  * $Id$
+  -->
+<email_texts locale="uk_UA">
+	<email_text key="BFR_BOOK_ASSIGNED">
+		<subject></subject>
+		<body>Dear {$authorName}:
+
+This email confirms that {$bookForReviewTitle} has been assigned to you for a book review to be completed by {$bookForReviewDueDate}.
+
+Please ensure that your mailing address in your online user profile is up-to-date. This address will be used to mail a copy of the book to you for the review.
+
+The mailing address that we currently have on file is:
+{$authorMailingAddress}
+
+If this address is incomplete or you are no longer at this address, please use the following user profile URL to update your address:
+
+User Profile URL: {$userProfileUrl}
+ 
+To submit your book review, please log into the journal website and complete the online article submission process.
+
+Submission URL: {$submissionUrl}
+
+Please feel free to contact me if you have any questions or concerns about this book review.
+
+{$editorialContactSignature}</body>
+		<description></description>
+	</email_text>
+</email_texts>

@@ -1,0 +1,10 @@
+--- plugins/generic/customBlockManager/locale/pt_BR/locale.xml	2012-03-15 10:19:29.000000000 -0700
++++ plugins/generic/customBlockManager/locale/pt_BR/locale.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -9,7 +9,6 @@
+   *
+   * Localization strings for the pt_BR locale.
+   *
+-  * $Id$
+   -->
+  
+ <locale name="pt_BR" full_name="Português (Brasil)">

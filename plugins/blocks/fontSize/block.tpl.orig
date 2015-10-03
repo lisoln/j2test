@@ -1,0 +1,19 @@
+{**
+ * block.tpl
+ *
+ * Copyright (c) 2003-2010 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Common site sidebar menu -- font size selector.
+ *
+ * $Id$
+ *}
+<div class="block alreadyRounded" id="sidebarFontSize" style="margin-bottom: 4px;">
+<span class="rtop"><span class="r1"></span><span class="r2"></span><span class="r3"></span><span class="r4"></span></span>
+<div class="roundedCorner">
+	<span class="blockTitle">{translate key="plugins.block.fontSize.title"}</span>
+	<div id="sizer"></div>
+</div>
+<span class="rbottom"><span class="r4"></span><span class="r3"></span><span class="r2"></span><span class="r1"></span></span>
+</div>
+<br />

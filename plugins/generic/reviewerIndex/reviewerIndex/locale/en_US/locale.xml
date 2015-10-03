@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2009 <Mahmoud Saghaei>
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id: locale.xml,v 1.5 2008/06/11 18:55:13 asmecher Exp $
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.reviewerindex.displayName">Reviewer Index</message>
+	<message key="plugins.generic.reviewerindex.description">This plugin compiles a list of reviewers who have completed at least one review for the journal since [YYYY] [MM] [DD]. This list may be used with some layout modification for publication in the last (or first) issue of each volume, as a way to acknowledge reviewers.</message>
+	<message key="plugin.generic.reviewerindex.introduction">Select display fields, sort orders, the start and the end dates for the duration you like to have the report. Then click List Reviewers and Save button, to see the list of reviewers for that period of time who have at least one review completed. In addition a link will be appended to about page in Other section, which will publicly display the reviewer index based on your saved settings. </message>
+
+	<message key="plugins.generic.reviewerindex.dateinterval">Date Interval</message>
+	<message key="plugins.generic.reviewerindex.startdate">Start Date [YYYY-MM-DD]</message>
+	<message key="plugins.generic.reviewerindex.enddate">End Date [YYYY-MM-DD]</message>
+	<message key="plugins.generic.reviewerindex.settings">Settings</message>
+	<message key="plugins.generic.reviewerindex.listReviewers">List Reviewers and Save</message>
+	<message key="plugins.generic.reviewerindex.descending">Descending</message>
+	<message key="plugins.generic.reviewerindex.ascending">Ascending</message>
+	<message key="plugins.generic.reviewerindex.selectfields">Select Fields</message>
+	<message key="plugins.generic.reviewerindex.sortorder">Sort order</message>
+	<message key="plugins.generic.reviewerindex.hidetools">Hide search tools</message>
+	<message key="plugins.generic.reviewerindex.linklabel">Reviewer Index</message>
+	<message key="plugins.generic.reviewerindex.printversion">Print version</message>
+	<message key="plugins.generic.reviewerindex.salutation">Salutation</message>
+	<message key="plugins.generic.reviewerindex.firstname">First Name</message>
+	<message key="plugins.generic.reviewerindex.middlename">Middle Name</message>
+	<message key="plugins.generic.reviewerindex.lastname">Last Name</message>
+	<message key="plugins.generic.reviewerindex.initials">Initials</message>
+	<message key="plugins.generic.reviewerindex.email">Email</message>
+	<message key="plugins.generic.reviewerindex.country">Country</message>
+	<message key="plugins.generic.reviewerindex.review">Review</message>
+</locale>

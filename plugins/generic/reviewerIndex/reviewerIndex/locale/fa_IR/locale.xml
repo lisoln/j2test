@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2009 <Mahmoud Saghaei>
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  * $Id: locale.xml,v 1.5 2008/06/11 18:55:13 asmecher Exp $
+  --><locale full_name="Farsi" name="fa_IR" >
+  <message key="plugins.generic.reviewerindex.displayName" >اندکس کارشناسان</message>
+  <message key="plugins.generic.reviewerindex.description" >این پلاگین لیستی از کارشناسانی مربوط به یک برهه زمانی مشخص که در طی آن حداقل یک مورد کارشناسی انجام داده اند میسازد. این لیست را میتوان با کمی تغییر در آخرین و یا اولین شماره هر دوره مجله چاپ وبدین وسیله از کارشناسان تشکر کرد.</message>
+  <message key="plugin.generic.reviewerindex.introduction" >فیلد های مورد نظر - نحوه مرتب سازی - تاریخ ابتدا و انتهای دوره مورد نظر برای تهیه گزارش را وارد کنید. سپس بر روی دکمه لیست کارشناسان کلیک کنید تا بدین وسیله لیست کارسناسان مربوط به آن دوره نشان داده شود.</message>
+  <message key="plugins.generic.reviewerindex.dateinterval" >دوره زمانی</message>
+  <message key="plugins.generic.reviewerindex.startdate" >تاریخ شروع</message>
+  <message key="plugins.generic.reviewerindex.enddate" >تاریخ خاتمه</message>
+  <message key="plugins.generic.reviewerindex.settings" >تنظیمات</message>
+  <message key="plugins.generic.reviewerindex.listReviewers" >لیست کارشناسان</message>
+  <message key="plugins.generic.reviewerindex.descending" >نزولی</message>
+  <message key="plugins.generic.reviewerindex.ascending" >صعودی</message>
+  <message key="plugins.generic.reviewerindex.selectfields" >انتخاب فیلدها</message>
+  <message key="plugins.generic.reviewerindex.sortorder" >روش مرتب سازی</message>
+  <message key="plugins.generic.reviewerindex.hidetools" >مخفی نمودن ابزار جستجو</message>
+  <message key="plugins.generic.reviewerindex.linklabel">اندکس کارشناسان</message>
+	<message key="plugins.generic.reviewerindex.printversion">نسخه چاپی</message>
+	<message key="plugins.generic.reviewerindex.salutation">عنوان</message>
+	<message key="plugins.generic.reviewerindex.firstname">نام</message>
+	<message key="plugins.generic.reviewerindex.middlename">نام تعمیدی</message>
+	<message key="plugins.generic.reviewerindex.lastname">نام خانوادگی</message>
+	<message key="plugins.generic.reviewerindex.initials">اختصار</message>
+	<message key="plugins.generic.reviewerindex.email">ای میل</message>
+	<message key="plugins.generic.reviewerindex.country">کشور</message>
+	<message key="plugins.generic.reviewerindex.review">کارشناسی</message>
+</locale>

@@ -1,0 +1,10 @@
+--- plugins/generic/customBlockManager/locale/fa_IR/locale.xml	2012-03-15 10:19:29.000000000 -0700
++++ plugins/generic/customBlockManager/locale/fa_IR/locale.xml	2012-10-02 17:07:08.000000000 -0700
+@@ -9,7 +9,6 @@
+   *
+   * Localization strings for the fa_IR locale.
+   *
+-  * $Id$
+   -->
+  
+ <locale name="fa_IR" full_name="Persian">

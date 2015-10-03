@@ -1,0 +1,16 @@
+--- plugins/blocks/fontSize/block.tpl	2012-03-15 10:19:29.000000000 -0700
++++ plugins/blocks/fontSize/block.tpl	2012-10-02 17:07:08.000000000 -0700
+@@ -1,12 +1,11 @@
+ {**
+- * block.tpl
++ * plugins/blocks/fontSize/block.tpl
+  *
+  * Copyright (c) 2003-2012 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Common site sidebar menu -- font size selector.
+  *
+- * $Id$
+  *}
+ <div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+ 	<span class="blockTitle">{translate key="plugins.block.fontSize.title"}</span>
