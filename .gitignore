@@ -5,8 +5,7 @@ admin/config.php
 
 !index.html
 
-download/
-image/data/
-image/cache/
-system/cache/
-system/logs/
+cache
+files
+/verification-file-dl_hl=en
+/yandex_7f777c366246d91b.txt
