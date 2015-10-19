@@ -256,12 +256,7 @@ class LiqPayPlugin extends PaymethodPlugin
                 if ((string)$sign == (string)$request->getUserVar('signature')) {
                     $params = base64_decode($request->getUserVar('data'));
 
-
-                    $handle = fopen("log.txt", "w");
-                    fwrite($handle, var_export($params, true));
-
-                    fclose($handle);
-
+                    $this->log->info('Input parameters '.var_export($params, true));
 
                     // Check transactions exist
                     $liqPayDao =& DAORegistry::getDAO('LiqPayDAO');
@@ -270,7 +265,6 @@ class LiqPayPlugin extends PaymethodPlugin
                         // A duplicate transaction was received; notify someone.
                         $mail->assignParams(array(
                             'journalName' => $journal->getLocalizedTitle(),
-                            'postInfo' => print_r($_POST, true),
                             'data' => print_r($params, true),
                             'additionalInfo' => "Duplicate transaction ID: $transactionId",
                             'serverVars' => print_r($_SERVER, true)
