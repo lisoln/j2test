@@ -1,0 +1,4 @@
+#sidebarPopularArticles a {
+	list-style: disc inside none;
+	display: list-item;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2008 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the de_DE (Deutsch (Deutschland)) locale.
+  * Please contact Marco Tullney, marco.tullney@fu-berlin.de, with any questions regarding this translation.
+  -->
+ 
+<locale name="de_DE" full_name="Deutsch (Deutschland)">
+	<message key="plugins.blocks.popularArticles.displayName">Beliebte Artikel</message>
+	<message key="plugins.blocks.popularArticles.description">Dieser Block wird die populärsten Artikel in Ihrer Zeitschrift anzeigen.</message>	
+
+	<message key="plugins.blocks.popularArticles.settings.maxArticlesCount.description">Festlegung, wieviele Artikel angezeigt werden</message>
+	<message key="plugins.blocks.popularArticles.settings.months.description">Festlegung, wieviele Monate für die Artikelzählung ausgewertet werden</message>
+	<message key="plugins.blocks.popularArticles.settings.mixOldStats.description">Wählen Sie diese Option, wenn Sie ältere Statistikinformationen (vor dem Upgrade auf OJS 2.4.2) mit neueren Statistikdaten mixen wollen, um die am häufigsten angesehenen Artikel zu berechnen.</message>
+	<message key="plugins.blocks.popularArticles.settings.mixOldStats.label">Alte Statistiken beim Ranking berücksichtigen</message>
+</locale>

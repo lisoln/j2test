@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2008 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (U.S. English) locale.
+  *
+  -->
+ 
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.blocks.popularArticles.displayName">Popular Articles</message>
+	<message key="plugins.blocks.popularArticles.description">This block will display the most popular articles for your journal.</message>	
+
+	<message key="plugins.blocks.popularArticles.settings.maxArticlesCount.description">Define how many articles will be listed</message>
+	<message key="plugins.blocks.popularArticles.settings.months.description">Define how many months will be evaluated to retrieve article statistics</message>
+	<message key="plugins.blocks.popularArticles.settings.mixOldStats.description">Check if you want to mix old statistics (prior to OJS 2.4.2 upgrade) with newer statistics data to rank the most viewed articles</message>
+	<message key="plugins.blocks.popularArticles.settings.mixOldStats.label">Additionally consider old stats to rank articles</message>
+</locale>

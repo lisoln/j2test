@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE schema SYSTEM "../../../lib/pkp/dtd/xmlSchema.dtd">
+
+<!--
+  * plugins/paymethod/paypal/schema.xml
+  *
+  * Copyright (c) 2013-2015 Simon Fraser University Library
+  * Copyright (c) 2003-2015 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * PayPal plugin schema in XML.
+  -->
+
+<schema version="0.2">
+
+	<!--
+	 *
+	 * TABLE paypal_transactions
+	 *
+	 -->
+	<table name="liqpay_transactions">
+		<field name="txn_id" type="C2" size="17">
+			<KEY/>
+		</field>
+		<field name="txn_type" type="C2" size="20" />
+		<field name="sender_phone" type="C2" size="127" />
+		<field name="status" type="C2" size="127" />
+		<field name="card_token" type="C2" size="127" />
+		<field name="payment_date" type="C2" size="127" />
+
+		<descr>LiqPay transactions</descr>
+	</table>
+</schema>
