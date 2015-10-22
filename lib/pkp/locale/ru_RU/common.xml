@@ -24,9 +24,9 @@
 	<message key="about.people">Люди</message>
 	<message key="about.policies">Политики</message>
 	<message key="about.siteMap">Карта сайта</message>
-	<message key="announcement.announcements">Объявления</message>
-	<message key="announcement.announcementsHome">Объявления</message>
-	<message key="announcement.moreAnnouncements">Другие объявления...</message>
+	<message key="announcement.announcements">Новости</message>
+	<message key="announcement.announcementsHome">Новости</message>
+	<message key="announcement.moreAnnouncements">Другие новости...</message>
 	<message key="announcement.noneExist">Не было опубликовано ни одного объявления.</message>
 	<message key="announcement.posted">Опубликовано</message>
 	<message key="announcement.postedOn">Опубиковано {$postDate}</message>
