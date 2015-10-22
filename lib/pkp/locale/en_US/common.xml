@@ -25,9 +25,9 @@
 	<message key="about.policies">Policies</message>
 	<message key="about.siteMap">Site Map</message>
 	<message key="announcement.announcements">News</message>
-	<message key="announcement.announcementsHome">Announcements</message>
-	<message key="announcement.moreAnnouncements">More Announcements...</message>
-	<message key="announcement.noneExist">No announcements have been published.</message>
+	<message key="announcement.announcementsHome">News</message>
+	<message key="announcement.moreAnnouncements">More News...</message>
+	<message key="announcement.noneExist">No news have been published.</message>
 	<message key="announcement.posted">Posted</message>
 	<message key="announcement.postedOn">Posted on {$postDate}</message>
 	<message key="announcement.viewLink">More...</message>
