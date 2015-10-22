@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../locale/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2008 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the uk_UA (Ukrainian) locale.
+  *
+  -->
+ 
+<locale name="uk_UA" full_name="Ukrainian">
+	<message key="plugins.blocks.popularArticles.displayName">Популярні статті</message>
+	<message key="plugins.blocks.popularArticles.description">Цей блок відображатиме найбільш популярні статті вашого журналу.</message>	
+
+	<message key="plugins.blocks.popularArticles.settings.maxArticlesCount.description">Визначте, скільки статей буде відображатись</message>
+	<message key="plugins.blocks.popularArticles.settings.months.description">Визначте, скільки місяців буде враховано для одержання статистики по статтям</message>
+	<message key="plugins.blocks.popularArticles.settings.mixOldStats.description">Позначте, чи хочете ви додати попередню статистику (до версії OJS 2.4.2) з новими даними статистики, щоб проранжувати найбільш популярні статті</message>
+	<message key="plugins.blocks.popularArticles.settings.mixOldStats.label">Додатково врахувати попередню статистику для ранжування статей</message>
+</locale>
