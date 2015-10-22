@@ -17,6 +17,6 @@
 
 	<message key="plugins.blocks.popularArticles.settings.maxArticlesCount.description">Визначте, скільки статей буде відображатись</message>
 	<message key="plugins.blocks.popularArticles.settings.months.description">Визначте, скільки місяців буде враховано для одержання статистики по статтям</message>
-	<message key="plugins.blocks.popularArticles.settings.mixOldStats.description">Позначте, чи хочете ви додати попередню статистику (до версії OJS 2.4.2) з новими даними статистики, щоб проранжувати найбільш популярні статті</message>
+	<message key="plugins.blocks.popularArticles.settings.mixOldStats.description">Позначте, чи хочете ви додати попередню статистику (до версії OJS 2.4.2) до нових статистичних даних, щоб проранжувати найбільш популярні статті</message>
 	<message key="plugins.blocks.popularArticles.settings.mixOldStats.label">Додатково врахувати попередню статистику для ранжування статей</message>
 </locale>
