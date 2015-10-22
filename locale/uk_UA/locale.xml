@@ -213,7 +213,9 @@
        <message key="user.noRoles.submitArticleRegClosed">Надіслати статтю: Реєстрація авторів наразі відключена.</message>
        <message key="user.noRoles.regReviewer">Зареєструватися як рецензент</message>
        <message key="user.noRoles.regReviewerClosed">Зареєструватися як рецензент: Реєстрація рецензентів наразі відключена.</message>
-
+		<message key="user.orcid">ORCID iD</message>
+		<message key="user.orcid.description"><![CDATA[ORCID iDs може бути присвоєний тільки <a href="http://orcid.org/" target="_blank">Регістром ORCID</a>. Ви повинні відповідати їх стандартам для формування ORCID iD та ввести повну адресу URI (наприклад, <em>http://orcid.org/0000-0002-1825-0097</em>).]]></message>
+		<message key="user.profile.form.orcidInvalid">Зазначений вами ORCID iD є недійсним.</message>
        <!-- Roles -->
        <message key="user.role.manager">Менеджер журналу</message>
        <message key="user.role.editor">Редактор</message>
@@ -400,13 +402,52 @@
 
 
        <message key="manager.setup.reviewProcessEmailDescription">Редактори надсилатимуть рецензентам листи-запрошення з доданими до них файлами авторських подань. Рецензенти поштою надсилатимуть редакторам свою згоду (або вибачення), а також зроблені рецензії та рекомендації. Для фіксації процесу рецензування редактори самостійно вводитимуть інформацію про згоду (або відмову) рецензентів до сторінок рецензування подань.</message>
-
+	<message key="manager.setup.preservationDescription"><![CDATA[Open Journal Systems підтримує систему <a href="http://www.lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe), що забезпечує безпечну і постійну архівацію журналу. У вас є кілька варіантів для включення вашого журналу в мережу LOCKSS:]]></message>
        <message key="manager.setup.lockssDescription"><![CDATA[Open Journal Systems підтримує систему <a href="http://www.lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) для захищеного та надійного архівування журналу. LOCKSS - це програмний засіб з відкритим вихідним кодом, розроблений Бібліотекою Стенфордського університету, який дозволяє бібліотекам забезпечувати збереження окремих веб-журналів, регулярно перевіряючи веб-сайти зареєстрованих журналів на наявність нового опублікованого змісту та архівуючи цей зміст. Кожний архів постійно перевіряються на відповідність з іншими; якщо зміст виявляється пошкодженим або втраченим, інші архіви використовуються для його відновлення.
 <br /><br />
 Встановлення підтримки LOCKSS для Open Journal Systems не повинно мати місця до того часу, поки процес видання не розгорнутий повністю. Коли це станеться, зробіть два наступні кроки:]]></message>
 
        
        <!-- Setup Step 3 -->
+	    <!-- Permissions -->
+	<message key="submission.permissions">Дозволи</message>
+	<message key="submission.license">Ліцензія</message>
+	<message key="submission.copyright">Авторське право</message>
+	<message key="submission.copyrightHolder">Власник авторського права</message>
+	<message key="submission.copyrightYear">Рік авторського права</message>
+	<message key="submission.copyrightStatement">(c) {$copyrightYear} {$copyrightHolder}</message>
+	<message key="submission.licenseURLValid">Будь ласка, вкажіть вірну адресу URL (включаючи http://).</message>
+	<message key="submission.licenseURL">URL ліцензії</message>
+
+	<message key="submission.license.cc.by-nc-nd4">CC «Attribution-NonCommercial-NoDerivatives» («Із Зазначенням Авторства - Некомерційне використання - Без похідних творів») 4.0</message>
+	<message key="submission.license.cc.by-nc4">CC «Attribution-NonCommercial» («Із Зазначенням Авторства - Некомерційне використання») 4.0</message>
+	<message key="submission.license.cc.by-nc-sa4">CC «Attribution-NonCommercial-ShareAlike» («Із Зазначенням Авторства - Некомерційне використання - На тих же умовах») 4.0</message>
+	<message key="submission.license.cc.by-nd4">CC «Attribution-NoDerivatives» («Із Зазначенням Авторства - Без похідних творів») 4.0</message>
+	<message key="submission.license.cc.by4">CC «Attribution» («Із Зазначенням Авторства») 4.0</message>
+	<message key="submission.license.cc.by-sa4">CC «Attribution-ShareAlike» («Із Зазначенням Авторства — На тих же умовах») 4.0</message>
+	<message key="submission.license.cc.by-nc-nd4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Цей твір доступний за <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">ліцензією Creative Commons «Attribution-NonCommercial-NoDerivatives» (Із Зазначенням Авторства — Некомерційне використання — Без похідних творів») 4.0 Міжнародна</a>.]]></message>
+	<message key="submission.license.cc.by-nc4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Цей твір доступний за <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">ліцензією Creative Commons «Attribution-NonCommercial» (Із Зазначенням Авторства — Некомерційне використання») 4.0 Міжнародна</a>.]]></message>
+	<message key="submission.license.cc.by-nc-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Цей твір доступний за <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">ліцензією Creative Commons «Attribution-NonCommercial-ShareAlike» (Із Зазначенням Авторства — Некомерційне використання — На тих же умовах») 4.0 Міжнародна</a>.]]></message>
+	<message key="submission.license.cc.by-nd4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />Цей твір доступний за <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">ліцензією Creative Commons «Attribution-NoDerivatives» (Із Зазначенням Авторства — Без похідних творів») 4.0 Міжнародна</a>.]]></message>
+	<message key="submission.license.cc.by4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />Цей твір доступний за <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">ліцензією Creative Commons «Attribution» («Із Зазначенням Авторства») 4.0 Міжнародна</a>.]]></message>
+	<message key="submission.license.cc.by-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Лицензия Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Цей твір доступний за <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">ліцензією Creative Commons «Attribution-ShareAlike» (Із Зазначенням Авторства — На тих же умовах») 4.0 Міжнародна</a>.]]></message>
+
+	
+	
+	<message key="manager.setup.permissions.display">Перегляд</message>
+	<message key="manager.setup.licenseURLDescription">Вкажіть адресу (URL) веб-сторінки з ліцензією, якщо вона є.</message>
+	<message key="manager.setup.includeCopyrightStatement">Показувати рядок копірайту з контентом (рекомендується у разі, коли автор є власником авторського права).</message>
+	<message key="manager.setup.includeLicense">Показувати ліцензію під опублікованою роботою.</message>
+	<message key="manager.setup.resetPermissions">Скинути дозволи статей</message>
+	<message key="manager.setup.resetPermissions.description">Рядок копірайту та інформація про ліцензії буде додана до опублікованого контенту, щоб ці дані не могли змінитися в разі зміни політики журналу по відношенню до нових статей. Для скидання збереженої та прикріпленої до опублікованого контенту інформації про дозволи, скористайтеся кнопкою нижче.</message>
+	<message key="manager.setup.confirmResetLicense">Ви впевнені, що хочете змінити вже прикріплену до опублікованого контенту інформацію про ліцензії та авторські права, на ліцензію, зазначену в розділі «Налаштування журналу»?</message>
+	<message key="manager.setup.confirmResetLicenseChanged">Ви змінили інформацію про ліцензії та авторські права в налаштуваннях журналу. Будь ласка, збережіть ці зміни перед зміною дозволів.</message>
+	<message key="manager.setup.copyrightNotice">Умови передачі авторських прав</message>
+	<message key="manager.setup.copyrightYearBasis">Спосіб визначення року початку дії авторських прав для нової статті</message>
+	<message key="manager.setup.copyrightYearBasis.Article">Рік за замовчуванням буде відповідати даті публікації статті, виходячи з принципу «публікація по ходу роботи».</message>
+	<message key="manager.setup.copyrightYearBasis.Issue">Рік за замовчуванням буде відповідати даті публікації випуску.</message>
+	<message key="manager.setup.permissions.priorAgreement">Попереднє погодження</message>
+	   
        <message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>Запропоноване Положення про авторські права Creative Commons</h3>
 <h4>1. Політика, яка рекомендується журналам, що пропонують відкритий доступ</h4>
 Автори, які публікуються у цьому журналі, погоджуються з наступними умовами:
