@@ -12,7 +12,7 @@
 	<h2 class="blockTitle" id="news">{translate key="plugins.block.news.link"}</h2>
   <ul>
     {foreach from=$news item=new}
-      <li class="newElement"><a href="{url page="new" op="view" path=$new->getId()}" cass="newTitle">
+      <li class="newElement"><a href="{url page="new" op="view" path=$new->getId()}" class="newTitle">
         <h3>{$new->getLocalizedTitleFull()|strip|escape:"html"}</h3>
         {if $new->getLocalizedDescription()}
           <!--div class="newDescription">{$new->getLocalizedDescription()|strip|escape:"html"}</div-->
