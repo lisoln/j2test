@@ -26,13 +26,13 @@
 	<message key="about.people">Редакція</message>
 	<message key="about.policies">Політика</message>
 	<message key="about.siteMap">Карта сайту</message>
-	<message key="announcement.announcements">Анонси</message>
-	<message key="announcement.announcementsHome">Анонси</message>
-	<message key="announcement.moreAnnouncements">Більше анонсів...</message>
-	<message key="announcement.noneExist">Жодних анонсів не було опубліковано.</message>
+	<message key="announcement.announcements">Новини</message>
+	<message key="announcement.announcementsHome">Новини</message>
+	<message key="announcement.moreAnnouncements">Більше новин...</message>
+	<message key="announcement.noneExist">Жодних новин не було опубліковано.</message>
 	<message key="announcement.posted">Опубліковано</message>
 	<message key="announcement.viewLink">Детальніше...</message>
-	<message key="announcement.view">Дивитися анонс</message>
+	<message key="announcement.view">Переглянути новину</message>
 	<message key="common.action">Дія</message>
 	<message key="common.activate">Активувати</message>
 	<message key="common.active">Активні</message>
@@ -256,7 +256,7 @@
 	<message key="icon.view.alt">Подивитися</message>
 	<message key="locale.primary">Основна локалізація</message>
 	<message key="locale.supported">Локалізації, що підтримуються</message>
-	<message key="navigation.about">Політика журналу</message>
+	<message key="navigation.about">Про журнал</message>
 	<message key="navigation.browse">Перегляд</message>
 	<message key="navigation.browseByTitle">За назвою</message>
 	<message key="navigation.dashboard">Панель інструментів</message>
@@ -375,5 +375,5 @@
 	<message key="common.overdue">Прострочені</message>
 	<message key="help.toggleInlineHelpOn">Допомога Вкл</message>
 	<message key="help.toggleInlineHelpOff">Допомога Викл</message>
-	<message key="common.error">错误</message>
+	<message key="common.error">Помилка</message>
 </locale>
