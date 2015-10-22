@@ -18,4 +18,5 @@
        <message key="plugins.block.navigation.displayName">Блок навігації</message>
        <message key="plugins.block.navigation.description">Цей модуль забезпечує панель з навігаційними посиланнями.</message>
        <message key="plugins.block.navigation.journalContent">Зміст журналу</message>
+       <message key="plugins.block.navigation.searchScope">Область пошуку</message>
 </locale>
