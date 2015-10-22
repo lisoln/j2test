@@ -290,7 +290,7 @@
 	<message key="notification.notification">Повідомлення</message>
 	<message key="notification.notifications">Повідомлення</message>
 	<message key="notification.notificationsNew">({$numNew} нових)</message>
-	<message key="notification.notificationsDescription"><![CDATA[Ви маєте {$unreadCount} непрочитаних та {$readCount} прочитаних повідомлень.  <a href="{$settingsUrl}">Натисніть сюди</a>, щоб змінити налаштування сповіщень.]]></message>
+	<message key="notification.notificationsDescription"><![CDATA[Ви маєте {$unreadCount} непрочитаних та {$readCount} прочитаних повідомлень.  <a href="{$settingsUrl}">Натисніть сюди</a>, щоб змінити налаштування повідомлень.]]></message>
 	<message key="notification.settings">Налаштування повідомлень</message>
 	<message key="notification.settingsDescription">Оберіть події системи, про які Ви хочете бути повідомленні.  У Вашій стрічці повідомлень не будуть з'являтися події, що відповідають типам, які Ви відключите.</message>
 	<message key="notification.subscribe">Передплатити</message>
@@ -371,7 +371,7 @@
 	<message key="common.reset">Скинути</message>
 	<message key="common.unread">Непрочитане</message>
 	<message key="common.declined">Відхилені</message>
-	<message key="common.notified">Сповіщені</message>
+	<message key="common.notified">Повідомлені</message>
 	<message key="common.overdue">Прострочені</message>
 	<message key="help.toggleInlineHelpOn">Допомога Вкл</message>
 	<message key="help.toggleInlineHelpOff">Допомога Викл</message>
