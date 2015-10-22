@@ -42,7 +42,7 @@
 	<message key="common.alphaList">А Б В Г Ґ Д Е Є Ж З И І Ї К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я</message>
 	<message key="common.alreadyAssigned">Призначений</message>
 	<message key="common.altText">Альтернативний текст</message>
-	<message key="common.altTextInstructions">Будь ласка, додайте до цього зображення альтернативний текст, щоби підвищити доступність для користувачів, які використовують текстові браузери та допоміжні пристрої.</message>
+	<message key="common.altTextInstructions">Будь ласка, додайте до цього зображення альтернативний текст, щоб підвищити доступність для користувачів, які використовують текстові браузери та допоміжні пристрої.</message>
 	<message key="common.and">та</message>
 	<message key="common.applyAction">Застосувати дію</message>
 	<message key="common.assign">Призначити</message>
@@ -256,11 +256,11 @@
 	<message key="icon.view.alt">Подивитися</message>
 	<message key="locale.primary">Основна локалізація</message>
 	<message key="locale.supported">Локалізації, що підтримуються</message>
-	<message key="navigation.about">Про нас</message>
+	<message key="navigation.about">Політика журналу</message>
 	<message key="navigation.browse">Перегляд</message>
 	<message key="navigation.browseByTitle">За назвою</message>
 	<message key="navigation.dashboard">Панель інструментів</message>
-	<message key="navigation.home">Домашня сторінка</message>
+	<message key="navigation.home">Головна</message>
 	<message key="navigation.infoForReaders">Для читачів</message>
 	<message key="navigation.infoForReaders.long">Інформація для читачів</message>
 	<message key="navigation.items">{$from} - {$to} з {$total} результатів</message>
@@ -287,8 +287,8 @@
 	<message key="notification.mailList.register">Ви можете зареєструватися на сайті, щоб...</message>
 	<message key="notification.mailList.review"><![CDATA[Взяти участь у процесі <a href="{$reviewUrl}">рецензування</a>]]></message>
 	<message key="notification.noneExist">Наразі у вас немає сповіщень.</message>
-	<message key="notification.notification">Сповіщення</message>
-	<message key="notification.notifications">Сповіщення</message>
+	<message key="notification.notification">Повідомлення</message>
+	<message key="notification.notifications">Повідомлення</message>
 	<message key="notification.notificationsNew">({$numNew} нових)</message>
 	<message key="notification.notificationsDescription"><![CDATA[Ви маєте {$unreadCount} непрочитаних та {$readCount} прочитаних сповіщень.  <a href="{$settingsUrl}">Натисніть сюди</a>, щоб змінити налаштування сповіщень.]]></message>
 	<message key="notification.settings">Налаштування сповіщень</message>
@@ -302,6 +302,8 @@
 	<message key="notification.unsubscribeError">Під час відмови від передплати сталася помилка.  Будь ласка, перевірте коректність введеної Вами адреси email та пароля.</message>
 	<message key="notification.unsubscribeSuccess">Ваша передплата була успішно скасована.</message>
 	<message key="search.abstract">Анотація</message>
+	<message key="search.advancedSearchMore">Додаткові параметри пошуку (натисніть щоб відобразити)</message>
+	<message key="search.advancedSearchLess">Додаткові параметри пошуку (натисніть щоб приховати)</message>
 	<message key="search.allFields">Всі поля</message>
 	<message key="search.coverage">Тематичне покриття</message>
 	<message key="search.date">Дата</message>
@@ -310,6 +312,7 @@
 	<message key="search.discipline">Дисципліни</message>
 	<message key="search.fullText">Повний текст</message>
 	<message key="search.indexTerms">Індексні поля</message>
+	<message key="search.indexTermsLong">Всі поля термінів індексування</message>
 	<message key="search.matchAll">За всіма полями</message>
 	<message key="search.noKeywordError">Ви повинні ввести хоча б один пошуковий термін.</message>
 	<message key="search.noResults">Немає результатів</message>
