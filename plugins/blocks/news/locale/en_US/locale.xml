@@ -13,7 +13,7 @@
   -->
  
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.block.information.displayName">Information Block</message>
-	<message key="plugins.block.information.description">This plugin provides sidebar information link.</message>
-	<message key="plugins.block.information.link">Information</message>
+	<message key="plugins.block.information.displayName">News Block</message>
+	<message key="plugins.block.information.description">This plugin provides sidebar news link.</message>
+	<message key="plugins.block.information.link">News</message>
 </locale>
