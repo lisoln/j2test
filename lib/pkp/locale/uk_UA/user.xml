@@ -115,12 +115,12 @@
 	<message key="user.title">Посада</message>
 	<message key="user.url">URL</message>
 	<message key="user.userHome">Тека користувача</message>
-	<message key="user.username">Ім'я користувача</message>
+	<message key="user.username">Логін</message>
 	<message key="user.workingLanguages">Робочі мови</message>
 	<message key="user.register.completeForm">Щоб зареєструватися у цьому журналі заповніть форму нижче.</message>
 	<message key="user.accountInformation">Інформація облікового запису</message>
 	<message key="user.group">Група користувачів</message>
-	<message key="user.hello">ВІтаємо,</message>
+	<message key="user.hello">Вітаємо,</message>
 	<message key="user.profile.form.countryRequired">Необхідно вказати країну.</message>
 	<message key="user.profile.form.mailingAddressRequired">Необхідно вказати поштову адресу</message>
 	<message key="user.profile.form.passwordSameAsOld">Новий і старий паролі однакові.</message>
