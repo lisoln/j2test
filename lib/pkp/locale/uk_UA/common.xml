@@ -256,7 +256,7 @@
 	<message key="icon.view.alt">Подивитися</message>
 	<message key="locale.primary">Основна локалізація</message>
 	<message key="locale.supported">Локалізації, що підтримуються</message>
-	<message key="navigation.about">Політика журналу</message>
+	<message key="navigation.about">Про журнал</message>
 	<message key="navigation.browse">Перегляд</message>
 	<message key="navigation.browseByTitle">За назвою</message>
 	<message key="navigation.dashboard">Панель інструментів</message>
