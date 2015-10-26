@@ -89,7 +89,7 @@
 	<message key="grid.action.disableEmail">Відключити цей шаблон листа</message>
 	<message key="grid.action.resetEmail">Перезавантажити цей шаблон листа</message>
 	<message key="grid.action.requestAccount">Додати учасника</message>
-	<message key="grid.action.notify">Сповістити цього користувача</message>
+	<message key="grid.action.notify">Повідомити цього користувача</message>
 	<message key="grid.action.addUserGroup">Додати нову групу користувачів</message>
 	<message key="grid.action.editUserGroup">Редагувати цю групу користувачів</message>
 	<message key="grid.action.enrolExisting">Надати існуючому користувачу роль рецензента</message>
@@ -128,7 +128,7 @@
 	<message key="grid.user.cannotAdminister">Ви не маєте достатніх повноважень, щоб редагувати дані цього користувача.</message>
 	<message key="grid.user.mustChangePassword">Змінити пароль</message>
 	<message key="grid.user.step1">Крок 1: Заповніть інформацію про користувача</message>
-	<message key="grid.user.step2">Крок 2: Дайте призначення користувачу {$userFullName}</message>
+	<message key="grid.user.step2">Крок 2: Надайте призначення користувачу {$userFullName}</message>
 	<message key="grid.user.pleaseSelectUser">Будь ласка, оберіть користувача</message>
 	<message key="grid.plugin.allCategories">Всі категорії</message>
 	<message key="grid.plugin.disable">Ви впевнені, що хочете відключити цей модуль?</message>
@@ -195,5 +195,5 @@
 	<message key="grid.task.status.unfinished">Незавершені рецензії</message>
 	<message key="grid.task.status.reviewReady">Ця рецензія готова. Щоб прочитати її натисніть на зображення ліворуч.</message>
 	<message key="grid.roles.stageAssignment">Призначення стадії</message>
-	<message key="grid.action.disable">ВІдключити</message>
+	<message key="grid.action.disable">Відключити</message>
 </locale>
