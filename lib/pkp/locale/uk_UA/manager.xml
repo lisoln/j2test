@@ -71,7 +71,7 @@
 	<message key="manager.emails.form.emailKeyRequired">Необхідно вказати унікальний ключ листа для цього листа.</message>
 	<message key="manager.emails.form.bodyRequired">Необхідно ввести текст листа.</message>
 	<message key="manager.emails.form.subjectRequired">Необхідно ввести тему листа.</message>
-	<message key="manager.emails">Підготовані листи</message>
+	<message key="manager.emails">Шаблони листів</message>
 	<message key="manager.emails.resetAll">Скинути всі шаблони</message>
 	<message key="manager.emails.reset">Скинути</message>
 	<message key="manager.emails.resetToDefault">Скинути до стандартних</message>
